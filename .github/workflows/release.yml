@@ -1,0 +1,17 @@
+name: Create release
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Tag, e.g. v2.0.0'
+        required: true
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: gh release create "${{ inputs.version }}" --generate-notes --title "UnLockPre ${{ inputs.version }}"
+        env:
+          GH_TOKEN: ${{ github.token }}

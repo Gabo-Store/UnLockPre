@@ -2,9 +2,11 @@
   "name": "tsm-device-atlas",
   "version": "1.0.0",
   "private": true,
-  "description": "Static device catalog and reproducible stock preloader acquisition tools",
+  "description": "Static MTK preloader/loader catalog with integrity checks and GitHub Pages UI",
   "scripts": {
-    "test": "node scripts/check-lz4.cjs && node scripts/check-library.cjs && node scripts/check-ui.cjs"
+    "catalog:build": "node scripts/library-index.cjs",
+    "catalog:check": "node scripts/library-index.cjs && git diff --exit-code -- downloads/catalog.json",
+    "test": "node scripts/check-lz4.cjs && node scripts/check-library.cjs && node scripts/check-site.cjs"
   },
   "devDependencies": {
     "lz4js": "0.2.0"

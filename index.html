@@ -1,478 +1,70 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" data-theme="neon">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="description" content="Biblioteca técnica de preloaders y loaders MediaTek (MTK) en formatos BIN y JSON para UnlockTool y TSM Tool.">
-  <meta name="theme-color" content="#070816">
-  <meta name="color-scheme" content="dark">
-  <meta property="og:title" content="UnLockPre · GaboStore">
-  <meta property="og:description" content="Preloaders y loaders MTK organizados por marca, modelo, firmware y región.">
-  <title>UnLockPre · Preloaders & Loaders MTK</title>
-  <style>
-    :root{
-      --bg:#070816;--bg2:#0b0d20;--panel:#10142b;--panel2:#151a38;
-      --text:#f5f7ff;--muted:#98a2c8;--line:rgba(169,181,255,.14);
-      --blue:#5b8cff;--cyan:#4de7ff;--violet:#a970ff;--pink:#ff6fd8;--amber:#ffc86b;
-      --success:#55e6a5;--danger:#ff7186;--shadow:0 24px 80px rgba(0,0,0,.34);--radius:18px;
-      --accent:var(--blue);--accent2:var(--violet);
-    }
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth;color-scheme:dark;scroll-padding-top:82px}
-    body{
-      margin:0;min-height:100vh;color:var(--text);
-      font:15px/1.55 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
-      background:
-        radial-gradient(circle at 8% -5%,rgba(91,140,255,.18),transparent 31rem),
-        radial-gradient(circle at 92% 10%,rgba(169,112,255,.15),transparent 29rem),
-        radial-gradient(circle at 50% 75%,rgba(77,231,255,.05),transparent 34rem),
-        linear-gradient(180deg,#070816 0%,#090b1a 48%,#060713 100%);
-    }
-    body:before{
-      content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;opacity:.20;
-      background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);
-      background-size:46px 46px;mask-image:linear-gradient(to bottom,#000,transparent 80%)
-    }
-    ::selection{background:rgba(91,140,255,.34);color:#fff}
-    a{color:inherit;text-decoration:none}
-    button,input,select{font:inherit}
-    button{color:inherit}
-    .wrap{width:min(1180px,calc(100% - 32px));margin:auto}
-    .muted{color:var(--muted)}
-    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
-    .topbar{
-      position:sticky;top:0;z-index:30;background:rgba(7,8,22,.76);
-      border-bottom:1px solid var(--line);backdrop-filter:blur(18px) saturate(130%);-webkit-backdrop-filter:blur(18px) saturate(130%)
-    }
-    .topbar:after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;background:linear-gradient(90deg,transparent,var(--blue),var(--violet),transparent);opacity:.36}
-    .nav{height:68px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-    .brand{display:flex;align-items:center;gap:11px;font-weight:850;letter-spacing:-.035em}
-    .logo{
-      width:39px;height:39px;border-radius:12px;display:grid;place-items:center;color:#fff;
-      background:linear-gradient(135deg,var(--blue),var(--violet) 58%,var(--pink));
-      box-shadow:0 8px 26px rgba(91,140,255,.28);font-size:12px;border:1px solid rgba(255,255,255,.14)
-    }
-    .brand small{display:block;font-weight:500;font-size:11px;color:var(--muted);letter-spacing:.02em}
-    .navlinks{display:flex;gap:22px;align-items:center;color:var(--muted);font-size:13px}
-    .navlinks>a:not(.github){position:relative}.navlinks>a:not(.github):after{content:"";position:absolute;left:0;right:100%;bottom:-7px;height:2px;background:linear-gradient(90deg,var(--cyan),var(--violet));transition:right .2s}
-    .navlinks>a:hover{color:var(--text)}.navlinks>a:hover:after{right:0}
-    .github{display:inline-flex;align-items:center;gap:8px;padding:9px 12px;border:1px solid var(--line);border-radius:11px;background:rgba(255,255,255,.035)}
-    .github:hover{border-color:rgba(91,140,255,.38)!important;background:rgba(91,140,255,.08)}
-    .hero{padding:76px 0 34px;position:relative}
-    .hero-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(280px,.8fr);gap:46px;align-items:center}
-    .eyebrow{
-      display:inline-flex;align-items:center;gap:8px;padding:7px 11px;border:1px solid var(--line);border-radius:999px;
-      color:#c8cff0;background:rgba(255,255,255,.035);font-size:11px;text-transform:uppercase;letter-spacing:.11em;box-shadow:inset 0 1px rgba(255,255,255,.04)
-    }
-    .dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 14px var(--cyan)}
-    h1{margin:18px 0 16px;font-size:clamp(44px,7vw,82px);line-height:.96;letter-spacing:-.065em;max-width:800px}
-    .grad{color:transparent;background:linear-gradient(90deg,#78a7ff 0%,var(--cyan) 42%,#b987ff 72%,#ff89df 100%);-webkit-background-clip:text;background-clip:text}
-    .lead{margin:0;max-width:720px;color:#b3bad7;font-size:clamp(16px,2vw,19px)}
-    .hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
-    .btn{
-      min-height:44px;padding:0 15px;border:1px solid var(--line);border-radius:11px;background:rgba(255,255,255,.035);
-      display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;transition:transform .18s,border-color .18s,background .18s,box-shadow .18s
-    }
-    .btn:hover{transform:translateY(-1px);border-color:rgba(91,140,255,.42);background:rgba(91,140,255,.08)}
-    .btn.primary{border-color:transparent;color:#fff;background:linear-gradient(135deg,var(--blue),#756cff 54%,var(--violet));font-weight:800;box-shadow:0 10px 30px rgba(91,140,255,.24)}
-    .btn.primary:hover{box-shadow:0 13px 36px rgba(91,140,255,.34);background:linear-gradient(135deg,#6a98ff,#8278ff 54%,#b47cff)}
-    .hero-card{
-      border:1px solid var(--line);border-radius:22px;background:linear-gradient(150deg,rgba(21,26,56,.94),rgba(9,11,28,.92));
-      padding:22px;box-shadow:var(--shadow);position:relative;overflow:hidden
-    }
-    .hero-card:before{content:"";position:absolute;width:190px;height:190px;border-radius:50%;right:-85px;top:-90px;background:linear-gradient(135deg,var(--blue),var(--violet));opacity:.15;filter:blur(2px)}
-    .hero-card:after{content:"";position:absolute;left:-40px;bottom:-90px;width:160px;height:160px;border-radius:50%;background:var(--cyan);opacity:.045;filter:blur(12px)}
-    .terminal-top{display:flex;gap:6px;margin-bottom:20px}.terminal-top i{width:8px;height:8px;border-radius:50%;background:#3c4164}.terminal-top i:nth-child(2){background:var(--amber)}.terminal-top i:nth-child(3){background:var(--success)}
-    .code-line{display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-bottom:1px solid var(--line);font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:12px;position:relative;z-index:1}
-    .code-line:last-child{border-bottom:0}.code-line span:first-child{color:var(--muted)}.ok{color:var(--success)}
-    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:30px 0 0}
-    .stat{padding:18px;border:1px solid var(--line);border-radius:15px;background:linear-gradient(145deg,rgba(255,255,255,.045),rgba(255,255,255,.018));box-shadow:inset 0 1px rgba(255,255,255,.025)}
-    .stat strong{display:block;font-size:26px;line-height:1.1;letter-spacing:-.045em;background:linear-gradient(90deg,#fff,#aebcff);-webkit-background-clip:text;background-clip:text;color:transparent}.stat span{font-size:12px;color:var(--muted)}
-    .section{padding:58px 0 82px}
-    .section-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:20px}
-    .kicker{font-size:11px;color:var(--cyan);text-transform:uppercase;letter-spacing:.15em;font-weight:800}
-    h2{margin:5px 0 0;font-size:clamp(30px,4vw,46px);line-height:1.04;letter-spacing:-.045em}
-    .section-copy{max-width:540px;margin:0;color:var(--muted)}
-    .catalog{border:1px solid var(--line);border-radius:22px;background:rgba(12,14,34,.78);box-shadow:var(--shadow);overflow:hidden}
-    .toolbar{display:grid;grid-template-columns:minmax(240px,1fr) 170px 170px 160px;gap:10px;padding:14px;border-bottom:1px solid var(--line);background:rgba(255,255,255,.012)}
-    .field{position:relative}.field svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:#8995c5;pointer-events:none}
-    input,select{width:100%;min-height:44px;border:1px solid var(--line);border-radius:11px;outline:none;color:var(--text);background:#0b0e24}
-    input{padding:0 14px 0 42px}select{padding:0 36px 0 12px}
-    input::placeholder{color:#6f789f}
-    input:focus,select:focus{border-color:rgba(91,140,255,.66);box-shadow:0 0 0 3px rgba(91,140,255,.12)}
-    .quick-filters{display:flex;gap:7px;overflow:auto;padding:11px 14px;border-bottom:1px solid var(--line);scrollbar-width:thin}
-    .quick-filter{flex:0 0 auto;padding:7px 10px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.025);color:var(--muted);font-size:11px;cursor:pointer;transition:.16s}
-    .quick-filter:hover{color:#fff;border-color:rgba(91,140,255,.36);background:rgba(91,140,255,.07)}
-    .quick-filter.active{color:#fff;border-color:rgba(77,231,255,.42);background:linear-gradient(135deg,rgba(91,140,255,.22),rgba(169,112,255,.18));box-shadow:inset 0 0 0 1px rgba(255,255,255,.03)}
-    .summary{padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);font-size:12px;color:var(--muted)}
-    .summary strong{color:var(--text)}.summary-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.summary-meta span+span:before{content:"•";margin-right:10px;color:#535b7c}
-    .file-list{display:grid;gap:10px;padding:14px}
-    .file-card{
-      position:relative;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(170px,.65fr) minmax(150px,.55fr) auto;
-      gap:14px;align-items:center;padding:15px;border:1px solid var(--line);border-radius:15px;background:linear-gradient(145deg,rgba(255,255,255,.032),rgba(255,255,255,.014));
-      content-visibility:auto;contain-intrinsic-size:100px;transition:border-color .16s,background .16s,transform .16s
-    }
-    .file-card:before{content:"";position:absolute;left:-1px;top:14px;bottom:14px;width:2px;border-radius:3px;background:linear-gradient(var(--blue),var(--violet));opacity:.55}
-    .file-card:hover{border-color:rgba(91,140,255,.30);background:rgba(91,140,255,.045);transform:translateY(-1px)}
-    .file-title{min-width:0}.file-title strong{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:14px}.file-title small{display:block;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:3px}
-    .meta{min-width:0}.meta b{display:block;font-size:12px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.meta span{display:block;color:var(--muted);font-size:11px}
-    .tags{display:flex;gap:6px;flex-wrap:wrap}.tag{padding:4px 7px;border:1px solid var(--line);border-radius:999px;color:#b9c1e0;background:rgba(255,255,255,.025);font-size:10px;white-space:nowrap}.tag.brand{color:#81aaff;border-color:rgba(91,140,255,.22)}
-    .file-actions{display:flex;gap:7px;justify-content:flex-end}.icon-btn{min-width:38px;height:38px;padding:0 10px;display:grid;place-items:center;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.018);cursor:pointer;color:#cbd2ef;transition:.16s}
-    .icon-btn:hover{border-color:rgba(77,231,255,.35);color:var(--cyan);background:rgba(77,231,255,.06)}.download{width:auto;padding:0 13px;font-weight:750;font-size:12px;color:#fff;background:linear-gradient(135deg,rgba(91,140,255,.18),rgba(169,112,255,.12))}
-    .empty{padding:70px 20px;text-align:center;color:var(--muted)}.loader{padding:60px;text-align:center;color:var(--muted)}
-    .spinner{width:28px;height:28px;margin:0 auto 12px;border:2px solid var(--line);border-top-color:var(--cyan);border-radius:50%;animation:spin .8s linear infinite}
-    .pager{display:flex;align-items:center;justify-content:center;gap:8px;padding:4px 14px 18px;flex-wrap:wrap}.page-btn{min-width:40px;height:40px;padding:0 11px;border:1px solid var(--line);border-radius:10px;background:transparent;color:var(--muted);cursor:pointer}
-    .page-btn:hover:not(:disabled){color:#fff;border-color:rgba(91,140,255,.45);background:rgba(91,140,255,.08)}.page-btn.active{color:#fff;background:linear-gradient(135deg,var(--blue),var(--violet));border-color:transparent;box-shadow:0 8px 22px rgba(91,140,255,.20)}.page-btn:disabled{opacity:.35;cursor:not-allowed}
-    .info-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.info-card{padding:21px;border:1px solid var(--line);border-radius:17px;background:linear-gradient(145deg,rgba(255,255,255,.032),rgba(255,255,255,.012))}.info-card strong{display:block;margin-bottom:7px;color:#eef1ff}.info-card p{margin:0;color:var(--muted);font-size:13px}
-    footer{padding:28px 0 38px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}.footer-row{display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}
-    .toast{position:fixed;right:18px;bottom:18px;z-index:50;max-width:min(360px,calc(100% - 36px));padding:11px 14px;border:1px solid rgba(91,140,255,.34);border-radius:11px;background:#151a38;color:#eef2ff;box-shadow:var(--shadow);font-size:12px;transform:translateY(20px);opacity:0;pointer-events:none;transition:.2s}.toast.show{transform:none;opacity:1}
-    @keyframes spin{to{transform:rotate(360deg)}}
-    @media(max-width:900px){
-      .hero-grid{grid-template-columns:1fr}.hero-card{display:none}.stats{grid-template-columns:repeat(2,1fr)}
-      .toolbar{grid-template-columns:1fr 1fr}.field{grid-column:1/-1}.file-card{grid-template-columns:minmax(0,1fr) auto}.file-card .meta,.file-card .tags{grid-column:1/-1}.file-actions{grid-column:2;grid-row:1}.info-grid{grid-template-columns:1fr}
-    }
-    @media(max-width:620px){
-      .wrap{width:min(100% - 22px,1180px)}.nav{height:62px}.navlinks a:not(.github){display:none}.github{padding:8px 10px}
-      .hero{padding:48px 0 22px}h1{font-size:46px}.lead{font-size:15px}.stats{grid-template-columns:1fr 1fr;gap:8px}.stat{padding:14px}.stat strong{font-size:22px}.section{padding:40px 0 60px}
-      .section-head{display:block}.section-copy{margin-top:12px}.toolbar{grid-template-columns:1fr}.field{grid-column:auto}.quick-filters{padding-inline:10px}.file-list{padding:9px}.file-card{padding:13px;gap:10px}.summary{align-items:flex-start;flex-direction:column}.file-actions .copy{display:none}.download{padding:0 10px}
-    }
-    @media(max-width:430px){h1{font-size:40px}.hero-actions .btn{width:100%}.file-actions{gap:5px}.icon-btn{min-width:36px;height:36px;padding:0 8px}.stats{grid-template-columns:1fr 1fr}.stat span{font-size:11px}}
-    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="UnLockPre · Biblioteca técnica de preloaders y loaders MediaTek (MTK) en formatos BIN y JSON para UnlockTool y TSM Tool.">
+<meta name="theme-color" content="#070816">
+<meta property="og:title" content="UnLockPre · GaboStore">
+<meta property="og:description" content="Biblioteca de preloaders/loaders MTK organizada por marca, modelo, firmware y región.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gabo-store.github.io/UnLockPre/">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<title>UnLockPre · GaboStore</title>
+<link rel="stylesheet" href="assets/app.css">
 </head>
-<body>
-  <header class="topbar">
-    <div class="wrap nav">
-      <a class="brand" href="#" aria-label="UnLockPre inicio">
-        <span class="logo">UP</span>
-        <span>UnLockPre<small>by GaboStore</small></span>
-      </a>
-      <nav class="navlinks" aria-label="Navegación principal">
-        <a href="#catalogo">Catálogo</a>
-        <a href="#informacion">Información</a>
-        <a class="github" href="https://github.com/Gabo-Store/UnLockPre" target="_blank" rel="noopener">GitHub ↗</a>
-      </nav>
+<body class="locked">
+<div class="modal-back" id="entryModal" role="dialog" aria-modal="true" aria-labelledby="entryTitle">
+  <div class="modal">
+    <div class="head"><strong id="entryTitle">Antes de entrar a UnLockPre</strong></div>
+    <div class="body">
+      <div class="credit-card"><strong>Créditos</strong><br><span class="muted">Proyecto mantenido por <b>GaboStore</b> · GitHub: Gabo-Store</span></div>
+      <h2>Advertencia de uso</h2>
+      <p>Este repositorio se ofrece como biblioteca técnica e informativa de archivos. <b>GaboStore no se hace responsable por daños, pérdida de datos, bloqueos, incompatibilidades, uso indebido ni consecuencias derivadas del uso de los archivos o herramientas enlazadas.</b></p>
+      <p class="muted">Comprueba siempre modelo, variante, región, firmware, revisión y SHA-256 antes de utilizar cualquier archivo. UnlockTool, TSM Tool y las marcas mencionadas pertenecen a sus respectivos propietarios; este proyecto no afirma afiliación oficial con ellos.</p>
+      <label class="ack"><input type="checkbox" id="ack"><span>Entiendo la advertencia y acepto continuar bajo mi propia responsabilidad.</span></label>
+      <button class="btn primary" id="enterBtn" disabled>Entrar a UnLockPre</button>
     </div>
-  </header>
-
-  <main>
-    <section class="hero">
-      <div class="wrap">
-        <div class="hero-grid">
-          <div>
-            <span class="eyebrow"><span class="dot"></span> Biblioteca técnica MTK</span>
-            <h1>Preloaders & loaders <span class="grad">organizados.</span></h1>
-            <p class="lead">Biblioteca de archivos <b>.bin</b> y metadatos <b>.json</b> para consulta técnica, compatibilidad y diagnóstico con herramientas como UnlockTool y TSM Tool.</p>
-            <div class="hero-actions">
-              <a class="btn primary" href="#catalogo">Explorar archivos ↓</a>
-              <a class="btn" href="https://github.com/Gabo-Store/UnLockPre" target="_blank" rel="noopener">Ver repositorio ↗</a>
-            </div>
-          </div>
-          <aside class="hero-card" aria-label="Estado de la biblioteca">
-            <div class="terminal-top"><i></i><i></i><i></i></div>
-            <div class="code-line"><span>catalog.json</span><b class="ok" id="catalogState">cargando…</b></div>
-            <div class="code-line"><span>formato</span><b>.bin + .json</b></div>
-            <div class="code-line"><span>plataforma</span><b>MediaTek / MTK</b></div>
-            <div class="code-line"><span>publicación</span><b>GitHub Pages</b></div>
-          </aside>
-        </div>
-
-        <div class="stats" aria-label="Estadísticas del catálogo">
-          <div class="stat"><strong id="statFiles">—</strong><span>archivos BIN</span></div>
-          <div class="stat"><strong id="statModels">—</strong><span>referencias de modelo</span></div>
-          <div class="stat"><strong id="statBrands">—</strong><span>marcas</span></div>
-          <div class="stat"><strong id="statSize">—</strong><span>tamaño catalogado</span></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="catalogo">
-      <div class="wrap">
-        <div class="section-head">
-          <div><span class="kicker">Biblioteca</span><h2>Buscar un archivo</h2></div>
-          <p class="section-copy">Filtra por marca, versión de Android o firmware. La búsqueda revisa modelo, variante, región, compilación y nombre del archivo.</p>
-        </div>
-
-        <div class="catalog">
-          <div class="toolbar">
-            <label class="field">
-              <span class="sr-only">Buscar</span>
-              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-              <input id="search" type="search" placeholder="Modelo, firmware, región, archivo…" autocomplete="off">
-            </label>
-            <label><span class="sr-only">Marca</span><select id="brand"><option value="">Todas las marcas</option></select></label>
-            <label><span class="sr-only">Android</span><select id="android"><option value="">Todas las versiones</option></select></label>
-            <label><span class="sr-only">Ordenar</span><select id="sort">
-              <option value="brand">Marca / modelo</option>
-              <option value="firmware">Firmware</option>
-              <option value="size-desc">Mayor tamaño</option>
-              <option value="size-asc">Menor tamaño</option>
-            </select></label>
-          </div>
-
-          <div class="quick-filters" id="quickBrands" aria-label="Filtros rápidos por marca"></div>
-
-          <div class="summary">
-            <div class="summary-meta"><span><strong id="matchCount">0</strong> resultados</span><span id="rangeText">—</span></div>
-            <button class="btn" id="clearBtn" type="button">Limpiar filtros</button>
-          </div>
-
-          <div id="fileList" class="file-list" aria-live="polite">
-            <div class="loader"><div class="spinner"></div>Cargando catálogo…</div>
-          </div>
-          <div class="pager" id="pager" aria-label="Paginación"></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="informacion">
-      <div class="wrap">
-        <div class="section-head">
-          <div><span class="kicker">Uso responsable</span><h2>Antes de usar un archivo</h2></div>
-        </div>
-        <div class="info-grid">
-          <article class="info-card"><strong>Verifica el modelo exacto</strong><p>Confirma modelo, variante, región y firmware antes de seleccionar un preloader. Un archivo incorrecto puede impedir el arranque o la comunicación del dispositivo.</p></article>
-          <article class="info-card"><strong>Comprueba la integridad</strong><p>Cuando esté disponible, compara el SHA-256 y revisa los metadatos JSON o la procedencia asociada al archivo.</p></article>
-          <article class="info-card"><strong>Biblioteca de referencia</strong><p>El repositorio organiza archivos y referencias técnicas. No garantiza compatibilidad universal con cada herramienta, revisión de hardware o versión de firmware.</p></article>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="wrap footer-row">
-      <span>© <span id="year"></span> GaboStore · UnLockPre</span>
-      <span>Proyecto independiente · Uso técnico y de mantenimiento autorizado.</span>
-    </div>
-  </footer>
-
-  <div class="toast" id="toast" role="status"></div>
-
-  <script>
-  (() => {
-    'use strict';
-
-    const $ = (s) => document.querySelector(s);
-    const els = {
-      search: $('#search'), brand: $('#brand'), android: $('#android'), sort: $('#sort'),
-      list: $('#fileList'), pager: $('#pager'), count: $('#matchCount'), clear: $('#clearBtn'),
-      files: $('#statFiles'), models: $('#statModels'), brands: $('#statBrands'), size: $('#statSize'),
-      state: $('#catalogState'), toast: $('#toast'), quick: $('#quickBrands'), range: $('#rangeText')
-    };
-
-    const state = { all: [], filtered: [], page: 1, perPage: 18 };
-    const number = new Intl.NumberFormat('es-CL');
-
-    const escapeHTML = (value = '') => String(value).replace(/[&<>"']/g, c => ({
-      '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
-    }[c]));
-
-    const formatBytes = (bytes = 0) => {
-      if (!Number.isFinite(Number(bytes)) || Number(bytes) <= 0) return '—';
-      const units = ['B','KB','MB','GB'];
-      const i = Math.min(Math.floor(Math.log(Number(bytes)) / Math.log(1024)), units.length - 1);
-      return `${(Number(bytes) / 1024 ** i).toFixed(i ? 1 : 0)} ${units[i]}`;
-    };
-
-    const norm = (v = '') => String(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-
-    function toast(message) {
-      els.toast.textContent = message;
-      els.toast.classList.add('show');
-      clearTimeout(toast.timer);
-      toast.timer = setTimeout(() => els.toast.classList.remove('show'), 1800);
-    }
-
-    function populateFilters(files) {
-      const brands = [...new Set(files.map(x => x.brand).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
-      const androids = [...new Set(files.map(x => x.android).filter(Boolean))].sort((a,b)=>
-        String(b).localeCompare(String(a), undefined, {numeric:true})
-      );
-      els.brand.insertAdjacentHTML('beforeend', brands.map(x => `<option>${escapeHTML(x)}</option>`).join(''));
-      els.android.insertAdjacentHTML('beforeend', androids.map(x => `<option>${escapeHTML(x)}</option>`).join(''));
-      els.quick.innerHTML = `<button class="quick-filter active" type="button" data-brand="">Todas</button>` +
-        brands.map(x => `<button class="quick-filter" type="button" data-brand="${escapeHTML(x)}">${escapeHTML(x)}</button>`).join('');
-    }
-
-    function syncQuickBrand() {
-      els.quick.querySelectorAll('[data-brand]').forEach(btn =>
-        btn.classList.toggle('active', btn.dataset.brand === els.brand.value)
-      );
-    }
-
-    function updateURL() {
-      const p = new URLSearchParams();
-      if (els.search.value.trim()) p.set('q', els.search.value.trim());
-      if (els.brand.value) p.set('brand', els.brand.value);
-      if (els.android.value) p.set('android', els.android.value);
-      const qs = p.toString();
-      history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
-    }
-
-    function applyFilters(resetPage = true) {
-      const q = norm(els.search.value.trim());
-      const brand = els.brand.value;
-      const android = els.android.value;
-
-      state.filtered = state.all.filter(item => {
-        if (brand && item.brand !== brand) return false;
-        if (android && String(item.android) !== android) return false;
-        if (!q) return true;
-        return item._search.includes(q);
-      });
-
-      const sort = els.sort.value;
-      state.filtered.sort((a,b) => {
-        if (sort === 'size-desc') return (b.bytes || 0) - (a.bytes || 0);
-        if (sort === 'size-asc') return (a.bytes || 0) - (b.bytes || 0);
-        if (sort === 'firmware') return String(a.firmware || '').localeCompare(String(b.firmware || ''), undefined, {numeric:true});
-        return `${a.brand || ''} ${(a.models || []).join(' ')}`.localeCompare(`${b.brand || ''} ${(b.models || []).join(' ')}`, undefined, {numeric:true});
-      });
-
-      if (resetPage) state.page = 1;
-      els.count.textContent = number.format(state.filtered.length);
-      syncQuickBrand();
-      updateURL();
-      render();
-    }
-
-    function fileCard(item) {
-      const models = (item.models || []).join(' · ') || 'Modelo no especificado';
-      const subtitle = [item.variantLabel || item.variant, item.region].filter(Boolean).join(' · ');
-      const firmware = item.firmware || item.build || 'Sin dato';
-      const safeHref = typeof item.href === 'string' && !item.href.startsWith('javascript:') ? item.href : '#';
-      const provenance = typeof item.provenance === 'string' && !item.provenance.startsWith('javascript:') ? item.provenance : '';
-      return `
-        <article class="file-card">
-          <div class="file-title">
-            <strong title="${escapeHTML(models)}">${escapeHTML(models)}</strong>
-            <small title="${escapeHTML(item.filename || '')}">${escapeHTML(item.filename || 'archivo.bin')}</small>
-          </div>
-          <div class="meta">
-            <b title="${escapeHTML(firmware)}">${escapeHTML(firmware)}</b>
-            <span>${escapeHTML(subtitle || 'Sin región/variante')}</span>
-          </div>
-          <div class="tags">
-            <span class="tag brand">${escapeHTML(item.brand || 'MTK')}</span>
-            ${item.android ? `<span class="tag">Android ${escapeHTML(item.android)}</span>` : ''}
-            <span class="tag">${formatBytes(item.bytes)}</span>
-          </div>
-          <div class="file-actions">
-            ${item.sha256 ? `<button class="icon-btn copy" type="button" data-copy="${escapeHTML(item.sha256)}" title="Copiar SHA-256" aria-label="Copiar SHA-256">#</button>` : ''}
-            ${provenance ? `<a class="icon-btn" href="${escapeHTML(provenance)}" target="_blank" rel="noopener" title="Ver JSON" aria-label="Ver metadatos JSON">{}</a>` : ''}
-            <a class="icon-btn download" href="${escapeHTML(safeHref)}" download title="Descargar ${escapeHTML(item.filename || 'archivo')}">Descargar</a>
-          </div>
-        </article>`;
-    }
-
-    function renderPager(totalPages) {
-      if (totalPages <= 1) { els.pager.innerHTML = ''; return; }
-      const current = state.page;
-      const pages = new Set([1,totalPages,current,current-1,current+1].filter(x => x >= 1 && x <= totalPages));
-      const ordered = [...pages].sort((a,b)=>a-b);
-      let html = `<button class="page-btn" data-page="${current-1}" ${current===1?'disabled':''} aria-label="Página anterior">‹</button>`;
-      let prev = 0;
-      for (const p of ordered) {
-        if (prev && p - prev > 1) html += `<span class="muted">…</span>`;
-        html += `<button class="page-btn ${p===current?'active':''}" data-page="${p}" ${p===current?'aria-current="page"':''}>${p}</button>`;
-        prev = p;
-      }
-      html += `<button class="page-btn" data-page="${current+1}" ${current===totalPages?'disabled':''} aria-label="Página siguiente">›</button>`;
-      els.pager.innerHTML = html;
-    }
-
-    function render() {
-      const totalPages = Math.max(1, Math.ceil(state.filtered.length / state.perPage));
-      if (state.page > totalPages) state.page = totalPages;
-      const start = (state.page - 1) * state.perPage;
-      const items = state.filtered.slice(start, start + state.perPage);
-      const end = Math.min(start + items.length, state.filtered.length);
-      els.range.textContent = state.filtered.length ? `${number.format(start + 1)}–${number.format(end)} de ${number.format(state.filtered.length)}` : 'sin coincidencias';
-
-      if (!items.length) {
-        els.list.innerHTML = `<div class="empty"><strong>No encontré coincidencias.</strong><br><span>Prueba otro modelo, firmware o elimina algún filtro.</span></div>`;
-      } else {
-        els.list.innerHTML = items.map(fileCard).join('');
-      }
-      renderPager(totalPages);
-    }
-
-    function readQuery() {
-      const p = new URLSearchParams(location.search);
-      els.search.value = p.get('q') || '';
-      if ([...els.brand.options].some(o => o.value === p.get('brand'))) els.brand.value = p.get('brand') || '';
-      if ([...els.android.options].some(o => o.value === p.get('android'))) els.android.value = p.get('android') || '';
-    }
-
-    let debounce;
-    els.search.addEventListener('input', () => {
-      clearTimeout(debounce);
-      debounce = setTimeout(() => applyFilters(true), 120);
-    });
-    [els.brand, els.android, els.sort].forEach(el => el.addEventListener('change', () => applyFilters(true)));
-    els.quick.addEventListener('click', e => {
-      const btn = e.target.closest('[data-brand]');
-      if (!btn) return;
-      els.brand.value = btn.dataset.brand || '';
-      applyFilters(true);
-    });
-    els.clear.addEventListener('click', () => {
-      els.search.value = ''; els.brand.value = ''; els.android.value = ''; els.sort.value = 'brand';
-      applyFilters(true); els.search.focus();
-    });
-    els.pager.addEventListener('click', e => {
-      const btn = e.target.closest('[data-page]');
-      if (!btn || btn.disabled) return;
-      state.page = Number(btn.dataset.page);
-      render();
-      document.querySelector('#catalogo').scrollIntoView({behavior:'smooth',block:'start'});
-    });
-    els.list.addEventListener('click', async e => {
-      const btn = e.target.closest('[data-copy]');
-      if (!btn) return;
-      try { await navigator.clipboard.writeText(btn.dataset.copy); toast('SHA-256 copiado'); }
-      catch { toast('No se pudo copiar automáticamente'); }
-    });
-
-    async function boot() {
-      $('#year').textContent = new Date().getFullYear();
-      try {
-        const res = await fetch('downloads/catalog.json', {cache:'no-cache'});
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const data = await res.json();
-        state.all = (Array.isArray(data.files) ? data.files : []).map(item => ({
-          ...item,
-          _search: norm([item.brand, ...(item.models || []), item.variant, item.variantLabel, item.firmware, item.build, item.region, item.android, item.filename].filter(Boolean).join(' '))
-        }));
-
-        els.files.textContent = number.format(data.uniqueFiles ?? state.all.length);
-        els.models.textContent = number.format(data.modelReferences ?? 0);
-        els.brands.textContent = number.format(Object.keys(data.byBrand || {}).length);
-        els.size.textContent = formatBytes(data.totalBytes || state.all.reduce((n,x)=>n+(Number(x.bytes)||0),0));
-        els.state.textContent = 'conectado';
-
-        populateFilters(state.all);
-        readQuery();
-        applyFilters(false);
-      } catch (err) {
-        console.error(err);
-        els.state.textContent = 'error';
-        els.state.style.color = 'var(--danger)';
-        els.list.innerHTML = `<div class="empty"><strong>No se pudo cargar el catálogo.</strong><br><span>Recarga la página o comprueba <code>downloads/catalog.json</code>.</span></div>`;
-      }
-    }
-
-    document.addEventListener('keydown', e => {
-      if (e.key === '/' && !/input|select|textarea/i.test(document.activeElement?.tagName || '')) {
-        e.preventDefault(); els.search.focus();
-      }
-      if (e.key === 'Escape' && document.activeElement === els.search && els.search.value) {
-        els.search.value = ''; applyFilters(true);
-      }
-    });
-
-    boot();
-  })();
-  </script>
-</body>
-</html>
+  </div>
+</div>
+<header class="topbar"><div class="wrap inner">
+  <a class="brand" href="#top"><span class="logo">UP</span><span>UnLockPre</span></a>
+  <nav class="nav"><a href="#catalogo">Catálogo</a><a href="#recientes">Recientes</a><a href="#favoritos">Favoritos</a><a href="#estadisticas">Estadísticas</a><a href="#herramientas">Herramientas</a></nav>
+  <span class="spacer"></span>
+  <div class="top-actions">
+    <select class="mini" id="themeSelect" aria-label="Tema"><option value="neon">Neon</option><option value="crimson">Crimson</option><option value="ice">Ice</option></select>
+    <button class="mini desktop-only" id="compactBtn" type="button">Compacto</button>
+    <button class="mini hidden" id="installBtn" type="button">Instalar</button>
+    <a class="mini" href="https://github.com/Gabo-Store/UnLockPre" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</div></header>
+<main id="top">
+<section class="hero"><div class="wrap">
+  <span class="eyebrow"><span class="dot"></span> Catálogo dinámico · <b id="catalogState">cargando</b></span>
+  <h1>Preloaders & loaders <span class="grad">MTK</span> organizados.</h1>
+  <p class="lead">Busca por modelo, firmware, región, variante o nombre de archivo. Consulta metadatos, compara registros, guarda favoritos, verifica SHA-256 localmente y descarga desde el catálogo publicado.</p>
+  <div class="hero-actions"><a class="btn primary" href="#catalogo">Explorar catálogo</a><a class="btn" href="#herramientas">Verificar SHA-256</a><button class="btn" id="sharePage" type="button">Compartir página</button></div>
+  <div class="stats"><div class="stat"><strong id="sFiles">—</strong><span>archivos</span></div><div class="stat"><strong id="sModels">—</strong><span>modelos referenciados</span></div><div class="stat"><strong id="sBrands">—</strong><span>marcas</span></div><div class="stat"><strong id="sSize">—</strong><span>almacenamiento</span></div><div class="stat"><strong id="sVersion">v2.0</strong><span>versión del sitio</span></div></div>
+</div></section>
+<section class="section" id="catalogo"><div class="wrap"><div class="section-head"><div><h2>Catálogo</h2><p>Los filtros quedan reflejados en la URL para que puedas compartir una búsqueda exacta.</p></div><button class="btn mobile-filter" id="filterToggle">Filtros</button></div>
+<div class="catalog" id="catalogShell"><div class="toolbar" id="toolbar">
+  <div class="field search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m21 21-4.3-4.3m2.3-5.2a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z" stroke="currentColor" stroke-width="2"/></svg><input id="search" autocomplete="off" placeholder="Modelo, firmware, región, variante o archivo…"><div class="suggestions hidden" id="suggestions"></div></div>
+  <div class="field"><select id="brand"><option value="">Todas las marcas</option></select></div>
+  <div class="field"><select id="region"><option value="">Todas las regiones</option></select></div>
+  <div class="field"><select id="android"><option value="">Android</option></select></div>
+  <div class="field"><select id="type"><option value="">Todos los tipos</option><option value="bin">BIN</option><option value="json">JSON metadata</option></select></div>
+  <div class="field"><select id="sort"><option value="brand">Marca / modelo</option><option value="recent">Más recientes</option><option value="firmware">Firmware</option><option value="size-desc">Mayor tamaño</option><option value="size-asc">Menor tamaño</option></select></div>
+</div><div class="quick" id="quickBrands"></div><div class="catalog-head"><span><b id="count">0</b> resultados · <span id="range">—</span></span><span><button class="mini" id="clear" type="button">Limpiar filtros</button></span></div><div class="grid" id="list"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div><div class="pager" id="pager"></div></div>
+</div></section>
+<section class="section" id="recientes"><div class="wrap"><div class="section-head"><div><h2>Recientes</h2><p id="recentNote">Últimos registros añadidos al catálogo.</p></div></div><div class="grid" id="recentList"></div></div></section>
+<section class="section" id="favoritos"><div class="wrap"><div class="section-head"><div><h2>Favoritos</h2><p>Se guardan únicamente en este navegador mediante localStorage.</p></div></div><div class="grid" id="favoriteList"></div></div></section>
+<section class="section" id="estadisticas"><div class="wrap"><div class="section-head"><div><h2>Estadísticas</h2><p>Resumen generado directamente desde <code>downloads/catalog.json</code>.</p></div></div><div class="panels"><div class="panel"><h3>Archivos por marca</h3><div class="brand-list" id="brandStats"></div></div><div class="panel"><h3>Versiones Android</h3><div class="brand-list" id="androidStats"></div></div><div class="panel"><h3>Integridad del catálogo</h3><div class="mini-list" id="integrityStats"></div></div><div class="panel"><h3>Historial del sitio</h3><div class="mini-list" id="changeLog"></div></div></div></div></section>
+<section class="section" id="herramientas"><div class="wrap"><div class="section-head"><div><h2>Herramientas locales</h2><p>El archivo seleccionado para calcular SHA-256 se procesa en tu navegador y no se sube a ningún servidor.</p></div></div><div class="tool-grid"><div class="panel"><h3>Verificador SHA-256</h3><div class="drop"><input type="file" id="hashFile"><p class="muted">Selecciona un archivo para calcular su SHA-256.</p></div><div class="result" id="hashResult">Sin archivo seleccionado.</div></div><div class="panel"><h3>Comparador</h3><p class="muted">Añade hasta dos registros desde el catálogo.</p><div id="compareBox" class="compare-list"></div><div id="compareResult"></div></div></div></div></section>
+<section class="section"><div class="wrap"><div class="notice"><strong>Advertencia técnica</strong><p>Un archivo incorrecto o incompatible puede provocar fallos de arranque o pérdida de datos. Verifica modelo, variante, región/CSC, firmware y revisión antes de usarlo. La presencia de un archivo en este repositorio no garantiza compatibilidad con un dispositivo o herramienta concreta.</p></div></div></section>
+</main>
+<footer class="footer"><div class="wrap footer-inner"><span>© <span id="year"></span> GaboStore · UnLockPre</span><span><a href="CONTRIBUTING.md">Contribuir</a> · <a href="https://github.com/Gabo-Store/UnLockPre/issues/new?title=Reporte%20de%20archivo%20incorrecto&body=Archivo%3A%0AModelo%3A%0AFirmware%3A%0ADescripci%C3%B3n%20del%20problema%3A" target="_blank" rel="noopener">Reportar archivo</a></span></div></footer>
+<button class="backtop" id="backTop" aria-label="Volver arriba">↑</button><div class="toast" id="toast"></div>
+<div class="modal-back hidden" id="detailModal" role="dialog" aria-modal="true"><div class="modal"><div class="head"><strong>Ficha técnica</strong><button class="close" id="closeDetail">×</button></div><div class="body" id="detailBody"></div></div></div>
+<script src="assets/app.js" defer></script>
+</body></html>

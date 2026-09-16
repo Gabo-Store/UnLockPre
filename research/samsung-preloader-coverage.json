@@ -1,0 +1,2331 @@
+{
+  "scope": "Each Samsung variant code in the local catalog. At most two sales regions, one latest dated non-beta firmware per code; NOT all historical builds or all regions.",
+  "records": [
+    {
+      "code": "SM-A055F",
+      "model": "Galaxy A05",
+      "checkedAt": "2026-09-16T13:04:41.138Z",
+      "attempts": [],
+      "status": "download-available",
+      "provenance": "downloads/preloader_SM-A055F_A055FXXSHDZF1_XSG.json"
+    },
+    {
+      "code": "SM-A055M",
+      "model": "Galaxy A05",
+      "checkedAt": "2026-09-16T13:04:41.144Z",
+      "attempts": [],
+      "status": "download-available",
+      "provenance": "downloads/preloader_SM-A055M_A055MUBSJDZF1_CHO.json"
+    },
+    {
+      "code": "SM-A047F",
+      "model": "Galaxy A04s",
+      "checkedAt": "2026-09-16T13:04:41.145Z",
+      "attempts": [
+        {
+          "region": "XSG",
+          "historyEntries": 50,
+          "latest": {
+            "version": "A047FXXSGEZH2/A047FOJMGEZH2/A047FXXSGEZH1/A047FXXSGEZH2",
+            "date": "2026/08/27 06:58:25",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "BL TAR MD5 mismatch"
+    },
+    {
+      "code": "SM-A057F",
+      "model": "Galaxy A05s",
+      "checkedAt": "2026-09-16T13:04:50.335Z",
+      "attempts": [
+        {
+          "region": "XSG",
+          "historyEntries": 50,
+          "latest": {
+            "version": "A057FXXUFDZH2/A057FOJMFDZH2/A057FXXUFDZH2/A057FXXUFDZH2",
+            "date": "2026/09/03 05:49:02",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-A057M",
+      "model": "Galaxy A05s",
+      "checkedAt": "2026-09-16T13:04:55.887Z",
+      "attempts": [
+        {
+          "region": "CHO",
+          "historyEntries": 44,
+          "latest": {
+            "version": "A057MUBSFDZE2/A057MOWBFDZE2/A057MUBSFDZE1/A057MUBSFDZE2",
+            "date": "2026/06/19 02:27:56",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-A076B",
+      "model": "Galaxy A07 5G",
+      "checkedAt": "2026-09-16T13:05:00.795Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 0
+        },
+        {
+          "region": "BTU",
+          "historyEntries": 0
+        }
+      ],
+      "status": "no-firmware-found-in-checked-regions"
+    },
+    {
+      "code": "SM-A076E",
+      "model": "Galaxy A07 5G",
+      "checkedAt": "2026-09-16T13:05:01.475Z",
+      "attempts": [
+        {
+          "region": "INS",
+          "historyEntries": 0
+        },
+        {
+          "region": "XSG",
+          "historyEntries": 14,
+          "latest": {
+            "version": "A076EXXS5BZI3/A076EOJM5BZI3/A076EXXS5BZI3/A076EXXS5BZI3",
+            "date": "2026/09/15 07:38:17",
+            "index": "2"
+          }
+        }
+      ],
+      "status": "download-available",
+      "provenance": "downloads/preloader_SM-A076E_A076EXXS5BZI3_XSG.json"
+    },
+    {
+      "code": "SM-A076M",
+      "model": "Galaxy A07 5G",
+      "checkedAt": "2026-09-16T13:05:09.555Z",
+      "attempts": [
+        {
+          "region": "CHO",
+          "historyEntries": 16,
+          "latest": {
+            "version": "A076MXXS4BZH1/A076MOWO4BZH1/A076MXXS4BZH1/A076MXXS4BZH1",
+            "date": "2026/08/28 04:59:26",
+            "index": "2"
+          }
+        }
+      ],
+      "status": "download-available",
+      "provenance": "downloads/preloader_SM-A076M_A076MXXS4BZH1_CHO.json"
+    },
+    {
+      "code": "SM-A135F",
+      "model": "Galaxy A13",
+      "checkedAt": "2026-09-16T13:05:18.112Z",
+      "attempts": [
+        {
+          "region": "XSG",
+          "historyEntries": 56,
+          "latest": {
+            "version": "A135FXXSEEZB2/A135FOJMEEZB2/A135FXXSEEZB1/A135FXXSEEZB2",
+            "date": "2026/03/10 07:28:15",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "BL TAR MD5 mismatch"
+    },
+    {
+      "code": "SM-A135N",
+      "model": "Galaxy A13",
+      "checkedAt": "2026-09-16T13:05:27.332Z",
+      "attempts": [
+        {
+          "region": "KOO",
+          "historyEntries": 42,
+          "latest": {
+            "version": "A135NKSSEEZB2/A135NOKREEZB2/A135NKOSEEZB2/A135NKSSEEZB2",
+            "date": "2026/03/05 07:46:39",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "BL TAR MD5 mismatch"
+    },
+    {
+      "code": "SM-A135U1",
+      "model": "Galaxy A13",
+      "checkedAt": "2026-09-16T13:05:36.455Z",
+      "attempts": [
+        {
+          "region": "XAA",
+          "historyEntries": 48,
+          "latest": {
+            "version": "A135U1UESEEZB2/A135U1OYMEEZB2/A135U1UESEEZB2/A135U1UESEEZB2",
+            "date": "2026/03/12 07:12:22",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "BL TAR MD5 mismatch"
+    },
+    {
+      "code": "SM-A146B",
+      "model": "Galaxy A14 5G",
+      "checkedAt": "2026-09-16T13:05:48.256Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 0
+        },
+        {
+          "region": "BTU",
+          "historyEntries": 0
+        }
+      ],
+      "status": "no-firmware-found-in-checked-regions"
+    },
+    {
+      "code": "SM-A146M",
+      "model": "Galaxy A14 5G",
+      "checkedAt": "2026-09-16T13:05:49.478Z",
+      "attempts": [
+        {
+          "region": "CHO",
+          "historyEntries": 54,
+          "latest": {
+            "version": "A146MUBSDDZE1/A146MOWBDDZE1/A146MUBSDDZD1/A146MUBSDDZE1",
+            "date": "2026/06/02 07:25:12",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "A146MUBSDDZE1/A146MOWBDDZE1/A146MUBSDDZD1/A146MUBSDDZE1",
+        "component": "BL_A146MUBSDDZE1_A146MUBSDDZE1_MQB109493266_REV00_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "bd6e6cfd963750c76d73e1315e0b3570fe6c11bb704796a8285641e5ddb63e1c",
+        "tarMd5": "9db39d6932120ab49700e937317930c0"
+      }
+    },
+    {
+      "code": "SM-A155M",
+      "model": "Galaxy A15",
+      "checkedAt": "2026-09-16T13:05:58.515Z",
+      "attempts": [
+        {
+          "region": "CHO",
+          "historyEntries": 42,
+          "latest": {
+            "version": "A155MUBSBEZG1/A155MOWBBEZG1/A155MUBSBEZG1/A155MUBSBEZG1",
+            "date": "2026/08/04 06:27:28",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "download-available",
+      "provenance": "downloads/preloader_SM-A155M_A155MUBSBEZG1_CHO.json"
+    },
+    {
+      "code": "SM-A1560",
+      "model": "Galaxy A15 5G",
+      "checkedAt": "2026-09-16T13:06:06.928Z",
+      "attempts": [
+        {
+          "region": "TGY",
+          "historyEntries": 36,
+          "latest": {
+            "version": "A1560ZHSAEZG1/A1560OZSAEZG1/A1560ZHSAEZG1/A1560ZHSAEZG1",
+            "date": "2026/08/10 11:01:05",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "download-available",
+      "provenance": "downloads/preloader_SM-A1560_A1560ZHSAEZG1_TGY.json"
+    },
+    {
+      "code": "SM-A156E",
+      "model": "Galaxy A15 5G",
+      "checkedAt": "2026-09-16T13:06:15.968Z",
+      "attempts": [
+        {
+          "region": "INS",
+          "historyEntries": 42,
+          "latest": {
+            "version": "A156EDXSAEZG1/A156EODMAEZG1/A156EDXSAEZG1/A156EDXSAEZG1",
+            "date": "2026/07/30 02:38:06",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "download-available",
+      "provenance": "downloads/preloader_SM-A156E_A156EDXSAEZG1_INS.json"
+    },
+    {
+      "code": "SM-A156L",
+      "model": "Galaxy A15 5G",
+      "checkedAt": "2026-09-16T13:06:24.432Z",
+      "attempts": [
+        {
+          "region": "XSG",
+          "historyEntries": 0
+        },
+        {
+          "region": "INS",
+          "historyEntries": 0
+        }
+      ],
+      "status": "no-firmware-found-in-checked-regions"
+    },
+    {
+      "code": "SM-A156P",
+      "model": "Galaxy A15 5G",
+      "checkedAt": "2026-09-16T13:06:25.505Z",
+      "attempts": [
+        {
+          "region": "XSG",
+          "historyEntries": 0
+        },
+        {
+          "region": "INS",
+          "historyEntries": 0
+        }
+      ],
+      "status": "no-firmware-found-in-checked-regions"
+    },
+    {
+      "code": "SM-A165F",
+      "model": "Galaxy A16",
+      "checkedAt": "2026-09-16T13:06:26.176Z",
+      "attempts": [
+        {
+          "region": "XSG",
+          "historyEntries": 40,
+          "latest": {
+            "version": "A165FXXSBDZH6/A165FOJMBDZH6/A165FXXSBDZH3/A165FXXSBDZH6",
+            "date": "2026/09/16 07:56:48",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "download-available",
+      "provenance": "downloads/preloader_SM-A165F_A165FXXSBDZH6_XSG.json"
+    },
+    {
+      "code": "SM-A166U",
+      "model": "Galaxy A16 5G",
+      "checkedAt": "2026-09-16T13:06:34.596Z",
+      "attempts": [
+        {
+          "region": "XAA",
+          "historyEntries": 0
+        },
+        {
+          "region": "ATT",
+          "historyEntries": 32,
+          "latest": {
+            "version": "A166USQS9DZH1/A166UOYN9DZH1/A166USQS9DZH1/A166USQS9DZH1",
+            "date": "2026/09/14 04:01:07",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "A166USQS9DZH1/A166UOYN9DZH1/A166USQS9DZH1/A166USQS9DZH1",
+        "component": "BL_A166USQS9DZH1_A166USQS9DZH1_MQB113827862_REV00_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "5bf3151975d1dbf9e1468ca0732a1011857acc1031ff3efea0e4d5049ccd1840",
+        "tarMd5": "db2e6a351222b82460216ba9d6f8f5d2"
+      }
+    },
+    {
+      "code": "SM-A176B",
+      "model": "Galaxy A17 5G",
+      "checkedAt": "2026-09-16T13:06:46.505Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 22,
+          "latest": {
+            "version": "A176BXXS7CZH2/A176BOXM7CZH2/A176BXXS7CZH2/A176BXXS7CZH2",
+            "date": "2026/09/07 04:01:07",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "A176BXXS7CZH2/A176BOXM7CZH2/A176BXXS7CZH2/A176BXXS7CZH2",
+        "component": "BL_A176BXXS7CZH2_A176BXXS7CZH2_MQB113658142_REV00_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "017bdf945c582aa239832b7b7ef0a27c7dc759fdfb3c88a53f9e36d088dc198e",
+        "tarMd5": "3c84df594975df1132dca1edd049243e"
+      }
+    },
+    {
+      "code": "SM-A217F",
+      "model": "Galaxy A21s",
+      "checkedAt": "2026-09-16T13:06:55.930Z",
+      "attempts": [
+        {
+          "region": "XSG",
+          "historyEntries": 36,
+          "latest": {
+            "version": "A217FXXSCDXE2/A217FOJMCDXE3/A217FXXSCDXE1/A217FXXSCDXE2",
+            "date": "2024/06/17 05:39:18",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "BL TAR MD5 mismatch"
+    },
+    {
+      "code": "SM-A217M",
+      "model": "Galaxy A21s",
+      "checkedAt": "2026-09-16T13:07:06.658Z",
+      "attempts": [
+        {
+          "region": "CHO",
+          "historyEntries": 32,
+          "latest": {
+            "version": "A217MUBSCDXF1/A217MOWOCDXF1/A217MUBSCDXF1/A217MUBSCDXF1",
+            "date": "2024/06/20 10:01:10",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "BL TAR MD5 mismatch"
+    },
+    {
+      "code": "SM-A235F",
+      "model": "Galaxy A23",
+      "checkedAt": "2026-09-16T13:07:15.230Z",
+      "attempts": [
+        {
+          "region": "XSG",
+          "historyEntries": 52,
+          "latest": {
+            "version": "A235FXXSEEZB1/A235FOJMEEZB1/A235FXXSEEZB1/A235FXXSEEZB1",
+            "date": "2026/03/09 02:54:52",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-A235M",
+      "model": "Galaxy A23",
+      "checkedAt": "2026-09-16T13:07:20.976Z",
+      "attempts": [
+        {
+          "region": "CHO",
+          "historyEntries": 64,
+          "latest": {
+            "version": "A235MUBSFEZB1/A235MOWOFEZB3/A235MUBSFEZB1/A235MUBSFEZB1",
+            "date": "2026/03/12 02:13:49",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-A235N",
+      "model": "Galaxy A23",
+      "checkedAt": "2026-09-16T13:07:26.964Z",
+      "attempts": [
+        {
+          "region": "KOO",
+          "historyEntries": 54,
+          "latest": {
+            "version": "A235NKSSCEZB5/A235NOKRCEZB5/A235NKOSCEZB2/A235NKSSCEZB5",
+            "date": "2026/03/05 08:13:20",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-A236B",
+      "model": "Galaxy A23 5G",
+      "checkedAt": "2026-09-16T13:07:32.273Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 60,
+          "latest": {
+            "version": "A236BXXSGEZH2/A236BOXMGEZH2/A236BXXSGEZH2/A236BXXSGEZH2",
+            "date": "2026/09/03 05:06:00",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-A236E",
+      "model": "Galaxy A23 5G",
+      "checkedAt": "2026-09-16T13:07:37.701Z",
+      "attempts": [
+        {
+          "region": "INS",
+          "historyEntries": 54,
+          "latest": {
+            "version": "A236EXXSGEZH4/A236EODMGEZH4/A236EXXSGEZH6/A236EXXSGEZH4",
+            "date": "2026/09/04 02:59:55",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-A236M",
+      "model": "Galaxy A23 5G",
+      "checkedAt": "2026-09-16T13:07:43.818Z",
+      "attempts": [
+        {
+          "region": "CHO",
+          "historyEntries": 66,
+          "latest": {
+            "version": "A236MUBSGEZH2/A236MOWOGEZH2/A236MUBSGEZH2/A236MUBSGEZH2",
+            "date": "2026/09/04 06:31:01",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-A236U",
+      "model": "Galaxy A23 5G",
+      "checkedAt": "2026-09-16T13:07:46.608Z",
+      "attempts": [
+        {
+          "region": "XAA",
+          "historyEntries": 0
+        },
+        {
+          "region": "ATT",
+          "historyEntries": 54,
+          "latest": {
+            "version": "A236USQSGEZH3/A236UOYNGEZH3/A236USQSGEZH3/A236USQSGEZH3",
+            "date": "2026/09/03 11:55:14",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-A236W",
+      "model": "Galaxy A23 5G",
+      "checkedAt": "2026-09-16T13:07:53.035Z",
+      "attempts": [
+        {
+          "region": "XAC",
+          "historyEntries": 0
+        },
+        {
+          "region": "BMC",
+          "historyEntries": 0
+        }
+      ],
+      "status": "no-firmware-found-in-checked-regions"
+    },
+    {
+      "code": "SM-A266B",
+      "model": "Galaxy A26 5G",
+      "checkedAt": "2026-09-16T13:07:54.124Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 30,
+          "latest": {
+            "version": "A266BXXSCCZH3/A266BOXMCCZH3/A266BXXSCCZH3/A266BXXSCCZH3",
+            "date": "2026/08/31 05:11:16",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "A266BXXSCCZH3/A266BOXMCCZH3/A266BXXSCCZH3/A266BXXSCCZH3",
+        "component": "BL_A266BXXSCCZH3_A266BXXSCCZH3_MQB113461813_REV00_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "fb60721c8fda4d9a7927683dc1d8fe40cb25877f7e39639e9ecf0d9c9dfcce48",
+        "tarMd5": "5d313299c95fb393a7b11540f139cab4"
+      }
+    },
+    {
+      "code": "SM-A356B",
+      "model": "Galaxy A35 5G",
+      "checkedAt": "2026-09-16T13:08:05.458Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 44,
+          "latest": {
+            "version": "A356BXXSCDZH1/A356BOXMCDZH1/A356BXXSCDZH1/A356BXXSCDZH1",
+            "date": "2026/09/07 07:41:15",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "A356BXXSCDZH1/A356BOXMCDZH1/A356BXXSCDZH1/A356BXXSCDZH1",
+        "component": "BL_A356BXXSCDZH1_A356BXXSCDZH1_MQB113436060_REV00_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "57bcada49b24824347170d9e8b65844e6869d64ad64ab973cfc2e85f664db743",
+        "tarMd5": "56ac2d7242735ca0b58e1644689c8f9e"
+      }
+    },
+    {
+      "code": "SM-A525F",
+      "model": "Galaxy A52",
+      "checkedAt": "2026-09-16T13:08:15.056Z",
+      "attempts": [
+        {
+          "region": "XSG",
+          "historyEntries": 101,
+          "latest": {
+            "version": "A525FXXSCFYF1/A525FOJMCFYF1/A525FXXSCFYF1/A525FXXSCFYF1",
+            "date": "2025/06/30 07:48:25",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-A525M",
+      "model": "Galaxy A52",
+      "checkedAt": "2026-09-16T13:08:20.496Z",
+      "attempts": [
+        {
+          "region": "CHO",
+          "historyEntries": 96,
+          "latest": {
+            "version": "A525MUBSCFYF1/A525MOWOCFYF1/A525MUBSCFYF1/A525MUBSCFYF1",
+            "date": "2025/07/02 02:52:46",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-A526B",
+      "model": "Galaxy A52 5G",
+      "checkedAt": "2026-09-16T13:08:25.644Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 0
+        },
+        {
+          "region": "BTU",
+          "historyEntries": 96,
+          "latest": {
+            "version": "A526BXXSCGYC1/A526BOXMCGYC1/A526BXXSCGYC1/A526BXXSCGYC1",
+            "date": "2025/03/27 04:40:09",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-A526U",
+      "model": "Galaxy A52 5G",
+      "checkedAt": "2026-09-16T13:08:31.612Z",
+      "attempts": [
+        {
+          "region": "XAA",
+          "historyEntries": 0
+        },
+        {
+          "region": "ATT",
+          "historyEntries": 92,
+          "latest": {
+            "version": "A526USQSHGYC1/A526UOYNHGYC1/A526USQSHGYC1/A526USQSHGYC1",
+            "date": "2025/04/10 04:07:23",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-A536E",
+      "model": "Galaxy A53 5G",
+      "checkedAt": "2026-09-16T13:08:37.010Z",
+      "attempts": [
+        {
+          "region": "INS",
+          "historyEntries": 135,
+          "latest": {
+            "version": "A536EXXSOGZH2/A536EODMOGZH2/A536EXXSOGZH2/A536EXXSOGZH2",
+            "date": "2026/09/14 07:15:07",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "A536EXXSOGZH2/A536EODMOGZH2/A536EXXSOGZH2/A536EXXSOGZH2",
+        "component": "BL_A536EXXSOGZH2_A536EXXSOGZH2_MQB113572317_REV00_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "4553eb05ce3c360513be07b2b04be90365ede06891bb67f8c307c63efd9dad88",
+        "tarMd5": "87d263fd86766d7513c18c4c6b37fbc8"
+      }
+    },
+    {
+      "code": "SM-A546U",
+      "model": "Galaxy A54 5G",
+      "checkedAt": "2026-09-16T13:08:49.463Z",
+      "attempts": [
+        {
+          "region": "XAA",
+          "historyEntries": 0
+        },
+        {
+          "region": "ATT",
+          "historyEntries": 92,
+          "latest": {
+            "version": "A546USQSMFZH3/A546UOYNMFZH3/A546USQSMFZH3/A546USQSMFZH3",
+            "date": "2026/09/03 07:15:32",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "A546USQSMFZH3/A546UOYNMFZH3/A546USQSMFZH3/A546USQSMFZH3",
+        "component": "BL_A546USQSMFZH3_A546USQSMFZH3_MQB113689760_REV00_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "79235d4ac993c44910c16a17487ab3d424f7ba02c8cf1dd31ff5a006a7c8f74d",
+        "tarMd5": "f50eccd342ba2c463b52d6656bcb4fac"
+      }
+    },
+    {
+      "code": "SM-A556B",
+      "model": "Galaxy A55 5G",
+      "checkedAt": "2026-09-16T13:08:58.766Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 68,
+          "latest": {
+            "version": "A556BXXSHDZH6/A556BOXMHDZH6/A556BXXSHDZH6/A556BXXSHDZH6",
+            "date": "2026/09/03 07:16:04",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "A556BXXSHDZH6/A556BOXMHDZH6/A556BXXSHDZH6/A556BXXSHDZH6",
+        "component": "BL_A556BXXSHDZH6_A556BXXSHDZH6_MQB113663631_REV00_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "999dfe831220980e8d6130849f775922c95a971122b239dbd6a6310a94e8132e",
+        "tarMd5": "ab51c7587afdf518ee7f42c1c86a68dd"
+      }
+    },
+    {
+      "code": "SM-A556E",
+      "model": "Galaxy A55 5G",
+      "checkedAt": "2026-09-16T13:09:07.290Z",
+      "attempts": [
+        {
+          "region": "INS",
+          "historyEntries": 67,
+          "latest": {
+            "version": "A556EXXSHDZH6/A556EODMHDZH4/A556EXXSHDZH6/A556EXXSHDZH6",
+            "date": "2026/09/08 02:21:14",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "A556EXXSHDZH6/A556EODMHDZH4/A556EXXSHDZH6/A556EXXSHDZH6",
+        "component": "BL_A556EXXSHDZH6_A556EXXSHDZH6_MQB113667320_REV00_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "fb360511ec3ba2226ee753373a54f2cd705b37d6add7d9264ad2a043260be7d4",
+        "tarMd5": "1baac2311467b33f2cfb4e73e059a442"
+      }
+    },
+    {
+      "code": "SM-A736B",
+      "model": "Galaxy A73 5G",
+      "checkedAt": "2026-09-16T13:09:16.139Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 0
+        },
+        {
+          "region": "BTU",
+          "historyEntries": 0
+        }
+      ],
+      "status": "no-firmware-found-in-checked-regions"
+    },
+    {
+      "code": "SM-M127F",
+      "model": "Galaxy M12",
+      "checkedAt": "2026-09-16T13:09:17.216Z",
+      "attempts": [
+        {
+          "region": "XSG",
+          "historyEntries": 44,
+          "latest": {
+            "version": "M127FXXS9DXJ3/M127FOJM9DXJ3/M127FXXS9DXJ1/M127FXXS9DXJ3",
+            "date": "2024/10/29 05:57:12",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "BL TAR MD5 mismatch"
+    },
+    {
+      "code": "SM-M127G",
+      "model": "Galaxy M12",
+      "checkedAt": "2026-09-16T13:09:26.067Z",
+      "attempts": [
+        {
+          "region": "XSG",
+          "historyEntries": 0
+        },
+        {
+          "region": "INS",
+          "historyEntries": 50,
+          "latest": {
+            "version": "M127GXXS9DXJ1/M127GODM9DXJ1/M127GDDS9DXJ1/M127GXXS9DXJ1",
+            "date": "2024/11/05 10:35:04",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "BL TAR MD5 mismatch"
+    },
+    {
+      "code": "SM-M145F",
+      "model": "Galaxy M14 5G",
+      "checkedAt": "2026-09-16T13:09:34.465Z",
+      "attempts": [
+        {
+          "region": "XSG",
+          "historyEntries": 0
+        },
+        {
+          "region": "INS",
+          "historyEntries": 38,
+          "latest": {
+            "version": "M145FXXSDDZH1/M145FODMDDZH1/M145FXXSDDZH1/M145FXXSDDZH1",
+            "date": "2026/09/01 03:19:57",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-M146B",
+      "model": "Galaxy M14 5G",
+      "checkedAt": "2026-09-16T13:09:39.819Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 0
+        },
+        {
+          "region": "BTU",
+          "historyEntries": 0
+        }
+      ],
+      "status": "no-firmware-found-in-checked-regions"
+    },
+    {
+      "code": "SM-M236B",
+      "model": "Galaxy M23 5G",
+      "checkedAt": "2026-09-16T13:09:40.478Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 56,
+          "latest": {
+            "version": "M236BXXSEEZB1/M236BOXMEEZB1/M236BXXSEEZB1/M236BXXSEEZB1",
+            "date": "2026/03/16 06:35:04",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-M336BU",
+      "model": "Galaxy M33 5G",
+      "checkedAt": "2026-09-16T13:09:45.727Z",
+      "attempts": [
+        {
+          "region": "XAA",
+          "historyEntries": 0
+        },
+        {
+          "region": "ATT",
+          "historyEntries": 0
+        }
+      ],
+      "status": "no-firmware-found-in-checked-regions"
+    },
+    {
+      "code": "SM-M336K",
+      "model": "Galaxy M33 5G",
+      "checkedAt": "2026-09-16T13:09:46.856Z",
+      "attempts": [
+        {
+          "region": "XSG",
+          "historyEntries": 0
+        },
+        {
+          "region": "INS",
+          "historyEntries": 0
+        }
+      ],
+      "status": "no-firmware-found-in-checked-regions"
+    },
+    {
+      "code": "SM-M366B",
+      "model": "Galaxy M36",
+      "checkedAt": "2026-09-16T13:09:47.926Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 0
+        },
+        {
+          "region": "BTU",
+          "historyEntries": 0
+        }
+      ],
+      "status": "no-firmware-found-in-checked-regions"
+    },
+    {
+      "code": "SM-M526B",
+      "model": "Galaxy M52 5G",
+      "checkedAt": "2026-09-16T13:09:48.996Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 0
+        },
+        {
+          "region": "BTU",
+          "historyEntries": 0
+        }
+      ],
+      "status": "no-firmware-found-in-checked-regions"
+    },
+    {
+      "code": "SM-M556B",
+      "model": "Galaxy M55 5G",
+      "checkedAt": "2026-09-16T13:09:50.085Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 0
+        },
+        {
+          "region": "BTU",
+          "historyEntries": 0
+        }
+      ],
+      "status": "no-firmware-found-in-checked-regions"
+    },
+    {
+      "code": "SM-M556E",
+      "model": "Galaxy M55 5G",
+      "checkedAt": "2026-09-16T13:09:51.554Z",
+      "attempts": [
+        {
+          "region": "INS",
+          "historyEntries": 0
+        },
+        {
+          "region": "XSG",
+          "historyEntries": 0
+        }
+      ],
+      "status": "no-firmware-found-in-checked-regions"
+    },
+    {
+      "code": "SM-N985B",
+      "model": "Galaxy Note20 Ultra 5G",
+      "checkedAt": "2026-09-16T13:09:52.634Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 0
+        },
+        {
+          "region": "BTU",
+          "historyEntries": 0
+        }
+      ],
+      "status": "no-firmware-found-in-checked-regions"
+    },
+    {
+      "code": "SM-N985F",
+      "model": "Galaxy Note20 Ultra 5G",
+      "checkedAt": "2026-09-16T13:09:53.714Z",
+      "attempts": [
+        {
+          "region": "XSG",
+          "historyEntries": 99,
+          "latest": {
+            "version": "N985FXXSIHYH3/N985FOXMIHYH3/N985FXXSIHYH3/N985FXXSIHYH3",
+            "date": "2025/09/09 07:15:22",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "N985FXXSIHYH3/N985FOXMIHYH3/N985FXXSIHYH3/N985FXXSIHYH3",
+        "component": "BL_N985FXXSIHYH3_N985FXXSIHYH3_MQB99425485_REV01_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "25815febf74e4f98cd90c08a3c72348d503873db3afd985170991fdf8cb900ee",
+        "tarMd5": "267728bbabf6f7bd2f418544140d9ee3"
+      }
+    },
+    {
+      "code": "SM-G780B",
+      "model": "Galaxy S20 FE",
+      "checkedAt": "2026-09-16T13:10:03.475Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 0
+        },
+        {
+          "region": "BTU",
+          "historyEntries": 0
+        }
+      ],
+      "status": "no-firmware-found-in-checked-regions"
+    },
+    {
+      "code": "SM-G780F",
+      "model": "Galaxy S20 FE",
+      "checkedAt": "2026-09-16T13:10:04.890Z",
+      "attempts": [
+        {
+          "region": "XSG",
+          "historyEntries": 119,
+          "latest": {
+            "version": "G780FXXSOFYJ1/G780FOJMOFYJ1/G780FXXSOFYJ1/G780FXXSOFYJ1",
+            "date": "2025/10/28 06:48:30",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "G780FXXSOFYJ1/G780FOJMOFYJ1/G780FXXSOFYJ1/G780FXXSOFYJ1",
+        "component": "BL_G780FXXSOFYJ1_G780FXXSOFYJ1_MQB101885367_REV01_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "1651fbed5d29d15f9583260099d56f99336676df38355de836ffd9b1396288c7",
+        "tarMd5": "c773548c368b4f9b731d49128a83c69e"
+      }
+    },
+    {
+      "code": "SM-G781N",
+      "model": "Galaxy S20 FE 5G",
+      "checkedAt": "2026-09-16T13:10:13.683Z",
+      "attempts": [
+        {
+          "region": "KOO",
+          "historyEntries": 61,
+          "latest": {
+            "version": "G781NKSSDGYJ1/G781NOKRDGYJ1/G781NKSSDGYJ1/G781NKSSDGYJ1",
+            "date": "2025/10/22 10:42:45",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-G781V",
+      "model": "Galaxy S20 FE 5G",
+      "checkedAt": "2026-09-16T13:10:19.535Z",
+      "attempts": [
+        {
+          "region": "XSG",
+          "historyEntries": 0
+        },
+        {
+          "region": "INS",
+          "historyEntries": 0
+        }
+      ],
+      "status": "no-firmware-found-in-checked-regions"
+    },
+    {
+      "code": "SM-G781W",
+      "model": "Galaxy S20 FE 5G",
+      "checkedAt": "2026-09-16T13:10:20.605Z",
+      "attempts": [
+        {
+          "region": "XAC",
+          "historyEntries": 100,
+          "latest": {
+            "version": "G781WVLSLHYJ1/G781WOYVLHYJ1/G781WVLSLHYJ1/G781WVLSLHYJ1",
+            "date": "2025/11/14 01:18:02",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-G991U",
+      "model": "Galaxy S21",
+      "checkedAt": "2026-09-16T13:10:28.222Z",
+      "attempts": [
+        {
+          "region": "XAA",
+          "historyEntries": 0
+        },
+        {
+          "region": "ATT",
+          "historyEntries": 130,
+          "latest": {
+            "version": "G991USQSJHZB1/G991UOYNJHZB1/G991USQSJHZB1/G991USQSJHZB1",
+            "date": "2026/03/18 05:19:06",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-G990E",
+      "model": "Galaxy S21 FE 5G",
+      "checkedAt": "2026-09-16T13:10:34.360Z",
+      "attempts": [
+        {
+          "region": "INS",
+          "historyEntries": 126,
+          "latest": {
+            "version": "G990EXXSNHZF5/G990EODMNHZF5/G990EXXSNHZE1/G990EXXSNHZF5",
+            "date": "2026/07/01 03:43:58",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "G990EXXSNHZF5/G990EODMNHZF5/G990EXXSNHZE1/G990EXXSNHZF5",
+        "component": "BL_G990EXXSNHZF5_G990EXXSNHZF5_MQB111024317_REV01_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "102d65b51f4cccc4316994cb28465e73b59e46dae7f08a6e5b17b98aa1785d2f",
+        "tarMd5": "d1b7d8e31a06470b542f4a0a47d9a18b"
+      }
+    },
+    {
+      "code": "SM-G990U",
+      "model": "Galaxy S21 FE 5G",
+      "checkedAt": "2026-09-16T13:10:45.621Z",
+      "attempts": [
+        {
+          "region": "XAA",
+          "historyEntries": 0
+        },
+        {
+          "region": "ATT",
+          "historyEntries": 122,
+          "latest": {
+            "version": "G990USQSNIZF2/G990UOYNNIZF2/G990USQSNIZF2/G990USQSNIZF2",
+            "date": "2026/07/01 04:05:31",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-G990U2",
+      "model": "Galaxy S21 FE 5G",
+      "checkedAt": "2026-09-16T13:10:51.874Z",
+      "attempts": [
+        {
+          "region": "XAA",
+          "historyEntries": 0
+        },
+        {
+          "region": "ATT",
+          "historyEntries": 107,
+          "latest": {
+            "version": "G990U2SQSLIZF2/G990U2OYNLIZF2/G990U2SQSLIZF2/G990U2SQSLIZF2",
+            "date": "2026/07/01 03:13:13",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-G9980",
+      "model": "Galaxy S21 Ultra 5G",
+      "checkedAt": "2026-09-16T13:10:57.822Z",
+      "attempts": [
+        {
+          "region": "TGY",
+          "historyEntries": 107,
+          "latest": {
+            "version": "G9980ZHSGHZB1/G9980OZSGHZB1/G9980ZCSGHZB1/G9980ZHSGHZB1",
+            "date": "2026/03/24 01:02:09",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-S901B",
+      "model": "Galaxy S22",
+      "checkedAt": "2026-09-16T13:11:03.609Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 130,
+          "latest": {
+            "version": "S901BXXSOGZH3/S901BOXMOGZH3/S901BXXSOGZH3/S901BXXSOGZH3",
+            "date": "2026/09/03 05:01:08",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "S901BXXSOGZH3/S901BOXMOGZH3/S901BXXSOGZH3/S901BXXSOGZH3",
+        "component": "BL_S901BXXSOGZH3_S901BXXSOGZH3_MQB113548913_REV01_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "00116480842bb6accbf8aca3ce2ee2efb422789e8f62c1492865dc105ed73eed",
+        "tarMd5": "f8ee0668eafea15d41ee8a74bab3f246"
+      }
+    },
+    {
+      "code": "SM-S901E",
+      "model": "Galaxy S22",
+      "checkedAt": "2026-09-16T13:11:12.644Z",
+      "attempts": [
+        {
+          "region": "INS",
+          "historyEntries": 109,
+          "latest": {
+            "version": "S901EXXSEGZH4/S901EOXMEGZH4/S901EXXSEGZH4/S901EXXSEGZH4",
+            "date": "2026/09/08 02:32:21",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-S901N",
+      "model": "Galaxy S22",
+      "checkedAt": "2026-09-16T13:11:19.144Z",
+      "attempts": [
+        {
+          "region": "KOO",
+          "historyEntries": 110,
+          "latest": {
+            "version": "S901NKSS9GZH3/S901NOKR9GZH3/S901NKSS9GZE4/S901NKSS9GZH3",
+            "date": "2026/08/31 10:53:22",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-S906E",
+      "model": "Galaxy S22+",
+      "checkedAt": "2026-09-16T13:11:24.013Z",
+      "attempts": [
+        {
+          "region": "INS",
+          "historyEntries": 114,
+          "latest": {
+            "version": "S906EXXSEGZH4/S906EOXMEGZH4/S906EXXSEGZH4/S906EXXSEGZH4",
+            "date": "2026/09/08 02:37:09",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-S906N",
+      "model": "Galaxy S22+",
+      "checkedAt": "2026-09-16T13:11:29.301Z",
+      "attempts": [
+        {
+          "region": "KOO",
+          "historyEntries": 115,
+          "latest": {
+            "version": "S906NKSS9GZH3/S906NOKR9GZH3/S906NKSS9GZE4/S906NKSS9GZH3",
+            "date": "2026/08/31 10:56:13",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-S908E",
+      "model": "Galaxy S22 Ultra",
+      "checkedAt": "2026-09-16T13:11:35.648Z",
+      "attempts": [
+        {
+          "region": "INS",
+          "historyEntries": 114,
+          "latest": {
+            "version": "S908EXXSEGZH4/S908EOXMEGZH4/S908EXXSEGZH4/S908EXXSEGZH4",
+            "date": "2026/09/08 02:43:12",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-S908N",
+      "model": "Galaxy S22 Ultra",
+      "checkedAt": "2026-09-16T13:11:41.448Z",
+      "attempts": [
+        {
+          "region": "KOO",
+          "historyEntries": 115,
+          "latest": {
+            "version": "S908NKSS9GZH3/S908NOKR9GZH3/S908NKSS9GZE4/S908NKSS9GZH3",
+            "date": "2026/08/31 10:57:05",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-S908U",
+      "model": "Galaxy S22 Ultra",
+      "checkedAt": "2026-09-16T13:11:46.285Z",
+      "attempts": [
+        {
+          "region": "XAA",
+          "historyEntries": 0
+        },
+        {
+          "region": "ATT",
+          "historyEntries": 125,
+          "latest": {
+            "version": "S908USQSAGZH3/S908UOYNAGZH3/S908USQSAGZH3/S908USQSAGZH3",
+            "date": "2026/09/08 07:02:34",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-S911B",
+      "model": "Galaxy S23",
+      "checkedAt": "2026-09-16T13:11:52.293Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 109,
+          "latest": {
+            "version": "S911BXXSAFZH3/S911BOXMAFZH3/S911BXXSAFZE1/S911BXXSAFZH3",
+            "date": "2026/09/02 04:01:09",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-S911N",
+      "model": "Galaxy S23",
+      "checkedAt": "2026-09-16T13:11:57.062Z",
+      "attempts": [
+        {
+          "region": "KOO",
+          "historyEntries": 104,
+          "latest": {
+            "version": "S911NKSS8FZH2/S911NOKR8FZH2/S911NKSS8FZF1/S911NKSS8FZH2",
+            "date": "2026/08/31 11:26:39",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-S916B",
+      "model": "Galaxy S23+",
+      "checkedAt": "2026-09-16T13:12:03.109Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 109,
+          "latest": {
+            "version": "S916BXXSAFZH3/S916BOXMAFZH3/S916BXXSAFZE1/S916BXXSAFZH3",
+            "date": "2026/09/02 04:01:08",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-S916N",
+      "model": "Galaxy S23+",
+      "checkedAt": "2026-09-16T13:12:09.238Z",
+      "attempts": [
+        {
+          "region": "KOO",
+          "historyEntries": 105,
+          "latest": {
+            "version": "S916NKSS8FZH2/S916NOKR8FZH2/S916NKSS8FZF1/S916NKSS8FZH2",
+            "date": "2026/08/31 11:27:10",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-S918U",
+      "model": "Galaxy S23 Ultra",
+      "checkedAt": "2026-09-16T13:12:13.156Z",
+      "attempts": [
+        {
+          "region": "XAA",
+          "historyEntries": 26,
+          "latest": {
+            "version": "S918USQS8FZH3/S918UOYN8FZH3/S918USQS8FZH3/S918USQS8FZH3",
+            "date": "2026/09/03 02:01:06",
+            "index": "2"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-S918U1",
+      "model": "Galaxy S23 Ultra",
+      "checkedAt": "2026-09-16T13:12:18.104Z",
+      "attempts": [
+        {
+          "region": "XAA",
+          "historyEntries": 105,
+          "latest": {
+            "version": "S918U1UES8FZH3/S918U1OYM8FZH3/S918U1UES8FZH3/S918U1UES8FZH3",
+            "date": "2026/09/02 07:36:46",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-S918W",
+      "model": "Galaxy S23 Ultra",
+      "checkedAt": "2026-09-16T13:12:23.902Z",
+      "attempts": [
+        {
+          "region": "XAC",
+          "historyEntries": 78,
+          "latest": {
+            "version": "S918WVLS8FZH3/S918WOYV8FZH3/S918WVLS8FZH3/S918WVLS8FZH3",
+            "date": "2026/09/04 02:48:35",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-S921B",
+      "model": "Galaxy S24",
+      "checkedAt": "2026-09-16T13:12:30.810Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 87,
+          "latest": {
+            "version": "S921BXXSHDZH3/S921BOXMHDZH3/S921BXXSHDZH3/S921BXXSHDZH3",
+            "date": "2026/08/31 05:31:06",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "S921BXXSHDZH3/S921BOXMHDZH3/S921BXXSHDZH3/S921BXXSHDZH3",
+        "component": "BL_S921BXXSHDZH3_S921BXXSHDZH3_MQB113419265_REV00_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "badb851635997aa2dca87a3398a49c0fc882c29660a64608007174aee0de74e3",
+        "tarMd5": "75d702de89211521c05c0fc602f14e40"
+      }
+    },
+    {
+      "code": "SM-S921E",
+      "model": "Galaxy S24",
+      "checkedAt": "2026-09-16T13:12:43.424Z",
+      "attempts": [
+        {
+          "region": "INS",
+          "historyEntries": 30,
+          "latest": {
+            "version": "S921EXXS3CZH2/S921EOXM3CZH2/S921EXXS3CZH2/S921EXXS3CZH2",
+            "date": "2026/09/01 04:57:10",
+            "index": "3"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-S921N",
+      "model": "Galaxy S24",
+      "checkedAt": "2026-09-16T13:12:49.303Z",
+      "attempts": [
+        {
+          "region": "KOO",
+          "historyEntries": 94,
+          "latest": {
+            "version": "S921NKSSHDZH3/S921NOKRHDZH3/S921NKSSHDZH3/S921NKSSHDZH3",
+            "date": "2026/08/26 06:31:06",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "S921NKSSHDZH3/S921NOKRHDZH3/S921NKSSHDZH3/S921NKSSHDZH3",
+        "component": "BL_S921NKSSHDZH3_S921NKSSHDZH3_MQB113425768_REV00_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "ef09c2c456ae66c152985c5cf226f4d487d547728ebc5af0c4e76074d0d60b57",
+        "tarMd5": "385ddac89dccb3331ef73247dd367ad3"
+      }
+    },
+    {
+      "code": "SM-S721B",
+      "model": "Galaxy S24 FE",
+      "checkedAt": "2026-09-16T13:12:59.730Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 52,
+          "latest": {
+            "version": "S721BXXSEDZH9/S721BOXMEDZH9/S721BXXSEDZH9/S721BXXSEDZH9",
+            "date": "2026/09/03 10:00:28",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "S721BXXSEDZH9/S721BOXMEDZH9/S721BXXSEDZH9/S721BXXSEDZH9",
+        "component": "BL_S721BXXSEDZH9_S721BXXSEDZH9_MQB113432202_REV00_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "da49a886f80d1b48133b86f32be1c7cba9657b2ab492809e1fd62e1df047242d",
+        "tarMd5": "08f86a886f7ae6d79ceab28d7517e663"
+      }
+    },
+    {
+      "code": "SM-S721U",
+      "model": "Galaxy S24 FE",
+      "checkedAt": "2026-09-16T13:13:08.817Z",
+      "attempts": [
+        {
+          "region": "XAA",
+          "historyEntries": 42,
+          "latest": {
+            "version": "S721USQSEDZH9/S721UOYNEDZH9/S721USQSEDZH9/S721USQSEDZH9",
+            "date": "2026/09/02 07:29:17",
+            "index": "2"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "S721USQSEDZH9/S721UOYNEDZH9/S721USQSEDZH9/S721USQSEDZH9",
+        "component": "BL_S721USQSEDZH9_S721USQSEDZH9_MQB113518880_REV00_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "db0bcb3b896bcadcd7a94f8521405b88e88c9a5801624b51cdcf45a6cdc5fbb3",
+        "tarMd5": "3b132d9a7108eecdbf1b826bd8919f72"
+      }
+    },
+    {
+      "code": "SM-S721W",
+      "model": "Galaxy S24 FE",
+      "checkedAt": "2026-09-16T13:13:20.202Z",
+      "attempts": [
+        {
+          "region": "XAC",
+          "historyEntries": 48,
+          "latest": {
+            "version": "S721WVLSEDZH9/S721WOYVEDZH9/S721WVLSEDZH9/S721WVLSEDZH9",
+            "date": "2026/09/04 03:03:37",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "S721WVLSEDZH9/S721WOYVEDZH9/S721WVLSEDZH9/S721WVLSEDZH9",
+        "component": "BL_S721WVLSEDZH9_S721USQSEDZH9_MQB113524628_REV00_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "f9ded6d986ffdde6391a01d5b5c372bb5be6a944bf99dddd6643d37ced2b7fff",
+        "tarMd5": "8131d304987908c848163e105c7e542c"
+      }
+    },
+    {
+      "code": "SM-S7210",
+      "model": "Galaxy S24 FE",
+      "checkedAt": "2026-09-16T13:13:32.537Z",
+      "attempts": [
+        {
+          "region": "TGY",
+          "historyEntries": 50,
+          "latest": {
+            "version": "S7210ZHSEDZH9/S7210OZSEDZH9/S7210ZHSEDZH9/S7210ZHSEDZH9",
+            "date": "2026/09/09 12:36:27",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "S7210ZHSEDZH9/S7210OZSEDZH9/S7210ZHSEDZH9/S7210ZHSEDZH9",
+        "component": "BL_S7210ZHSEDZH9_S7210ZHSEDZH9_MQB113519093_REV00_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "a7f70e8997224ce884c8ddfe5d16d5fb25141187894b59a56d4404d5d527adb3",
+        "tarMd5": "80917237604000ef45fe66bc666fb313"
+      }
+    },
+    {
+      "code": "SM-S721N",
+      "model": "Galaxy S24 FE",
+      "checkedAt": "2026-09-16T13:13:41.707Z",
+      "attempts": [
+        {
+          "region": "KOO",
+          "historyEntries": 60,
+          "latest": {
+            "version": "S721NKSSEDZH3/S721NOKREDZH3/S721NKSSEDZH1/S721NKSSEDZH3",
+            "date": "2026/08/26 06:31:05",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "S721NKSSEDZH3/S721NOKREDZH3/S721NKSSEDZH1/S721NKSSEDZH3",
+        "component": "BL_S721NKSSEDZH3_S721NKSSEDZH3_MQB113489699_REV00_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "1c69407bc356755054510a0eaa7e03a79fc5dfac3185878cf95c13f89ce40752",
+        "tarMd5": "f5c9f17dd814740048e249e0b9ba3d78"
+      }
+    },
+    {
+      "code": "SM-S928B",
+      "model": "Galaxy S24 Ultra",
+      "checkedAt": "2026-09-16T13:13:53.212Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 83,
+          "latest": {
+            "version": "S928BXXS6DZH2/S928BOXM6DZH2/S928BXXS6DZH2/S928BXXS6DZH2",
+            "date": "2026/08/31 05:31:56",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-S928N",
+      "model": "Galaxy S24 Ultra",
+      "checkedAt": "2026-09-16T13:13:58.570Z",
+      "attempts": [
+        {
+          "region": "KOO",
+          "historyEntries": 95,
+          "latest": {
+            "version": "S928NKSS6DZH2/S928NOKR6DZH2/S928NKSS6DZE1/S928NKSS6DZH2",
+            "date": "2026/08/26 06:31:08",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-S928U",
+      "model": "Galaxy S24 Ultra",
+      "checkedAt": "2026-09-16T13:14:04.458Z",
+      "attempts": [
+        {
+          "region": "XAA",
+          "historyEntries": 24,
+          "latest": {
+            "version": "S928USQS6DZH3/S928UOYN6DZH3/S928USQS6DZH3/S928USQS6DZH3",
+            "date": "2026/09/02 01:59:36",
+            "index": "2"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-S731B",
+      "model": "Galaxy S25 FE",
+      "checkedAt": "2026-09-16T13:14:10.196Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 33,
+          "latest": {
+            "version": "S731BXXS9BZH1/S731BOXM9BZH1/S731BXXS9BZH1/S731BXXS9BZH1",
+            "date": "2026/08/31 06:13:43",
+            "index": "2"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "S731BXXS9BZH1/S731BOXM9BZH1/S731BXXS9BZH1/S731BXXS9BZH1",
+        "component": "BL_S731BXXS9BZH1_S731BXXS9BZH1_MQB113436380_REV00_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "3ac8fec7f220db91563f0bc77c96749832a5b256b2c24ac49575d85edd442bd9",
+        "tarMd5": "2d3e1cfcc8709bfef7d3a619c8617453"
+      }
+    },
+    {
+      "code": "SM-T225",
+      "model": "Galaxy Tab A7 Lite",
+      "checkedAt": "2026-09-16T13:14:20.965Z",
+      "attempts": [
+        {
+          "region": "XSG",
+          "historyEntries": 0
+        },
+        {
+          "region": "INS",
+          "historyEntries": 47,
+          "latest": {
+            "version": "T225XXSBEYE4/T225ODMBEYE4/T225XXSBEYE4/T225XXSBEYE4",
+            "date": "2025/05/29 08:43:43",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "download-available",
+      "provenance": "downloads/preloader_SM-T225_T225XXSBEYE4_INS.json"
+    },
+    {
+      "code": "SM-X210",
+      "model": "Galaxy Tab A9+",
+      "checkedAt": "2026-09-16T13:14:28.220Z",
+      "attempts": [
+        {
+          "region": "TGY",
+          "historyEntries": 44,
+          "latest": {
+            "version": "X210XXSCEZG7/X210OZSCEZG7/X210XXSCEZG7/X210XXSCEZG7",
+            "date": "2026/08/18 09:37:21",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-X216",
+      "model": "Galaxy Tab A9+",
+      "checkedAt": "2026-09-16T13:14:34.198Z",
+      "attempts": [
+        {
+          "region": "XSG",
+          "historyEntries": 0
+        },
+        {
+          "region": "INS",
+          "historyEntries": 0
+        }
+      ],
+      "status": "no-firmware-found-in-checked-regions"
+    },
+    {
+      "code": "SM-T735",
+      "model": "Galaxy Tab S7 FE",
+      "checkedAt": "2026-09-16T13:14:35.667Z",
+      "attempts": [
+        {
+          "region": "XSG",
+          "historyEntries": 46,
+          "latest": {
+            "version": "T735XXS9DYF1/T735OJM9DYF1/T735XXS9DYF1/T735XXS9DYF1",
+            "date": "2025/07/10 08:36:17",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-X510",
+      "model": "Galaxy Tab S9 FE",
+      "checkedAt": "2026-09-16T13:14:42.045Z",
+      "attempts": [
+        {
+          "region": "TGY",
+          "historyEntries": 52,
+          "latest": {
+            "version": "X510XXSFEZH5/X510OXMFEZH5/X510XXSFEZH5/X510XXSFEZH5",
+            "date": "2026/09/14 10:01:05",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "X510XXSFEZH5/X510OXMFEZH5/X510XXSFEZH5/X510XXSFEZH5",
+        "component": "BL_X510XXSFEZH5_X510XXSFEZH5_MQB113697751_REV00_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "787a3b45cc2a099fa5b09d1ad16f15add7f0289f75e9799ad94a036165f13bbb",
+        "tarMd5": "090335db599ee06cc261a2e1604f9bf1"
+      }
+    },
+    {
+      "code": "SM-X516B",
+      "model": "Galaxy Tab S9 FE",
+      "checkedAt": "2026-09-16T13:14:50.685Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 52,
+          "latest": {
+            "version": "X516BXXSFEZH5/X516BOXMFEZH5/X516BXXSFEZH5/X516BXXSFEZH5",
+            "date": "2026/09/10 07:07:25",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "X516BXXSFEZH5/X516BOXMFEZH5/X516BXXSFEZH5/X516BXXSFEZH5",
+        "component": "BL_X516BXXSFEZH5_X516BXXSFEZH5_MQB113565924_REV00_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "f60ca46743182276ee0a51a18dc4c758c835060b1f0301de9ade0fa4a6aadf82",
+        "tarMd5": "25b3e1a047d737129760b8899d299a14"
+      }
+    },
+    {
+      "code": "SM-F711B",
+      "model": "Galaxy Z Flip3 5G",
+      "checkedAt": "2026-09-16T13:15:01.182Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 102,
+          "latest": {
+            "version": "F711BXXSJJZH3/F711BOXMJJZH3/F711BXXSJJZH3/F711BXXSJJZH3",
+            "date": "2026/09/07 08:33:12",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-F711N",
+      "model": "Galaxy Z Flip3 5G",
+      "checkedAt": "2026-09-16T13:15:13.134Z",
+      "attempts": [
+        {
+          "region": "KOO",
+          "historyEntries": 209,
+          "latest": {
+            "version": "F711NTBSFKZH5/F711NOKTFKZH5/F711NKSSFKZH5/F711NTBSFKZH5",
+            "date": "2026/08/31 10:47:01",
+            "index": "14"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-F711U",
+      "model": "Galaxy Z Flip3 5G",
+      "checkedAt": "2026-09-16T13:15:20.581Z",
+      "attempts": [
+        {
+          "region": "XAA",
+          "historyEntries": 0
+        },
+        {
+          "region": "ATT",
+          "historyEntries": 110,
+          "latest": {
+            "version": "F711USQSIKZH2/F711UOYNIKZH2/F711USQSIKZH2/F711USQSIKZH2",
+            "date": "2026/09/03 06:01:05",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-F721B",
+      "model": "Galaxy Z Flip4",
+      "checkedAt": "2026-09-16T13:15:28.188Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 193,
+          "latest": {
+            "version": "F721BXXSCIZH3/F721BOXTCIZE1/F721BXXSCIZE1/F721BXXSCIZH3",
+            "date": "2026/09/07 07:42:25",
+            "index": "14"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-F721N",
+      "model": "Galaxy Z Flip4",
+      "checkedAt": "2026-09-16T13:15:33.796Z",
+      "attempts": [
+        {
+          "region": "KOO",
+          "historyEntries": 193,
+          "latest": {
+            "version": "F721NKSS8IZH2/F721NOKR8IZH2/F721NKSS8IZE2/F721NKSS8IZH2",
+            "date": "2026/08/31 09:43:50",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-F721U",
+      "model": "Galaxy Z Flip4",
+      "checkedAt": "2026-09-16T13:15:39.124Z",
+      "attempts": [
+        {
+          "region": "XAA",
+          "historyEntries": 0
+        },
+        {
+          "region": "ATT",
+          "historyEntries": 108,
+          "latest": {
+            "version": "F721USQSAIZH2/F721UOYNAIZH2/F721USQSAIZH2/F721USQSAIZH2",
+            "date": "2026/09/03 06:18:16",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-F731B",
+      "model": "Galaxy Z Flip5",
+      "checkedAt": "2026-09-16T13:15:44.563Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 156,
+          "latest": {
+            "version": "F731BXXS7GZH2/F731BOXM7GZE5/F731BXXS7GZE5/F731BXXS7GZH2",
+            "date": "2026/09/03 10:30:00",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-F731U",
+      "model": "Galaxy Z Flip5",
+      "checkedAt": "2026-09-16T13:15:50.471Z",
+      "attempts": [
+        {
+          "region": "XAA",
+          "historyEntries": 26,
+          "latest": {
+            "version": "F731USQS8GZH5/F731UOYN8GZH5/F731USQS8GZH5/F731USQS8GZH5",
+            "date": "2026/09/03 06:20:43",
+            "index": "2"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-F741B",
+      "model": "Galaxy Z Flip6",
+      "checkedAt": "2026-09-16T13:15:55.969Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 65,
+          "latest": {
+            "version": "F741BXXS4DZH5/F741BOXM4DZE1/F741BXXS4DZE1/F741BXXS4DZH5",
+            "date": "2026/09/03 04:58:39",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-F741U",
+      "model": "Galaxy Z Flip6",
+      "checkedAt": "2026-09-16T13:16:01.177Z",
+      "attempts": [
+        {
+          "region": "XAA",
+          "historyEntries": 26,
+          "latest": {
+            "version": "F741USQS4DZH5/F741UOYN4DZH5/F741USQS4DZH5/F741USQS4DZH5",
+            "date": "2026/09/01 03:01:12",
+            "index": "2"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-F766B",
+      "model": "Galaxy Z Flip7 5G",
+      "checkedAt": "2026-09-16T13:16:07.025Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 44,
+          "latest": {
+            "version": "F766BXXSCBZH3/F766BOXMCBZH3/F766BXXSCBZH3/F766BXXSCBZH3",
+            "date": "2026/09/01 03:01:08",
+            "index": "2"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "F766BXXSCBZH3/F766BOXMCBZH3/F766BXXSCBZH3/F766BXXSCBZH3",
+        "component": "BL_F766BXXSCBZH3_F766BXXSCBZH3_MQB113380934_REV00_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "fc6d1c95b114cd3b0f41c4030d521eef22bceb33b3ce2e54858a220280e3c989",
+        "tarMd5": "655fe53cddc30bba0442234d2c80bda8"
+      }
+    },
+    {
+      "code": "SM-F761B",
+      "model": "Galaxy Z Flip7 FE",
+      "checkedAt": "2026-09-16T13:16:18.872Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 32,
+          "latest": {
+            "version": "F761BXXSCBZH3/F761BOXMCBZH3/F761BXXSCBZH3/F761BXXSCBZH3",
+            "date": "2026/09/01 03:01:09",
+            "index": "2"
+          }
+        }
+      ],
+      "status": "no-preloader-in-checked-bl",
+      "reason": "No preloader entry in the verified BL component",
+      "evidence": {
+        "firmware": "F761BXXSCBZH3/F761BOXMCBZH3/F761BXXSCBZH3/F761BXXSCBZH3",
+        "component": "BL_F761BXXSCBZH3_F761BXXSCBZH3_MQB113416519_REV00_user_low_ship_MULTI_CERT.tar.md5",
+        "sha256": "d566a37045666b33e23190fac6be4c9372279c2629cbb901e5fa37813d519bd0",
+        "tarMd5": "8004e21e73615e3197745c6ad257f414"
+      }
+    },
+    {
+      "code": "SM-F926B",
+      "model": "Galaxy Z Fold3 5G",
+      "checkedAt": "2026-09-16T13:16:28.522Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 114,
+          "latest": {
+            "version": "F926BXXSJJZH3/F926BOXMJJZH3/F926BXXSJJZH3/F926BXXSJJZH3",
+            "date": "2026/09/03 08:06:12",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-F926N",
+      "model": "Galaxy Z Fold3 5G",
+      "checkedAt": "2026-09-16T13:16:34.266Z",
+      "attempts": [
+        {
+          "region": "KOO",
+          "historyEntries": 213,
+          "latest": {
+            "version": "F926NKSSEKZH5/F926NOKREKZH5/F926NKSSEKZH5/F926NKSSEKZH5",
+            "date": "2026/08/31 11:33:21",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-F926U",
+      "model": "Galaxy Z Fold3 5G",
+      "checkedAt": "2026-09-16T13:16:39.284Z",
+      "attempts": [
+        {
+          "region": "XAA",
+          "historyEntries": 0
+        },
+        {
+          "region": "ATT",
+          "historyEntries": 120,
+          "latest": {
+            "version": "F926USQSHKZH2/F926UOYNHKZH2/F926USQSHKZH2/F926USQSHKZH2",
+            "date": "2026/09/03 06:01:05",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-F936B",
+      "model": "Galaxy Z Fold4",
+      "checkedAt": "2026-09-16T13:16:45.592Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 106,
+          "latest": {
+            "version": "F936BXXSCIZH3/F936BOXMCIZE1/F936BXXSCIZE1/F936BXXSCIZH3",
+            "date": "2026/09/03 11:40:51",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-F936N",
+      "model": "Galaxy Z Fold4",
+      "checkedAt": "2026-09-16T13:16:51.060Z",
+      "attempts": [
+        {
+          "region": "KOO",
+          "historyEntries": 108,
+          "latest": {
+            "version": "F936NKSS8IZH2/F936NOKR8IZH2/F936NKSS8IZE1/F936NKSS8IZH2",
+            "date": "2026/08/31 09:31:54",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-F936U",
+      "model": "Galaxy Z Fold4",
+      "checkedAt": "2026-09-16T13:16:57.767Z",
+      "attempts": [
+        {
+          "region": "XAA",
+          "historyEntries": 0
+        },
+        {
+          "region": "ATT",
+          "historyEntries": 107,
+          "latest": {
+            "version": "F936USQSAIZH2/F936UOYNAIZH2/F936USQSAIZH2/F936USQSAIZH2",
+            "date": "2026/09/03 11:46:14",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-F9460",
+      "model": "Galaxy Z Fold5",
+      "checkedAt": "2026-09-16T13:17:03.575Z",
+      "attempts": [
+        {
+          "region": "TGY",
+          "historyEntries": 168,
+          "latest": {
+            "version": "F9460TSS9GZH5/F9460OZW9GZH5/F9460ZCS9GZH5/F9460TSS9GZH5",
+            "date": "2026/09/08 12:10:44",
+            "index": "14"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-F946N",
+      "model": "Galaxy Z Fold5",
+      "checkedAt": "2026-09-16T13:17:09.773Z",
+      "attempts": [
+        {
+          "region": "KOO",
+          "historyEntries": 158,
+          "latest": {
+            "version": "F946NKSS6GZH5/F946NOKR6GZH5/F946NKSU6GZDN/F946NKSS6GZH5",
+            "date": "2026/08/31 09:31:16",
+            "index": "5"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-F946U",
+      "model": "Galaxy Z Fold5",
+      "checkedAt": "2026-09-16T13:17:16.621Z",
+      "attempts": [
+        {
+          "region": "XAA",
+          "historyEntries": 26,
+          "latest": {
+            "version": "F946USQS8GZH5/F946UOYN8GZH5/F946USQS8GZH5/F946USQS8GZH5",
+            "date": "2026/09/03 11:44:00",
+            "index": "2"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    },
+    {
+      "code": "SM-F956B",
+      "model": "Galaxy Z Fold6",
+      "checkedAt": "2026-09-16T13:17:22.289Z",
+      "attempts": [
+        {
+          "region": "EUX",
+          "historyEntries": 65,
+          "latest": {
+            "version": "F956BXXS4DZH5/F956BOXM4DZE1/F956BXXS4DZE1/F956BXXS4DZH5",
+            "date": "2026/09/03 06:13:17",
+            "index": "4"
+          }
+        }
+      ],
+      "status": "acquisition-pending",
+      "reason": "No small stock BL component"
+    }
+  ],
+  "checkedAt": "2026-09-16T13:17:28.316Z",
+  "targetCount": 120
+}

@@ -1,0 +1,59 @@
+{
+  "id": "history-gold-os3-0-4-0-vnqmixm",
+  "codename": "gold",
+  "models": [
+    "Redmi Note 13 5G"
+  ],
+  "partition": "preloader_raw",
+  "variantCode": "gold-MI",
+  "variantLabel": "gold · Global (MI)",
+  "firmware": "OS3.0.4.0.VNQMIXM",
+  "expectedBuild": "OS3.0.4.0.VNQMIXM",
+  "region": "Global (MI)",
+  "source": "https://bigota.d.miui.com/OS3.0.4.0.VNQMIXM/gold_global-ota_full-OS3.0.4.0.VNQMIXM-user-15.0-0e807b83f5.zip",
+  "deviceSource": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/gold-s-oss",
+  "discoverySource": "https://mirom.ezbox.idv.tw/en/phone/gold/roms-global-stable/",
+  "file": "preloader_gold_OS3.0.4.0.VNQMIXM.bin",
+  "bytes": 430080,
+  "sha256": "e49fe916ef1544be0c1ac28e9e0c2ae8a3cc9931c2849cb0c4cffbd8ebccc03d",
+  "checkedAt": "2026-09-16T19:34:42.526Z",
+  "metadata": {
+    "ota-property-files": "payload_metadata.bin:4667:212813,payload.bin:4667:5416843083,payload_properties.txt:5416847808:156,apex_info.pb:2213:1364,care_map.pb:3624:976,metadata:69:685,metadata.pb:822:1343                        ",
+    "ota-required-cache": "0",
+    "ota-streaming-property-files": "payload.bin:4667:5416843083,payload_properties.txt:5416847808:156,apex_info.pb:2213:1364,care_map.pb:3624:976,metadata:69:685,metadata.pb:822:1343                          ",
+    "ota-type": "AB",
+    "post-build": "Redmi/vnd_gold/gold:15/AP3A.240905.015.A2/OS3.0.4.0.VNQMIXM:user/release-keys",
+    "post-build-incremental": "OS3.0.4.0.VNQMIXM",
+    "post-sdk-level": "35",
+    "post-security-patch-level": "2026-06-01",
+    "post-timestamp": "1782732128",
+    "pre-device": "gold"
+  },
+  "sourceBytes": 5416851422,
+  "downloadedBytes": 495175,
+  "method": "Unmodified preloader partition extracted from manufacturer-hosted full OTA. Every compressed operation and final partition SHA-256 matches its payload manifest.",
+  "limits": "Full OTA signature not independently validated. Not tested with TSM or on hardware. Match device, region, firmware and security revision before use.",
+  "plan": {
+    "payloadStart": 4667,
+    "dataStart": 217480,
+    "partition": {
+      "name": "preloader_raw",
+      "size": 430080,
+      "sha256": "e49fe916ef1544be0c1ac28e9e0c2ae8a3cc9931c2849cb0c4cffbd8ebccc03d",
+      "operations": [
+        {
+          "type": 8,
+          "start": 51495640,
+          "length": 216180,
+          "sha256": "88ba86553e4d33b5b8072627e86946046fbc721c2ddd7e20f8146613f46c5087",
+          "extents": [
+            {
+              "start": 0,
+              "length": 430080
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

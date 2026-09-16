@@ -1,0 +1,25 @@
+{
+  "model": "SM-A055F",
+  "region": "XSG",
+  "version": "A055FXXS9CYE3/A055FOJM9CYE3/A055FXXS9CYE1/A055FXXS9CYE3",
+  "filename": "SM-A055F_2_20250513201101_8u0y9tmpgn_fac.zip.enc4",
+  "path": "/neofus/910/",
+  "bytes": 4194304,
+  "checkedAt": "2026-09-16T19:36:53.939Z",
+  "file": "preloader_SM-A055F_A055FXXS9CYE3_XSG.bin",
+  "firmware": "A055FXXS9CYE3",
+  "android": "14",
+  "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A055F_2_20250513201101_8u0y9tmpgn_fac.zip.enc4",
+  "packageBytes": 5853120208,
+  "sha256": "00feb028cca6301e57f94bb7dbb60279e14dff56118fcbbc3c1810595886c823",
+  "component": {
+    "name": "BL_A055FXXS9CYE3_A055FXXS9CYE3_MQB96105308_REV00_user_low_ship_MULTI_CERT.tar.md5",
+    "sha256": "a8189ed28508e787f01bc636f9301c33b0175098f48dac3d4c2985362185e8fc",
+    "tarMd5": "b9326147fe337e8b19337530673e506a",
+    "crc32": "6973b0ba",
+    "entry": "preloader.img.lz4",
+    "compressedImageSha256": "43d68345717f1a8e5d233a75ee0913e63425d83f7072ce19d88288e64ae9d69b"
+  },
+  "method": "Stock BL component from Samsung HTTPS FUS, ENC4 decrypted without firmware modifications. ZIP CRC32, TAR MD5/headers, LZ4 size/header/content checksums verified; preloader decompressed without changes.",
+  "limits": "Full firmware signature not independently verified. SHA-256 is calculated locally, not compared to a manufacturer-published preloader digest. Loading in TSM and on a phone not tested. Match exact model, region, firmware and bootloader revision."
+}

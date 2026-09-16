@@ -1,0 +1,44 @@
+{
+  "id": "realme-c67-5g-a58",
+  "brand": "Realme",
+  "stockZip": true,
+  "stockModel": "RMX3782",
+  "zipEntry": "IMAGES/preloader_raw.img",
+  "codename": "RE5C6CL1",
+  "variantCode": "RMX3782-EX01",
+  "models": [
+    "Realme C67 5G"
+  ],
+  "variantLabel": "RMX3782 · Realme C67 5G · EX01 (región por confirmar)",
+  "region": "EX01 · región por confirmar",
+  "firmware": "RMX3782_11_A.58",
+  "expectedBuild": "T.R4T2.1681239_1_330",
+  "source": "https://gauss-componentotamanual.allawnofs.com/dfs/24/04/02/f8c8f76f11574c22b833420dec803193.zip",
+  "deviceSource": "https://www.realme.com/in/realme-c67-5g/specs",
+  "regionNote": "Stock EX01 package. Region not independently confirmed; not for the C67 4G variant.",
+  "inspectOnly": false,
+  "file": "preloader_RE5C6CL1_RMX3782_11_A.58.bin",
+  "bytes": 415264,
+  "sha256": "a1b223ad3b11955547c6795b44871894846e0083cccd085440eb1f15e679a4f1",
+  "checkedAt": "2026-09-16T19:14:46.280Z",
+  "metadata": {
+    "pre-device": "RE5C6CL1",
+    "post-build-incremental": "T.R4T2.1681239_1_330",
+    "post-build": "realme/RMX3782/RE5C6CL1:13/TP1A.220905.001/T.R4T2.1681239_1_330:user/release-keys",
+    "post-security-patch-level": "2024-02-05",
+    "android_version": "13",
+    "stock_model": "RMX3782",
+    "stock_version": "RMX3782export_11_A.58_2024032714440107",
+    "version_name": "RMX3782_13.2.0.510(SP02EX01)",
+    "ota_version": "RMX3782_11_A.58",
+    "metadataSource": "build.prop (ZIP CRC32 verified)"
+  },
+  "sourceBytes": 8181266723,
+  "downloadedBytes": 301704,
+  "component": {
+    "entry": "IMAGES/preloader_raw.img",
+    "crc32": "78475f98"
+  },
+  "method": "Unmodified stock image extracted from manufacturer-hosted firmware ZIP. Device/build checked against package metadata; image size and CRC32 verified.",
+  "limits": "Full package signature not independently verified. Final SHA-256 is calculated locally, not compared with a manufacturer-published digest. Not tested in TSM or on hardware. Match model, storage layout, firmware and region."
+}

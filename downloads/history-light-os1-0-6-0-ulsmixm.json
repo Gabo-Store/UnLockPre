@@ -1,0 +1,59 @@
+{
+  "id": "history-light-os1-0-6-0-ulsmixm",
+  "codename": "light",
+  "models": [
+    "POCO M4"
+  ],
+  "partition": "preloader_raw",
+  "variantCode": "light-MI",
+  "variantLabel": "POCO M4 5G · light · Global (MI)",
+  "firmware": "OS1.0.6.0.ULSMIXM",
+  "expectedBuild": "V816.0.6.0.ULSMIXM",
+  "region": "Global (MI)",
+  "source": "https://bigota.d.miui.com/OS1.0.6.0.ULSMIXM/miui_LIGHTGlobal_OS1.0.6.0.ULSMIXM_dc0352b4ae_14.0.zip",
+  "deviceSource": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/light-u-oss",
+  "discoverySource": "https://mirom.ezbox.idv.tw/en/phone/light/roms-global-stable/",
+  "file": "preloader_light_OS1.0.6.0.ULSMIXM.bin",
+  "bytes": 405504,
+  "sha256": "2c3f3eb80f32f681abcd9b065e42efb6be641fb59b81d420ed0a50d42d39c98f",
+  "checkedAt": "2026-09-16T19:36:05.602Z",
+  "metadata": {
+    "ota-property-files": "payload_metadata.bin:3830:244175,payload.bin:3830:3872834257,payload_properties.txt:3872838145:156,apex_info.pb:2026:1020,care_map.pb:3093:690,metadata:69:683,metadata.pb:820:1158                        ",
+    "ota-required-cache": "0",
+    "ota-streaming-property-files": "payload.bin:3830:3872834257,payload_properties.txt:3872838145:156,apex_info.pb:2026:1020,care_map.pb:3093:690,metadata:69:683,metadata.pb:820:1158                          ",
+    "ota-type": "AB",
+    "post-build": "Redmi/light/light:14/UP1A.231005.007/V816.0.6.0.ULSMIXM:user/release-keys",
+    "post-build-incremental": "V816.0.6.0.ULSMIXM",
+    "post-sdk-level": "34",
+    "post-security-patch-level": "2024-08-01",
+    "post-timestamp": "1724071160",
+    "pre-device": "light"
+  },
+  "sourceBytes": 3872841639,
+  "downloadedBytes": 514943,
+  "method": "Unmodified preloader partition extracted from manufacturer-hosted full OTA. Every compressed operation and final partition SHA-256 matches its payload manifest.",
+  "limits": "Full OTA signature not independently validated. Not tested with TSM or on hardware. Match device, region, firmware and security revision before use.",
+  "plan": {
+    "payloadStart": 3830,
+    "dataStart": 248005,
+    "partition": {
+      "name": "preloader_raw",
+      "size": 405504,
+      "sha256": "2c3f3eb80f32f681abcd9b065e42efb6be641fb59b81d420ed0a50d42d39c98f",
+      "operations": [
+        {
+          "type": 8,
+          "start": 76536531,
+          "length": 204664,
+          "sha256": "1a414d647a4b6ee7318b3b4fcbb011188f48d51e209b5731b2886d3d350c68d2",
+          "extents": [
+            {
+              "start": 0,
+              "length": 405504
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

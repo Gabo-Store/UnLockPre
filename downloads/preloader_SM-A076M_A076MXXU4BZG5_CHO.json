@@ -1,0 +1,25 @@
+{
+  "model": "SM-A076M",
+  "region": "CHO",
+  "version": "A076MXXU4BZG5/A076MOWO4BZG5/A076MXXU4BZG5/A076MXXU4BZG5",
+  "filename": "SM-A076M_2_20260717213841_dq41e3y9jk_fac.zip.enc4",
+  "path": "/neofus/910/",
+  "bytes": 410112,
+  "checkedAt": "2026-09-16T19:21:55.567Z",
+  "file": "preloader_SM-A076M_A076MXXU4BZG5_CHO.bin",
+  "firmware": "A076MXXU4BZG5",
+  "android": "16",
+  "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A076M_2_20260717213841_dq41e3y9jk_fac.zip.enc4",
+  "packageBytes": 7094815504,
+  "sha256": "d3810c1ed6ee95528a29b56e61df46002a4bd573999d41ad1a75c891f57d476b",
+  "component": {
+    "name": "BL_A076MXXU4BZG5_A076MXXU4BZG5_MQB112239725_REV00_user_low_ship_MULTI_CERT.tar.md5",
+    "sha256": "53bb2df080a2b381ee1bc21bc7bc5e631974b2f97d949927ee82208db921fddb",
+    "tarMd5": "47f0bf66d706fa38c1f81d2052d71835",
+    "crc32": "801d6566",
+    "entry": "preloader.img.lz4",
+    "compressedImageSha256": "a1b0f13d44e316cf4e7fa48bf75631e57c126c060addd050fc0f4a2f20d0ea55"
+  },
+  "method": "Stock BL component from Samsung HTTPS FUS, ENC4 decrypted without firmware modifications. ZIP CRC32, TAR MD5/headers, LZ4 size/header/content checksums verified; preloader decompressed without changes.",
+  "limits": "Full firmware signature not independently verified. SHA-256 is calculated locally, not compared to a manufacturer-published preloader digest. Loading in TSM and on a phone not tested. Match exact model, region, firmware and bootloader revision."
+}

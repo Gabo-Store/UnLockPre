@@ -1,0 +1,2140 @@
+{
+  "schemaVersion": 1,
+  "scope": "Distinct unmodified stock preloader binaries, including historical firmware and regions. File count is NOT a device/model count. Full package signatures and TSM/hardware compatibility have not been independently verified.",
+  "uniqueFiles": 111,
+  "modelReferences": 18,
+  "variantRegionReferences": 43,
+  "totalBytes": 120348900,
+  "byBrand": {
+    "Xiaomi": 42,
+    "Samsung": 63,
+    "Oneplus": 1,
+    "Realme": 5
+  },
+  "files": [
+    {
+      "id": "xiaomi-gale-in-miui14",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 13C",
+        "POCO C65"
+      ],
+      "variant": "gale-IN",
+      "variantLabel": "gale · India (IN)",
+      "firmware": "V14.0.5.0.TGPINXM",
+      "build": "V14.0.5.0.TGPINXM",
+      "region": "India (IN)",
+      "android": "13",
+      "filename": "preloader_gale_V14.0.5.0.TGPINXM_IN.bin",
+      "href": "downloads/preloader_gale_V14.0.5.0.TGPINXM_IN.bin",
+      "bytes": 335872,
+      "sha256": "654642ac22f7849b23cefd45a65db3870ab008d3f3e74abd5f0de47600af5a6c",
+      "provenance": "downloads/provenance.json",
+      "source": "https://bigota.d.miui.com/V14.0.5.0.TGPINXM/miui_GALEINGlobal_V14.0.5.0.TGPINXM_13d4997127_13.0.zip"
+    },
+    {
+      "id": "earth-india-hyperos1",
+      "brand": "Xiaomi",
+      "models": [
+        "POCO C55"
+      ],
+      "variant": "earth-IN",
+      "variantLabel": "earth · India (IN)",
+      "firmware": "OS1.0.13.0.UCVINXM",
+      "build": "V816.0.13.0.UCVINXM",
+      "region": "India (IN)",
+      "android": "14",
+      "filename": "preloader_earth_OS1.0.13.0.UCVINXM.bin",
+      "href": "downloads/preloader_earth_OS1.0.13.0.UCVINXM.bin",
+      "bytes": 315392,
+      "sha256": "8fbc5b4914da82396fbd9fafb3475563cdc617bcbf8efe1883e9dfaf4b538420",
+      "provenance": "downloads/earth-india-hyperos1.json",
+      "source": "https://bigota.d.miui.com/OS1.0.13.0.UCVINXM/miui_EARTHINGlobal_OS1.0.13.0.UCVINXM_3eb9f975c0_14.0.zip"
+    },
+    {
+      "id": "fire-global-miui14",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 12 Fire"
+      ],
+      "variant": "fire-MI",
+      "variantLabel": "fire · Global (MI)",
+      "firmware": "V14.0.9.0.TMXMIXM",
+      "build": "V14.0.9.0.TMXMIXM",
+      "region": "Global (MI)",
+      "android": "13",
+      "filename": "preloader_fire_V14.0.9.0.TMXMIXM.bin",
+      "href": "downloads/preloader_fire_V14.0.9.0.TMXMIXM.bin",
+      "bytes": 315392,
+      "sha256": "307ec86dd932e4e4105d67c6fba1629171ed2d274bf2fdeb824126e435f024a2",
+      "provenance": "downloads/fire-global-miui14.json",
+      "source": "https://bigota.d.miui.com/V14.0.9.0.TMXMIXM/miui_FIREGlobal_V14.0.9.0.TMXMIXM_fdac58873b_13.0.zip"
+    },
+    {
+      "id": "gale-global-hyperos2",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 13C",
+        "POCO C65"
+      ],
+      "variant": "gale-MI",
+      "variantLabel": "gale · Global (MI)",
+      "firmware": "OS2.0.208.0.VGPMIXM",
+      "build": "OS2.0.208.0.VGPMIXM",
+      "region": "Global (MI)",
+      "android": "15",
+      "filename": "preloader_gale_OS2.0.208.0.VGPMIXM.bin",
+      "href": "downloads/preloader_gale_OS2.0.208.0.VGPMIXM.bin",
+      "bytes": 335872,
+      "sha256": "93573d625a8e648c9488dd7242cf350389e7c9254e87ffcc9f2bde6a98c1d4f3",
+      "provenance": "downloads/gale-global-hyperos2.json",
+      "source": "https://bigota.d.miui.com/OS2.0.208.0.VGPMIXM/gale_global-ota_full-OS2.0.208.0.VGPMIXM-user-15.0-3276654352.zip"
+    },
+    {
+      "id": "gold-global-hyperos3",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi Note 13 5G"
+      ],
+      "variant": "gold-MI",
+      "variantLabel": "gold · Global (MI)",
+      "firmware": "OS3.0.5.0.VNQMIXM",
+      "build": "OS3.0.5.0.VNQMIXM",
+      "region": "Global (MI)",
+      "android": "15",
+      "filename": "preloader_gold_OS3.0.5.0.VNQMIXM.bin",
+      "href": "downloads/preloader_gold_OS3.0.5.0.VNQMIXM.bin",
+      "bytes": 430080,
+      "sha256": "526dece14a5012d35d195a0785105a44218313a1bc6640bb16c5e3e65c466fb5",
+      "provenance": "downloads/gold-global-hyperos3.json",
+      "source": "https://bigota.d.miui.com/OS3.0.5.0.VNQMIXM/gold_global-ota_full-OS3.0.5.0.VNQMIXM-user-15.0-df9ff3aa93.zip"
+    },
+    {
+      "id": "SM-A055F",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A05"
+      ],
+      "variant": "SM-A055F",
+      "variantLabel": "SM-A055F",
+      "firmware": "A055FXXSHDZF1",
+      "build": "A055FXXSHDZF1",
+      "region": "XSG",
+      "android": "15",
+      "filename": "preloader_SM-A055F_A055FXXSHDZF1_XSG.bin",
+      "href": "downloads/preloader_SM-A055F_A055FXXSHDZF1_XSG.bin",
+      "bytes": 4194304,
+      "sha256": "ddc3bbff3c163777d059baea92a5585c7064c276fb8b9ffe2b39f774a317d8ef",
+      "provenance": "downloads/preloader_SM-A055F_A055FXXSHDZF1_XSG.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A055F_4_20260611160141_u54ho0ssec_fac.zip.enc4"
+    },
+    {
+      "id": "SM-A055M",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A05"
+      ],
+      "variant": "SM-A055M",
+      "variantLabel": "SM-A055M",
+      "firmware": "A055MUBSJDZF1",
+      "build": "A055MUBSJDZF1",
+      "region": "CHO",
+      "android": "15",
+      "filename": "preloader_SM-A055M_A055MUBSJDZF1_CHO.bin",
+      "href": "downloads/preloader_SM-A055M_A055MUBSJDZF1_CHO.bin",
+      "bytes": 4194304,
+      "sha256": "a00b2a4fd305b03cd745b751cee8c81d942cbc2fa9c78a0ca97b7f1401562fac",
+      "provenance": "downloads/preloader_SM-A055M_A055MUBSJDZF1_CHO.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A055M_4_20260619091642_b1u8ip1gtv_fac.zip.enc4"
+    },
+    {
+      "id": "ice-india-miui13",
+      "brand": "Xiaomi",
+      "models": [
+        "POCO C50"
+      ],
+      "variant": "ice-IN",
+      "variantLabel": "ice · India (IN)",
+      "firmware": "V13.0.17.0.SGMINXM",
+      "build": "V13.0.17.0.SGMINXM",
+      "region": "India (IN)",
+      "android": "12",
+      "filename": "preloader_ice_V13.0.17.0.SGMINXM.bin",
+      "href": "downloads/preloader_ice_V13.0.17.0.SGMINXM.bin",
+      "bytes": 249856,
+      "sha256": "936314498781b048730e5e2599bfd63a3d5f20a4dadb767e746f982075fcc51a",
+      "provenance": "downloads/ice-india-miui13.json",
+      "source": "https://bigota.d.miui.com/V13.0.17.0.SGMINXM/miui_ICEINGlobal_V13.0.17.0.SGMINXM_e0564bd4a0_12.0.zip"
+    },
+    {
+      "id": "light-global-hyperos1",
+      "brand": "Xiaomi",
+      "models": [
+        "POCO M4"
+      ],
+      "variant": "light-MI",
+      "variantLabel": "POCO M4 5G · light · Global (MI)",
+      "firmware": "OS1.0.7.0.ULSMIXM",
+      "build": "V816.0.7.0.ULSMIXM",
+      "region": "Global (MI)",
+      "android": "14",
+      "filename": "preloader_light_OS1.0.7.0.ULSMIXM.bin",
+      "href": "downloads/preloader_light_OS1.0.7.0.ULSMIXM.bin",
+      "bytes": 405504,
+      "sha256": "225c327695d96a4b8b205428a9a12d1ac045dfb0d5272c6b1955da5579df6b47",
+      "provenance": "downloads/light-global-hyperos1.json",
+      "source": "https://bigota.d.miui.com/OS1.0.7.0.ULSMIXM/miui_LIGHTGlobal_OS1.0.7.0.ULSMIXM_5bdefe674f_14.0.zip"
+    },
+    {
+      "id": "nord2-eea-f50",
+      "brand": "Oneplus",
+      "models": [
+        "OnePlus Nord 2"
+      ],
+      "variant": "OP515BL1-EEA",
+      "variantLabel": "DN2103 · Nord 2 · Europa (EEA)",
+      "firmware": "DN2103_11_F.50",
+      "build": "R.15bfc77-f07e",
+      "region": "Europa (EEA)",
+      "android": "13",
+      "filename": "preloader_OP515BL1_DN2103_11_F.50.bin",
+      "href": "downloads/preloader_OP515BL1_DN2103_11_F.50.bin",
+      "bytes": 482688,
+      "sha256": "b786c41046edd92d0db713251153416c82818718f8270c9817539b239097a6c3",
+      "provenance": "downloads/nord2-eea-f50.json",
+      "source": "https://gauss-componentotacostmanual-eu.allawnofs.com/remove-fc1e73b84890b5b60d1e8bdf4d2af44d/component-ota/24/01/12/84b893bbfcff44a7840e39bde8ada51f.zip"
+    },
+    {
+      "id": "samsung-SM-A076E-XSG-A076EXXS5BZI3",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A07 5G"
+      ],
+      "variant": "SM-A076E",
+      "variantLabel": "SM-A076E",
+      "firmware": "A076EXXS5BZI3",
+      "build": "A076EXXS5BZI3",
+      "region": "XSG",
+      "android": "16",
+      "filename": "preloader_SM-A076E_A076EXXS5BZI3_XSG.bin",
+      "href": "downloads/preloader_SM-A076E_A076EXXS5BZI3_XSG.bin",
+      "bytes": 410112,
+      "sha256": "c5e091022e2246b7443b25641a529bbc329ebe0c7d5bcd7c349e3e7a68e7d17a",
+      "provenance": "downloads/preloader_SM-A076E_A076EXXS5BZI3_XSG.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A076E_2_20260907234530_0cqer6b9cm_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A076M-CHO-A076MXXS4BZH1",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A07 5G"
+      ],
+      "variant": "SM-A076M",
+      "variantLabel": "SM-A076M",
+      "firmware": "A076MXXS4BZH1",
+      "build": "A076MXXS4BZH1",
+      "region": "CHO",
+      "android": "16",
+      "filename": "preloader_SM-A076M_A076MXXS4BZH1_CHO.bin",
+      "href": "downloads/preloader_SM-A076M_A076MXXS4BZH1_CHO.bin",
+      "bytes": 410112,
+      "sha256": "cd1b63e9f46bcdde68ddefd7ebf19b6485570a234aaf6d392f1a6ede653d77a7",
+      "provenance": "downloads/preloader_SM-A076M_A076MXXS4BZH1_CHO.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A076M_2_20260730030110_as7o2qmyy3_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A155M-CHO-A155MUBSBEZG1",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A15"
+      ],
+      "variant": "SM-A155M",
+      "variantLabel": "SM-A155M",
+      "firmware": "A155MUBSBEZG1",
+      "build": "A155MUBSBEZG1",
+      "region": "CHO",
+      "android": "16",
+      "filename": "preloader_SM-A155M_A155MUBSBEZG1_CHO.bin",
+      "href": "downloads/preloader_SM-A155M_A155MUBSBEZG1_CHO.bin",
+      "bytes": 311808,
+      "sha256": "97d26d2cdbe178eb7040145d6dc6c26d65921116253325d31106c915bfca6b8b",
+      "provenance": "downloads/preloader_SM-A155M_A155MUBSBEZG1_CHO.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A155M_4_20260720215700_1lxhm2ajc0_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A1560-TGY-A1560ZHSAEZG1",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A15 5G"
+      ],
+      "variant": "SM-A1560",
+      "variantLabel": "SM-A1560",
+      "firmware": "A1560ZHSAEZG1",
+      "build": "A1560ZHSAEZG1",
+      "region": "TGY",
+      "android": "16",
+      "filename": "preloader_SM-A1560_A1560ZHSAEZG1_TGY.bin",
+      "href": "downloads/preloader_SM-A1560_A1560ZHSAEZG1_TGY.bin",
+      "bytes": 336384,
+      "sha256": "b34b68b9b50933c663269e962d3571b599c8dc17659ec7d13fdb5705da451547",
+      "provenance": "downloads/preloader_SM-A1560_A1560ZHSAEZG1_TGY.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A1560_3_20260722151041_tr1nel87b1_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A156E-INS-A156EDXSAEZG1",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A15 5G"
+      ],
+      "variant": "SM-A156E",
+      "variantLabel": "SM-A156E",
+      "firmware": "A156EDXSAEZG1",
+      "build": "A156EDXSAEZG1",
+      "region": "INS",
+      "android": "16",
+      "filename": "preloader_SM-A156E_A156EDXSAEZG1_INS.bin",
+      "href": "downloads/preloader_SM-A156E_A156EDXSAEZG1_INS.bin",
+      "bytes": 336384,
+      "sha256": "eb358d2bd5b10c6bd4f81c71a08680e3544a9849406c7b98354ef259921f4d2b",
+      "provenance": "downloads/preloader_SM-A156E_A156EDXSAEZG1_INS.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A156E_4_20260716140911_w2ehcg5kgg_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A165F-XSG-A165FXXSBDZH6",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A16"
+      ],
+      "variant": "SM-A165F",
+      "variantLabel": "SM-A165F",
+      "firmware": "A165FXXSBDZH6",
+      "build": "A165FXXSBDZH6",
+      "region": "XSG",
+      "android": "16",
+      "filename": "preloader_SM-A165F_A165FXXSBDZH6_XSG.bin",
+      "href": "downloads/preloader_SM-A165F_A165FXXSBDZH6_XSG.bin",
+      "bytes": 311808,
+      "sha256": "2fe4fd8b64e17502674d64d40f5504054f006fff4833a5aed7ed8ad02175f29e",
+      "provenance": "downloads/preloader_SM-A165F_A165FXXSBDZH6_XSG.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A165F_4_20260825192831_pe5qc8mjz2_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-T225-INS-T225XXSBEYE4",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy Tab A7 Lite"
+      ],
+      "variant": "SM-T225",
+      "variantLabel": "SM-T225",
+      "firmware": "T225XXSBEYE4",
+      "build": "T225XXSBEYE4",
+      "region": "INS",
+      "android": "14",
+      "filename": "preloader_SM-T225_T225XXSBEYE4_INS.bin",
+      "href": "downloads/preloader_SM-T225_T225XXSBEYE4_INS.bin",
+      "bytes": 4194304,
+      "sha256": "7609a28a703bd8761ab3a14ba77d8527ff0658803dee5ef71ee4d82b29f3fdb5",
+      "provenance": "downloads/preloader_SM-T225_T225XXSBEYE4_INS.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-T225_4_20250515150110_caxkb6pkae_fac.zip.enc4"
+    },
+    {
+      "id": "realme10-eea-2302",
+      "brand": "Realme",
+      "models": [
+        "Realme 10"
+      ],
+      "variant": "RMX3630-EEA",
+      "variantLabel": "RMX3630 · Realme 10 4G · Europa (EEA)",
+      "firmware": "RMX3630_14.0.0.2302(EX01)",
+      "build": "S.204fad2-2",
+      "region": "Europa (EEA)",
+      "android": "14",
+      "filename": "preloader_RE8DDCL1_RMX3630_14.0.0.2302_EX01_.bin",
+      "href": "downloads/preloader_RE8DDCL1_RMX3630_14.0.0.2302_EX01_.bin",
+      "bytes": 393216,
+      "sha256": "d04bbb5e34902d167b937366d439cfcf1e39dd33984f402d2d9ff6851412e08c",
+      "provenance": "downloads/realme10-eea-2302.json",
+      "source": "https://gauss-componentotamanual.allawnofs.com/remove-e5da642447710d66dab2cc6eae016ad2/component-ota/25/10/23/238986a7846248459d03bb7bc15fbbf0.zip"
+    },
+    {
+      "id": "realme11-eea-110",
+      "brand": "Realme",
+      "models": [
+        "Realme 11 4G / 5G"
+      ],
+      "variant": "RMX3780-EEA",
+      "variantLabel": "RMX3780 · Realme 11 5G · Europa (EEA)",
+      "firmware": "RMX3780_15.0.0.110(EX01)",
+      "build": "T.R4T2.1d298ea-181ed-43750",
+      "region": "Europa (EEA)",
+      "android": "15",
+      "filename": "preloader_RE5C6CL1_RMX3780_15.0.0.110_EX01_.bin",
+      "href": "downloads/preloader_RE5C6CL1_RMX3780_15.0.0.110_EX01_.bin",
+      "bytes": 421888,
+      "sha256": "3b5629e2c97c78b878b6f5769bfb2a6ed50f6478d9dec1a7dc54949b4d9db809",
+      "provenance": "downloads/realme11-eea-110.json",
+      "source": "https://gauss-componentotamanual.allawnofs.com/remove-c50b42d5d433ea8eb66d444edd3d06f4/component-ota/25/03/27/e1ac4cde0e0841dfa73e6b2f94b830bd.zip"
+    },
+    {
+      "id": "realme11-4g-ex01-1910",
+      "brand": "Realme",
+      "models": [
+        "Realme 11 4G / 5G"
+      ],
+      "variant": "RMX3636-EX01",
+      "variantLabel": "RMX3636 · Realme 11 4G · EX01 (región por confirmar)",
+      "firmware": "RMX3636_15.0.0.1910(EX01)",
+      "build": "T.R4T2.24cb07a-597fc",
+      "region": "EX01 · región por confirmar",
+      "android": "15",
+      "filename": "preloader_RE5C7CL1_RMX3636_15.0.0.1910_EX01_.bin",
+      "href": "downloads/preloader_RE5C7CL1_RMX3636_15.0.0.1910_EX01_.bin",
+      "bytes": 397312,
+      "sha256": "8a6f066d8f9d14cf275364c99e60d08d824e4c2538d150ac669b7b9a32561c4c",
+      "provenance": "downloads/realme11-4g-ex01-1910.json",
+      "source": "https://gauss-componentotamanual.allawnofs.com/remove-7d624b0209e413936e4c2e66fcc2f52a/component-ota/26/07/23/b315efe173064d8ab25725cff314c7a6.zip"
+    },
+    {
+      "id": "realme-c67-5g-a58",
+      "brand": "Realme",
+      "models": [
+        "Realme C67 5G"
+      ],
+      "variant": "RMX3782-EX01",
+      "variantLabel": "RMX3782 · Realme C67 5G · EX01 (región por confirmar)",
+      "firmware": "RMX3782_11_A.58",
+      "build": "T.R4T2.1681239_1_330",
+      "region": "EX01 · región por confirmar",
+      "android": "13",
+      "filename": "preloader_RE5C6CL1_RMX3782_11_A.58.bin",
+      "href": "downloads/preloader_RE5C6CL1_RMX3782_11_A.58.bin",
+      "bytes": 415264,
+      "sha256": "a1b223ad3b11955547c6795b44871894846e0083cccd085440eb1f15e679a4f1",
+      "provenance": "downloads/realme-c67-5g-a58.json",
+      "source": "https://gauss-componentotamanual.allawnofs.com/dfs/24/04/02/f8c8f76f11574c22b833420dec803193.zip"
+    },
+    {
+      "id": "realme12x-in-c40",
+      "brand": "Realme",
+      "models": [
+        "Realme 12X"
+      ],
+      "variant": "RMX3998-IN",
+      "variantLabel": "RMX3998 · Realme 12X 5G · India (IN)",
+      "firmware": "RMX3998_11_C.40",
+      "build": "U.R4T2.1d9aa57-10fdc-5884b",
+      "region": "India (IN)",
+      "android": "15",
+      "filename": "preloader_RE5C94L1_RMX3998_11_C.40.bin",
+      "href": "downloads/preloader_RE5C94L1_RMX3998_11_C.40.bin",
+      "bytes": 420164,
+      "sha256": "da6b486e4d649f826128f8678da53256055c1b270733b18bf99b3be328380b88",
+      "provenance": "downloads/realme12x-in-c40.json",
+      "source": "https://gauss-componentotamanual.allawnofs.com/dfs/25/05/29/fc7be0aa4f2647e995946981efcdb9cb.zip"
+    },
+    {
+      "id": "history-fire-os2-0-204-0-vmxidxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 12 Fire"
+      ],
+      "variant": "fire-ID",
+      "variantLabel": "fire · Indonesia (ID)",
+      "firmware": "OS2.0.204.0.VMXIDXM",
+      "build": "OS2.0.204.0.VMXIDXM",
+      "region": "Indonesia (ID)",
+      "android": "15",
+      "filename": "preloader_fire_OS2.0.204.0.VMXIDXM.bin",
+      "href": "downloads/preloader_fire_OS2.0.204.0.VMXIDXM.bin",
+      "bytes": 323584,
+      "sha256": "f26c3fd6773e212ec0f57dcafe5989bce3fa07b5bc3f6650b8a8eeb9cc23c951",
+      "provenance": "downloads/history-fire-os2-0-204-0-vmxidxm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.204.0.VMXIDXM/fire_id_global-ota_full-OS2.0.204.0.VMXIDXM-user-15.0-ce6c4db988.zip"
+    },
+    {
+      "id": "history-fire-os2-0-204-0-vmxruxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 12 Fire"
+      ],
+      "variant": "fire-RU",
+      "variantLabel": "fire · Rusia (RU)",
+      "firmware": "OS2.0.204.0.VMXRUXM",
+      "build": "OS2.0.204.0.VMXRUXM",
+      "region": "Rusia (RU)",
+      "android": "15",
+      "filename": "preloader_fire_OS2.0.204.0.VMXRUXM.bin",
+      "href": "downloads/preloader_fire_OS2.0.204.0.VMXRUXM.bin",
+      "bytes": 323584,
+      "sha256": "b2b5522cf8d6c47583a9d505e135073906181332a588f1717d76bb91f01b6be1",
+      "provenance": "downloads/history-fire-os2-0-204-0-vmxruxm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.204.0.VMXRUXM/fire_ru_global-ota_full-OS2.0.204.0.VMXRUXM-user-15.0-c7a2423408.zip"
+    },
+    {
+      "id": "history-fire-os2-0-207-0-vmxinxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 12 Fire"
+      ],
+      "variant": "fire-IN",
+      "variantLabel": "fire · India (IN)",
+      "firmware": "OS2.0.207.0.VMXINXM",
+      "build": "OS2.0.207.0.VMXINXM",
+      "region": "India (IN)",
+      "android": "15",
+      "filename": "preloader_fire_OS2.0.207.0.VMXINXM.bin",
+      "href": "downloads/preloader_fire_OS2.0.207.0.VMXINXM.bin",
+      "bytes": 323584,
+      "sha256": "5cf4abf407fff15512873d1d681ac64b0caa00d150893e6d81a1a0e3de4f9631",
+      "provenance": "downloads/history-fire-os2-0-207-0-vmxinxm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.207.0.VMXINXM/fire_in_global-ota_full-OS2.0.207.0.VMXINXM-user-15.0-4285e38392.zip"
+    },
+    {
+      "id": "history-fire-os2-0-209-0-vmxmixm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 12 Fire"
+      ],
+      "variant": "fire-MI",
+      "variantLabel": "fire · Global (MI)",
+      "firmware": "OS2.0.209.0.VMXMIXM",
+      "build": "OS2.0.209.0.VMXMIXM",
+      "region": "Global (MI)",
+      "android": "15",
+      "filename": "preloader_fire_OS2.0.209.0.VMXMIXM.bin",
+      "href": "downloads/preloader_fire_OS2.0.209.0.VMXMIXM.bin",
+      "bytes": 323584,
+      "sha256": "be08bfdfaffaa1ff7ab95b28f32f9cf50cd74e669f22ab2ae0a605835a7acd4b",
+      "provenance": "downloads/history-fire-os2-0-209-0-vmxmixm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.209.0.VMXMIXM/fire_global-ota_full-OS2.0.209.0.VMXMIXM-user-15.0-15667ba4a1.zip"
+    },
+    {
+      "id": "history-fire-os2-0-213-0-vmxeuxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 12 Fire"
+      ],
+      "variant": "fire-EU",
+      "variantLabel": "fire · Europa (EU)",
+      "firmware": "OS2.0.213.0.VMXEUXM",
+      "build": "OS2.0.213.0.VMXEUXM",
+      "region": "Europa (EU)",
+      "android": "15",
+      "filename": "preloader_fire_OS2.0.213.0.VMXEUXM.bin",
+      "href": "downloads/preloader_fire_OS2.0.213.0.VMXEUXM.bin",
+      "bytes": 323584,
+      "sha256": "d317cd324a1cd3c041ba5eb025cb7f7cc381f0902d82edcea5fe7c0f4da5f175",
+      "provenance": "downloads/history-fire-os2-0-213-0-vmxeuxm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.213.0.VMXEUXM/fire_eea_global-ota_full-OS2.0.213.0.VMXEUXM-user-15.0-09797cbdb7.zip"
+    },
+    {
+      "id": "history-gale-os2-0-201-0-vgptwxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 13C",
+        "POCO C65"
+      ],
+      "variant": "gale-TW",
+      "variantLabel": "gale · Taiwán (TW)",
+      "firmware": "OS2.0.201.0.VGPTWXM",
+      "build": "OS2.0.201.0.VGPTWXM",
+      "region": "Taiwán (TW)",
+      "android": "15",
+      "filename": "preloader_gale_OS2.0.201.0.VGPTWXM.bin",
+      "href": "downloads/preloader_gale_OS2.0.201.0.VGPTWXM.bin",
+      "bytes": 335872,
+      "sha256": "0658e66bcb7bc2ade65827065b90a3408504d402510285b7f1356b03e4a5bbf0",
+      "provenance": "downloads/history-gale-os2-0-201-0-vgptwxm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.201.0.VGPTWXM/gale_tw_global-ota_full-OS2.0.201.0.VGPTWXM-user-15.0-bebc0e0c1a.zip"
+    },
+    {
+      "id": "history-gale-os2-0-203-0-vgptrxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 13C",
+        "POCO C65"
+      ],
+      "variant": "gale-TR",
+      "variantLabel": "gale · Turquía (TR)",
+      "firmware": "OS2.0.203.0.VGPTRXM",
+      "build": "OS2.0.203.0.VGPTRXM",
+      "region": "Turquía (TR)",
+      "android": "15",
+      "filename": "preloader_gale_OS2.0.203.0.VGPTRXM.bin",
+      "href": "downloads/preloader_gale_OS2.0.203.0.VGPTRXM.bin",
+      "bytes": 335872,
+      "sha256": "6b69bf719c3d283994ac520fef0cbf4327ec9ca0f40d2b8b6f8c001e7a8f27dc",
+      "provenance": "downloads/history-gale-os2-0-203-0-vgptrxm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.203.0.VGPTRXM/gale_tr_global-ota_full-OS2.0.203.0.VGPTRXM-user-15.0-9a573474d8.zip"
+    },
+    {
+      "id": "history-gale-os2-0-204-0-vgpruxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 13C",
+        "POCO C65"
+      ],
+      "variant": "gale-RU",
+      "variantLabel": "gale · Rusia (RU)",
+      "firmware": "OS2.0.204.0.VGPRUXM",
+      "build": "OS2.0.204.0.VGPRUXM",
+      "region": "Rusia (RU)",
+      "android": "15",
+      "filename": "preloader_gale_OS2.0.204.0.VGPRUXM.bin",
+      "href": "downloads/preloader_gale_OS2.0.204.0.VGPRUXM.bin",
+      "bytes": 335872,
+      "sha256": "f308c5352f7db3744a0109a84bed3d5b1e82faa1acb5a9377b0f3e0b9b8ac6a9",
+      "provenance": "downloads/history-gale-os2-0-204-0-vgpruxm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.204.0.VGPRUXM/gale_ru_global-ota_full-OS2.0.204.0.VGPRUXM-user-15.0-ad567f65d1.zip"
+    },
+    {
+      "id": "history-gale-os2-0-208-0-vgpidxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 13C",
+        "POCO C65"
+      ],
+      "variant": "gale-ID",
+      "variantLabel": "gale · Indonesia (ID)",
+      "firmware": "OS2.0.208.0.VGPIDXM",
+      "build": "OS2.0.208.0.VGPIDXM",
+      "region": "Indonesia (ID)",
+      "android": "15",
+      "filename": "preloader_gale_OS2.0.208.0.VGPIDXM.bin",
+      "href": "downloads/preloader_gale_OS2.0.208.0.VGPIDXM.bin",
+      "bytes": 335872,
+      "sha256": "8699ac216a8217d2beb9aa2b469baa1aa2ba43c7c8b120f8183c14d236c06ce2",
+      "provenance": "downloads/history-gale-os2-0-208-0-vgpidxm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.208.0.VGPIDXM/gale_id_global-ota_full-OS2.0.208.0.VGPIDXM-user-15.0-288da17a46.zip"
+    },
+    {
+      "id": "history-gale-os2-0-208-0-vgpinxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 13C",
+        "POCO C65"
+      ],
+      "variant": "gale-IN",
+      "variantLabel": "gale · India (IN)",
+      "firmware": "OS2.0.208.0.VGPINXM",
+      "build": "OS2.0.208.0.VGPINXM",
+      "region": "India (IN)",
+      "android": "15",
+      "filename": "preloader_gale_OS2.0.208.0.VGPINXM.bin",
+      "href": "downloads/preloader_gale_OS2.0.208.0.VGPINXM.bin",
+      "bytes": 335872,
+      "sha256": "a507574b414a2a3c64e67b6f161bcf66f1ffecacd169a6ee7cabd6441b188bc5",
+      "provenance": "downloads/history-gale-os2-0-208-0-vgpinxm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.208.0.VGPINXM/gale_in_global-ota_full-OS2.0.208.0.VGPINXM-user-15.0-5254f0d265.zip"
+    },
+    {
+      "id": "history-gale-os2-0-211-0-vgpeuxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 13C",
+        "POCO C65"
+      ],
+      "variant": "gale-EU",
+      "variantLabel": "gale · Europa (EU)",
+      "firmware": "OS2.0.211.0.VGPEUXM",
+      "build": "OS2.0.211.0.VGPEUXM",
+      "region": "Europa (EU)",
+      "android": "15",
+      "filename": "preloader_gale_OS2.0.211.0.VGPEUXM.bin",
+      "href": "downloads/preloader_gale_OS2.0.211.0.VGPEUXM.bin",
+      "bytes": 335872,
+      "sha256": "76ac4117137d1d0a765339ff072eb2061cfb9bd35ad598de89b970f47ff20b94",
+      "provenance": "downloads/history-gale-os2-0-211-0-vgpeuxm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.211.0.VGPEUXM/gale_eea_global-ota_full-OS2.0.211.0.VGPEUXM-user-15.0-89ba08140c.zip"
+    },
+    {
+      "id": "samsung-SM-A055F-XSG-A055FXXSFDZD1",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A05"
+      ],
+      "variant": "SM-A055F",
+      "variantLabel": "SM-A055F",
+      "firmware": "A055FXXSFDZD1",
+      "build": "A055FXXSFDZD1",
+      "region": "XSG",
+      "android": "15",
+      "filename": "preloader_SM-A055F_A055FXXSFDZD1_XSG.bin",
+      "href": "downloads/preloader_SM-A055F_A055FXXSFDZD1_XSG.bin",
+      "bytes": 4194304,
+      "sha256": "08ec8b2014dc8e32aa460a8c14bdea4d6b77f8e8962125eac783475f93192d91",
+      "provenance": "downloads/preloader_SM-A055F_A055FXXSFDZD1_XSG.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A055F_4_20260401171701_dn2kok3otx_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A055F-XSG-A055FXXSGDZE2",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A05"
+      ],
+      "variant": "SM-A055F",
+      "variantLabel": "SM-A055F",
+      "firmware": "A055FXXSGDZE2",
+      "build": "A055FXXSGDZE2",
+      "region": "XSG",
+      "android": "15",
+      "filename": "preloader_SM-A055F_A055FXXSGDZE2_XSG.bin",
+      "href": "downloads/preloader_SM-A055F_A055FXXSGDZE2_XSG.bin",
+      "bytes": 4194304,
+      "sha256": "900374da1e82aba390364b835645899d02d4db67a9c93edef79a38c1f3b6044d",
+      "provenance": "downloads/preloader_SM-A055F_A055FXXSGDZE2_XSG.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A055F_4_20260528105310_nwc92d4ouz_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A055F-XSG-A055FXXUEDZB2",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A05"
+      ],
+      "variant": "SM-A055F",
+      "variantLabel": "SM-A055F",
+      "firmware": "A055FXXUEDZB2",
+      "build": "A055FXXUEDZB2",
+      "region": "XSG",
+      "android": "15",
+      "filename": "preloader_SM-A055F_A055FXXUEDZB2_XSG.bin",
+      "href": "downloads/preloader_SM-A055F_A055FXXUEDZB2_XSG.bin",
+      "bytes": 4194304,
+      "sha256": "2b4e640376dcfa55e81acb16c29dcf85177543659b282bc66016b648c32c783c",
+      "provenance": "downloads/preloader_SM-A055F_A055FXXUEDZB2_XSG.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A055F_4_20260215192450_q5pwfsrtpy_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A055M-CHO-A055MUBSHDZD1",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A05"
+      ],
+      "variant": "SM-A055M",
+      "variantLabel": "SM-A055M",
+      "firmware": "A055MUBSHDZD1",
+      "build": "A055MUBSHDZD1",
+      "region": "CHO",
+      "android": "15",
+      "filename": "preloader_SM-A055M_A055MUBSHDZD1_CHO.bin",
+      "href": "downloads/preloader_SM-A055M_A055MUBSHDZD1_CHO.bin",
+      "bytes": 4194304,
+      "sha256": "d465c2ace878841a45e94ed8fb8d5158a08add69f49780ea95c757813d036e86",
+      "provenance": "downloads/preloader_SM-A055M_A055MUBSHDZD1_CHO.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A055M_4_20260402210510_q1nzuv92nb_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A055M-CHO-A055MUBSIDZE1",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A05"
+      ],
+      "variant": "SM-A055M",
+      "variantLabel": "SM-A055M",
+      "firmware": "A055MUBSIDZE1",
+      "build": "A055MUBSIDZE1",
+      "region": "CHO",
+      "android": "15",
+      "filename": "preloader_SM-A055M_A055MUBSIDZE1_CHO.bin",
+      "href": "downloads/preloader_SM-A055M_A055MUBSIDZE1_CHO.bin",
+      "bytes": 4194304,
+      "sha256": "3523c742ae924f81c76d85758ff6a1ec0c57b2adae401df605075e356d78bfa1",
+      "provenance": "downloads/preloader_SM-A055M_A055MUBSIDZE1_CHO.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A055M_4_20260603074141_8ew0a4p6rb_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A055M-CHO-A055MUBUGDZB2",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A05"
+      ],
+      "variant": "SM-A055M",
+      "variantLabel": "SM-A055M",
+      "firmware": "A055MUBUGDZB2",
+      "build": "A055MUBUGDZB2",
+      "region": "CHO",
+      "android": "15",
+      "filename": "preloader_SM-A055M_A055MUBUGDZB2_CHO.bin",
+      "href": "downloads/preloader_SM-A055M_A055MUBUGDZB2_CHO.bin",
+      "bytes": 4194304,
+      "sha256": "7ff9c2c61a1b74d03edd9bbabae451b8b1aa54a8d075895e6c1bc05d47649e97",
+      "provenance": "downloads/preloader_SM-A055M_A055MUBUGDZB2_CHO.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A055M_4_20260225203940_x5n4ucsd3r_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A076E-XSG-A076EXXS4BZF3",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A07 5G"
+      ],
+      "variant": "SM-A076E",
+      "variantLabel": "SM-A076E",
+      "firmware": "A076EXXS4BZF3",
+      "build": "A076EXXS4BZF3",
+      "region": "XSG",
+      "android": "16",
+      "filename": "preloader_SM-A076E_A076EXXS4BZF3_XSG.bin",
+      "href": "downloads/preloader_SM-A076E_A076EXXS4BZF3_XSG.bin",
+      "bytes": 410112,
+      "sha256": "a52c381a2bfb89eeb477eb0583f9b031068752267860f7849989fa14ec4de45c",
+      "provenance": "downloads/preloader_SM-A076E_A076EXXS4BZF3_XSG.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A076E_2_20260610101341_uwnyx8zohh_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A076E-XSG-A076EXXU4BZG7",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A07 5G"
+      ],
+      "variant": "SM-A076E",
+      "variantLabel": "SM-A076E",
+      "firmware": "A076EXXU4BZG7",
+      "build": "A076EXXU4BZG7",
+      "region": "XSG",
+      "android": "16",
+      "filename": "preloader_SM-A076E_A076EXXU4BZG7_XSG.bin",
+      "href": "downloads/preloader_SM-A076E_A076EXXU4BZG7_XSG.bin",
+      "bytes": 410112,
+      "sha256": "8c2830e5534927fc3bd2187a32fcc54f80dd3a6e9e177c7592fb323ad1a382ab",
+      "provenance": "downloads/preloader_SM-A076E_A076EXXU4BZG7_XSG.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A076E_2_20260717091711_1nigqa52j4_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A076M-CHO-A076MXXS4BZF3",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A07 5G"
+      ],
+      "variant": "SM-A076M",
+      "variantLabel": "SM-A076M",
+      "firmware": "A076MXXS4BZF3",
+      "build": "A076MXXS4BZF3",
+      "region": "CHO",
+      "android": "16",
+      "filename": "preloader_SM-A076M_A076MXXS4BZF3_CHO.bin",
+      "href": "downloads/preloader_SM-A076M_A076MXXS4BZF3_CHO.bin",
+      "bytes": 410112,
+      "sha256": "d2be88cfd30dfc0b00a23ce8763323021b9ce302bf767ef7d082f6da894460d6",
+      "provenance": "downloads/preloader_SM-A076M_A076MXXS4BZF3_CHO.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A076M_2_20260611004940_b6humrik0p_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A076M-CHO-A076MXXU4BZG5",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A07 5G"
+      ],
+      "variant": "SM-A076M",
+      "variantLabel": "SM-A076M",
+      "firmware": "A076MXXU4BZG5",
+      "build": "A076MXXU4BZG5",
+      "region": "CHO",
+      "android": "16",
+      "filename": "preloader_SM-A076M_A076MXXU4BZG5_CHO.bin",
+      "href": "downloads/preloader_SM-A076M_A076MXXU4BZG5_CHO.bin",
+      "bytes": 410112,
+      "sha256": "d3810c1ed6ee95528a29b56e61df46002a4bd573999d41ad1a75c891f57d476b",
+      "provenance": "downloads/preloader_SM-A076M_A076MXXU4BZG5_CHO.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A076M_2_20260717213841_dq41e3y9jk_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A155M-CHO-A155MUBSADZB5",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A15"
+      ],
+      "variant": "SM-A155M",
+      "variantLabel": "SM-A155M",
+      "firmware": "A155MUBSADZB5",
+      "build": "A155MUBSADZB5",
+      "region": "CHO",
+      "android": "16",
+      "filename": "preloader_SM-A155M_A155MUBSADZB5_CHO.bin",
+      "href": "downloads/preloader_SM-A155M_A155MUBSADZB5_CHO.bin",
+      "bytes": 311808,
+      "sha256": "b468fa4fe12da032858f83467bb3446b7f8c9cbb6fdbfe3596434d6f80e0be92",
+      "provenance": "downloads/preloader_SM-A155M_A155MUBSADZB5_CHO.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A155M_3_20260220004340_5lk85ypno0_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A155M-CHO-A155MUBUAEZF1",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A15"
+      ],
+      "variant": "SM-A155M",
+      "variantLabel": "SM-A155M",
+      "firmware": "A155MUBUAEZF1",
+      "build": "A155MUBUAEZF1",
+      "region": "CHO",
+      "android": "16",
+      "filename": "preloader_SM-A155M_A155MUBUAEZF1_CHO.bin",
+      "href": "downloads/preloader_SM-A155M_A155MUBUAEZF1_CHO.bin",
+      "bytes": 311808,
+      "sha256": "657ab0971aea6fc0602c69d5b73924dfbf8b4c4e28674036397ec449f87141c0",
+      "provenance": "downloads/preloader_SM-A155M_A155MUBUAEZF1_CHO.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A155M_3_20260613040210_wzer1sqzdj_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A1560-TGY-A1560ZHS9EZF6",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A15 5G"
+      ],
+      "variant": "SM-A1560",
+      "variantLabel": "SM-A1560",
+      "firmware": "A1560ZHS9EZF6",
+      "build": "A1560ZHS9EZF6",
+      "region": "TGY",
+      "android": "16",
+      "filename": "preloader_SM-A1560_A1560ZHS9EZF6_TGY.bin",
+      "href": "downloads/preloader_SM-A1560_A1560ZHS9EZF6_TGY.bin",
+      "bytes": 336384,
+      "sha256": "501a98322b664c4c88d99610768bd76f42f3cfd5cf59be6e36cd492101b1ae43",
+      "provenance": "downloads/preloader_SM-A1560_A1560ZHS9EZF6_TGY.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A1560_3_20260623193851_5wbnisgy11_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A1560-TGY-A1560ZHU9EZE9",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A15 5G"
+      ],
+      "variant": "SM-A1560",
+      "variantLabel": "SM-A1560",
+      "firmware": "A1560ZHU9EZE9",
+      "build": "A1560ZHU9EZE9",
+      "region": "TGY",
+      "android": "16",
+      "filename": "preloader_SM-A1560_A1560ZHU9EZE9_TGY.bin",
+      "href": "downloads/preloader_SM-A1560_A1560ZHU9EZE9_TGY.bin",
+      "bytes": 336384,
+      "sha256": "5d743e403052755200f25fd6b47ea04f9960df5a3a844cd955138cdcdadd8331",
+      "provenance": "downloads/preloader_SM-A1560_A1560ZHU9EZE9_TGY.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A1560_2_20260518200341_f4yeaf9fwd_fac.zip.enc4"
+    },
+    {
+      "id": "history-fire-os2-0-204-0-vmxtrxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 12 Fire"
+      ],
+      "variant": "fire-TR",
+      "variantLabel": "fire · Turquía (TR)",
+      "firmware": "OS2.0.204.0.VMXTRXM",
+      "build": "OS2.0.204.0.VMXTRXM",
+      "region": "Turquía (TR)",
+      "android": "15",
+      "filename": "preloader_fire_OS2.0.204.0.VMXTRXM.bin",
+      "href": "downloads/preloader_fire_OS2.0.204.0.VMXTRXM.bin",
+      "bytes": 323584,
+      "sha256": "671a2e682b041a80d763c845398a2769df6ad6daa080365853448494ad89534a",
+      "provenance": "downloads/history-fire-os2-0-204-0-vmxtrxm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.204.0.VMXTRXM/fire_tr_global-ota_full-OS2.0.204.0.VMXTRXM-user-15.0-f854538f3e.zip"
+    },
+    {
+      "id": "history-gold-os3-0-3-0-vnqidxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi Note 13 5G"
+      ],
+      "variant": "gold-ID",
+      "variantLabel": "gold · Indonesia (ID)",
+      "firmware": "OS3.0.3.0.VNQIDXM",
+      "build": "OS3.0.3.0.VNQIDXM",
+      "region": "Indonesia (ID)",
+      "android": "15",
+      "filename": "preloader_gold_OS3.0.3.0.VNQIDXM.bin",
+      "href": "downloads/preloader_gold_OS3.0.3.0.VNQIDXM.bin",
+      "bytes": 430080,
+      "sha256": "e4938ccb6e5accb8c05aa17c0c053d96695a04baecc03f139f276b3b859ef10f",
+      "provenance": "downloads/history-gold-os3-0-3-0-vnqidxm.json",
+      "source": "https://bigota.d.miui.com/OS3.0.3.0.VNQIDXM/gold_id_global-ota_full-OS3.0.3.0.VNQIDXM-user-15.0-3dc6e2c33e.zip"
+    },
+    {
+      "id": "history-gold-os3-0-4-0-vnqinxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi Note 13 5G"
+      ],
+      "variant": "gold-IN",
+      "variantLabel": "gold · India (IN)",
+      "firmware": "OS3.0.4.0.VNQINXM",
+      "build": "OS3.0.4.0.VNQINXM",
+      "region": "India (IN)",
+      "android": "15",
+      "filename": "preloader_gold_OS3.0.4.0.VNQINXM.bin",
+      "href": "downloads/preloader_gold_OS3.0.4.0.VNQINXM.bin",
+      "bytes": 430080,
+      "sha256": "9c325cba7024160776455ed19bc72146f87e8f8cff3e67d448b18b2d64faadb4",
+      "provenance": "downloads/history-gold-os3-0-4-0-vnqinxm.json",
+      "source": "https://bigota.d.miui.com/OS3.0.4.0.VNQINXM/gold_in_global-ota_full-OS3.0.4.0.VNQINXM-user-15.0-327ff14ff4.zip"
+    },
+    {
+      "id": "history-gold-os3-0-4-0-vnqtrxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi Note 13 5G"
+      ],
+      "variant": "gold-TR",
+      "variantLabel": "gold · Turquía (TR)",
+      "firmware": "OS3.0.4.0.VNQTRXM",
+      "build": "OS3.0.4.0.VNQTRXM",
+      "region": "Turquía (TR)",
+      "android": "15",
+      "filename": "preloader_gold_OS3.0.4.0.VNQTRXM.bin",
+      "href": "downloads/preloader_gold_OS3.0.4.0.VNQTRXM.bin",
+      "bytes": 430080,
+      "sha256": "5213409fc6fc915aebbf41e8d1fc74f44206fae6c9f05971e899c44986fdff75",
+      "provenance": "downloads/history-gold-os3-0-4-0-vnqtrxm.json",
+      "source": "https://bigota.d.miui.com/OS3.0.4.0.VNQTRXM/gold_tr_global-ota_full-OS3.0.4.0.VNQTRXM-user-15.0-69ea45a0d4.zip"
+    },
+    {
+      "id": "history-gold-os3-0-4-0-vnqtwxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi Note 13 5G"
+      ],
+      "variant": "gold-TW",
+      "variantLabel": "gold · Taiwán (TW)",
+      "firmware": "OS3.0.4.0.VNQTWXM",
+      "build": "OS3.0.4.0.VNQTWXM",
+      "region": "Taiwán (TW)",
+      "android": "15",
+      "filename": "preloader_gold_OS3.0.4.0.VNQTWXM.bin",
+      "href": "downloads/preloader_gold_OS3.0.4.0.VNQTWXM.bin",
+      "bytes": 430080,
+      "sha256": "783fccb4f355d8fe93c0d0091c1f8a037c30660569309523d680a07cd66c8d35",
+      "provenance": "downloads/history-gold-os3-0-4-0-vnqtwxm.json",
+      "source": "https://bigota.d.miui.com/OS3.0.4.0.VNQTWXM/gold_tw_global-ota_full-OS3.0.4.0.VNQTWXM-user-15.0-22d1672f6f.zip"
+    },
+    {
+      "id": "history-gold-os3-0-6-0-vnqeuxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi Note 13 5G"
+      ],
+      "variant": "gold-EU",
+      "variantLabel": "gold · Europa (EU)",
+      "firmware": "OS3.0.6.0.VNQEUXM",
+      "build": "OS3.0.6.0.VNQEUXM",
+      "region": "Europa (EU)",
+      "android": "15",
+      "filename": "preloader_gold_OS3.0.6.0.VNQEUXM.bin",
+      "href": "downloads/preloader_gold_OS3.0.6.0.VNQEUXM.bin",
+      "bytes": 430080,
+      "sha256": "c02c61b8e347afe497df220c8aef3f1953064d71a53570cc6c4f40e44b992f05",
+      "provenance": "downloads/history-gold-os3-0-6-0-vnqeuxm.json",
+      "source": "https://bigota.d.miui.com/OS3.0.6.0.VNQEUXM/gold_eea_global-ota_full-OS3.0.6.0.VNQEUXM-user-15.0-9fdd0ebb32.zip"
+    },
+    {
+      "id": "history-light-os1-0-2-0-ulstwxm",
+      "brand": "Xiaomi",
+      "models": [
+        "POCO M4"
+      ],
+      "variant": "light-TW",
+      "variantLabel": "POCO M4 5G · light · Taiwán (TW)",
+      "firmware": "OS1.0.2.0.ULSTWXM",
+      "build": "V816.0.2.0.ULSTWXM",
+      "region": "Taiwán (TW)",
+      "android": "14",
+      "filename": "preloader_light_OS1.0.2.0.ULSTWXM.bin",
+      "href": "downloads/preloader_light_OS1.0.2.0.ULSTWXM.bin",
+      "bytes": 405504,
+      "sha256": "7769d81234294754813ae70b558cf5a2b2265cb8860bb3cfa552c17fd00021f6",
+      "provenance": "downloads/history-light-os1-0-2-0-ulstwxm.json",
+      "source": "https://bigota.d.miui.com/OS1.0.2.0.ULSTWXM/miui_LIGHTTWGlobal_OS1.0.2.0.ULSTWXM_f127104976_14.0.zip"
+    },
+    {
+      "id": "history-light-os1-0-4-0-ulsinxm",
+      "brand": "Xiaomi",
+      "models": [
+        "POCO M4"
+      ],
+      "variant": "light-IN",
+      "variantLabel": "POCO M4 5G · light · India (IN)",
+      "firmware": "OS1.0.4.0.ULSINXM",
+      "build": "V816.0.4.0.ULSINXM",
+      "region": "India (IN)",
+      "android": "14",
+      "filename": "preloader_light_OS1.0.4.0.ULSINXM.bin",
+      "href": "downloads/preloader_light_OS1.0.4.0.ULSINXM.bin",
+      "bytes": 405504,
+      "sha256": "42f8723c350f7ab26d02568592e49308d7d03d1eccc2da97fbc9515092a99157",
+      "provenance": "downloads/history-light-os1-0-4-0-ulsinxm.json",
+      "source": "https://bigota.d.miui.com/OS1.0.4.0.ULSINXM/miui_LIGHTINGlobal_OS1.0.4.0.ULSINXM_6c629b38b5_14.0.zip"
+    },
+    {
+      "id": "history-light-os1-0-8-0-ulseuxm",
+      "brand": "Xiaomi",
+      "models": [
+        "POCO M4"
+      ],
+      "variant": "light-EU",
+      "variantLabel": "POCO M4 5G · light · Europa (EU)",
+      "firmware": "OS1.0.8.0.ULSEUXM",
+      "build": "V816.0.8.0.ULSEUXM",
+      "region": "Europa (EU)",
+      "android": "14",
+      "filename": "preloader_light_OS1.0.8.0.ULSEUXM.bin",
+      "href": "downloads/preloader_light_OS1.0.8.0.ULSEUXM.bin",
+      "bytes": 405504,
+      "sha256": "7d71f4e51864fbadbb9d73fb6397a63a688a0be6afeac04d7d88722e4da711ea",
+      "provenance": "downloads/history-light-os1-0-8-0-ulseuxm.json",
+      "source": "https://bigota.d.miui.com/OS1.0.8.0.ULSEUXM/miui_LIGHTEEAGlobal_OS1.0.8.0.ULSEUXM_e7b8cb8fbf_14.0.zip"
+    },
+    {
+      "id": "samsung-SM-A055F-XSG-A055FXXSDDZA1",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A05"
+      ],
+      "variant": "SM-A055F",
+      "variantLabel": "SM-A055F",
+      "firmware": "A055FXXSDDZA1",
+      "build": "A055FXXSDDZA1",
+      "region": "XSG",
+      "android": "15",
+      "filename": "preloader_SM-A055F_A055FXXSDDZA1_XSG.bin",
+      "href": "downloads/preloader_SM-A055F_A055FXXSDDZA1_XSG.bin",
+      "bytes": 4194304,
+      "sha256": "e2c1503f32ba964428b443caa40b72a1d5cb3bb5a41a72e9eb79f0505a487cb2",
+      "provenance": "downloads/preloader_SM-A055F_A055FXXSDDZA1_XSG.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A055F_4_20260112130921_1zh6y8wr4b_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A055M-CHO-A055MUBSFDZA1",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A05"
+      ],
+      "variant": "SM-A055M",
+      "variantLabel": "SM-A055M",
+      "firmware": "A055MUBSFDZA1",
+      "build": "A055MUBSFDZA1",
+      "region": "CHO",
+      "android": "15",
+      "filename": "preloader_SM-A055M_A055MUBSFDZA1_CHO.bin",
+      "href": "downloads/preloader_SM-A055M_A055MUBSFDZA1_CHO.bin",
+      "bytes": 4194304,
+      "sha256": "e14f548f9eed72053a9c99c0e27daded9cd5e3835b17b7118c260c8a11734040",
+      "provenance": "downloads/preloader_SM-A055M_A055MUBSFDZA1_CHO.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A055M_4_20260120024210_bmx9grme4w_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A076E-XSG-A076EXXS3AZB5",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A07 5G"
+      ],
+      "variant": "SM-A076E",
+      "variantLabel": "SM-A076E",
+      "firmware": "A076EXXS3AZB5",
+      "build": "A076EXXS3AZB5",
+      "region": "XSG",
+      "android": "16",
+      "filename": "preloader_SM-A076E_A076EXXS3AZB5_XSG.bin",
+      "href": "downloads/preloader_SM-A076E_A076EXXS3AZB5_XSG.bin",
+      "bytes": 410112,
+      "sha256": "76308cb295d982badad6e2807c4cf73d183b37f88876ed4af17a52d036b12be0",
+      "provenance": "downloads/preloader_SM-A076E_A076EXXS3AZB5_XSG.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A076E_1_20260215041251_4lnzmuyj2w_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A076E-XSG-A076EXXU3BZE6",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A07 5G"
+      ],
+      "variant": "SM-A076E",
+      "variantLabel": "SM-A076E",
+      "firmware": "A076EXXU3BZE6",
+      "build": "A076EXXU3BZE6",
+      "region": "XSG",
+      "android": "16",
+      "filename": "preloader_SM-A076E_A076EXXU3BZE6_XSG.bin",
+      "href": "downloads/preloader_SM-A076E_A076EXXU3BZE6_XSG.bin",
+      "bytes": 410112,
+      "sha256": "867338eae87f31688517ebccd8d6a7b2b945904875340aeca197000c16c7a639",
+      "provenance": "downloads/preloader_SM-A076E_A076EXXU3BZE6_XSG.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A076E_1_20260518182701_8apscnhzyd_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A076M-CHO-A076MXXS4AZD2",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A07 5G"
+      ],
+      "variant": "SM-A076M",
+      "variantLabel": "SM-A076M",
+      "firmware": "A076MXXS4AZD2",
+      "build": "A076MXXS4AZD2",
+      "region": "CHO",
+      "android": "16",
+      "filename": "preloader_SM-A076M_A076MXXS4AZD2_CHO.bin",
+      "href": "downloads/preloader_SM-A076M_A076MXXS4AZD2_CHO.bin",
+      "bytes": 410112,
+      "sha256": "d496857a23ab9b4ca508fb515a44bbc0280c2c62351b8b1170ff75702ec14b77",
+      "provenance": "downloads/preloader_SM-A076M_A076MXXS4AZD2_CHO.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A076M_1_20260413221511_z30smlq9pm_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A076M-CHO-A076MXXU4BZE3",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A07 5G"
+      ],
+      "variant": "SM-A076M",
+      "variantLabel": "SM-A076M",
+      "firmware": "A076MXXU4BZE3",
+      "build": "A076MXXU4BZE3",
+      "region": "CHO",
+      "android": "16",
+      "filename": "preloader_SM-A076M_A076MXXU4BZE3_CHO.bin",
+      "href": "downloads/preloader_SM-A076M_A076MXXU4BZE3_CHO.bin",
+      "bytes": 410112,
+      "sha256": "9d0f11dedff3dd9e7d56fca284e21922a843386cb2302ccb84e160bfe4f28c37",
+      "provenance": "downloads/preloader_SM-A076M_A076MXXU4BZE3_CHO.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A076M_1_20260519030710_z5sk296ulw_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A155M-CHO-A155MUBS8DYL2",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A15"
+      ],
+      "variant": "SM-A155M",
+      "variantLabel": "SM-A155M",
+      "firmware": "A155MUBS8DYL2",
+      "build": "A155MUBS8DYL2",
+      "region": "CHO",
+      "android": "16",
+      "filename": "preloader_SM-A155M_A155MUBS8DYL2_CHO.bin",
+      "href": "downloads/preloader_SM-A155M_A155MUBS8DYL2_CHO.bin",
+      "bytes": 311808,
+      "sha256": "e4aa4c09c57a0febc5fefbd58499d4cd67c261b07bbf5df11af02899148032f8",
+      "provenance": "downloads/preloader_SM-A155M_A155MUBS8DYL2_CHO.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A155M_3_20251210230810_05u9ldq5pp_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A155M-CHO-A155MUBS9DZA2",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A15"
+      ],
+      "variant": "SM-A155M",
+      "variantLabel": "SM-A155M",
+      "firmware": "A155MUBS9DZA2",
+      "build": "A155MUBS9DZA2",
+      "region": "CHO",
+      "android": "16",
+      "filename": "preloader_SM-A155M_A155MUBS9DZA2_CHO.bin",
+      "href": "downloads/preloader_SM-A155M_A155MUBS9DZA2_CHO.bin",
+      "bytes": 311808,
+      "sha256": "45b951f271c3d45b8478d3f38927100e005c88cf332c50a626ff1d13ddb72298",
+      "provenance": "downloads/preloader_SM-A155M_A155MUBS9DZA2_CHO.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A155M_3_20260116011840_5bw5nu3aav_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A1560-TGY-A1560ZHS9DZB3",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A15 5G"
+      ],
+      "variant": "SM-A1560",
+      "variantLabel": "SM-A1560",
+      "firmware": "A1560ZHS9DZB3",
+      "build": "A1560ZHS9DZB3",
+      "region": "TGY",
+      "android": "16",
+      "filename": "preloader_SM-A1560_A1560ZHS9DZB3_TGY.bin",
+      "href": "downloads/preloader_SM-A1560_A1560ZHS9DZB3_TGY.bin",
+      "bytes": 336384,
+      "sha256": "1c363662a323a8a4339d5cdf272cb79ee650117322b38478375787b2a646403e",
+      "provenance": "downloads/preloader_SM-A1560_A1560ZHS9DZB3_TGY.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A1560_2_20260215125400_1et4m4ttxt_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A156E-INS-A156EDXS9DZB3",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A15 5G"
+      ],
+      "variant": "SM-A156E",
+      "variantLabel": "SM-A156E",
+      "firmware": "A156EDXS9DZB3",
+      "build": "A156EDXS9DZB3",
+      "region": "INS",
+      "android": "16",
+      "filename": "preloader_SM-A156E_A156EDXS9DZB3_INS.bin",
+      "href": "downloads/preloader_SM-A156E_A156EDXS9DZB3_INS.bin",
+      "bytes": 336384,
+      "sha256": "4dee21da0386f4ec45b18f9641cfa57ac3a867f0feff6340ceda8dca97a2d557",
+      "provenance": "downloads/preloader_SM-A156E_A156EDXS9DZB3_INS.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A156E_3_20260217191612_zgng6cdo4j_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A156E-INS-A156EDXS9EZF6",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A15 5G"
+      ],
+      "variant": "SM-A156E",
+      "variantLabel": "SM-A156E",
+      "firmware": "A156EDXS9EZF6",
+      "build": "A156EDXS9EZF6",
+      "region": "INS",
+      "android": "16",
+      "filename": "preloader_SM-A156E_A156EDXS9EZF6_INS.bin",
+      "href": "downloads/preloader_SM-A156E_A156EDXS9EZF6_INS.bin",
+      "bytes": 336384,
+      "sha256": "60d3d86b6f23b01ea1ba8ed86fbd9aaff294c643198ff796f2fdbe8481aa9eb8",
+      "provenance": "downloads/preloader_SM-A156E_A156EDXS9EZF6_INS.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A156E_4_20260622203541_qfy88li8qa_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A156E-INS-A156EDXU9EZE9",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A15 5G"
+      ],
+      "variant": "SM-A156E",
+      "variantLabel": "SM-A156E",
+      "firmware": "A156EDXU9EZE9",
+      "build": "A156EDXU9EZE9",
+      "region": "INS",
+      "android": "16",
+      "filename": "preloader_SM-A156E_A156EDXU9EZE9_INS.bin",
+      "href": "downloads/preloader_SM-A156E_A156EDXU9EZE9_INS.bin",
+      "bytes": 336384,
+      "sha256": "ee0fe4e39f37c2149057dc364b1221063302cc1540536450a9a3b87e3b3d48e9",
+      "provenance": "downloads/preloader_SM-A156E_A156EDXU9EZE9_INS.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A156E_3_20260519151111_fvk86j3zti_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A165F-XSG-A165FXXS9DZF1",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A16"
+      ],
+      "variant": "SM-A165F",
+      "variantLabel": "SM-A165F",
+      "firmware": "A165FXXS9DZF1",
+      "build": "A165FXXS9DZF1",
+      "region": "XSG",
+      "android": "16",
+      "filename": "preloader_SM-A165F_A165FXXS9DZF1_XSG.bin",
+      "href": "downloads/preloader_SM-A165F_A165FXXS9DZF1_XSG.bin",
+      "bytes": 311808,
+      "sha256": "3089bb70eb654849aaef9666008e77daff6950ddac15805fec397b44174dd79d",
+      "provenance": "downloads/preloader_SM-A165F_A165FXXS9DZF1_XSG.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A165F_3_20260610105621_vz8ln1b32r_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A165F-XSG-A165FXXSADZF2",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A16"
+      ],
+      "variant": "SM-A165F",
+      "variantLabel": "SM-A165F",
+      "firmware": "A165FXXSADZF2",
+      "build": "A165FXXSADZF2",
+      "region": "XSG",
+      "android": "16",
+      "filename": "preloader_SM-A165F_A165FXXSADZF2_XSG.bin",
+      "href": "downloads/preloader_SM-A165F_A165FXXSADZF2_XSG.bin",
+      "bytes": 311808,
+      "sha256": "46114ca9fad81d0828790d162608f7dcb131369cc2edb1358e0f463dc658f268",
+      "provenance": "downloads/preloader_SM-A165F_A165FXXSADZF2_XSG.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A165F_4_20260616191601_mk4d3mq01c_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A165F-XSG-A165FXXSADZG3",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A16"
+      ],
+      "variant": "SM-A165F",
+      "variantLabel": "SM-A165F",
+      "firmware": "A165FXXSADZG3",
+      "build": "A165FXXSADZG3",
+      "region": "XSG",
+      "android": "16",
+      "filename": "preloader_SM-A165F_A165FXXSADZG3_XSG.bin",
+      "href": "downloads/preloader_SM-A165F_A165FXXSADZG3_XSG.bin",
+      "bytes": 311808,
+      "sha256": "2a460b573b33de69f1af18967ba0e72c4d26cf6907cbffa9e16ee1423383c540",
+      "provenance": "downloads/preloader_SM-A165F_A165FXXSADZG3_XSG.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A165F_4_20260715200820_9ed5kwb314_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-T225-INS-T225XXS7DXF9",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy Tab A7 Lite"
+      ],
+      "variant": "SM-T225",
+      "variantLabel": "SM-T225",
+      "firmware": "T225XXS7DXF9",
+      "build": "T225XXS7DXF9",
+      "region": "INS",
+      "android": "14",
+      "filename": "preloader_SM-T225_T225XXS7DXF9_INS.bin",
+      "href": "downloads/preloader_SM-T225_T225XXS7DXF9_INS.bin",
+      "bytes": 4194304,
+      "sha256": "6fa705f91b346749de4a03fb11032ae20084892b0f2c19e56ae6f7cfafdb82df",
+      "provenance": "downloads/preloader_SM-T225_T225XXS7DXF9_INS.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-T225_3_20240620182611_7anvds67t7_fac.zip.enc4"
+    },
+    {
+      "id": "history-gale-os2-0-2-0-vgptwxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 13C",
+        "POCO C65"
+      ],
+      "variant": "gale-TW",
+      "variantLabel": "gale · Taiwán (TW)",
+      "firmware": "OS2.0.2.0.VGPTWXM",
+      "build": "OS2.0.2.0.VGPTWXM",
+      "region": "Taiwán (TW)",
+      "android": "15",
+      "filename": "preloader_gale_OS2.0.2.0.VGPTWXM.bin",
+      "href": "downloads/preloader_gale_OS2.0.2.0.VGPTWXM.bin",
+      "bytes": 335872,
+      "sha256": "e44ecc091f747616b704c0e723f6e22c79f50aba15cd106cbd4994c9809e611c",
+      "provenance": "downloads/history-gale-os2-0-2-0-vgptwxm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.2.0.VGPTWXM/gale_tw_global-ota_full-OS2.0.2.0.VGPTWXM-user-15.0-e42db8770b.zip"
+    },
+    {
+      "id": "history-gale-os2-0-203-0-vgpruxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 13C",
+        "POCO C65"
+      ],
+      "variant": "gale-RU",
+      "variantLabel": "gale · Rusia (RU)",
+      "firmware": "OS2.0.203.0.VGPRUXM",
+      "build": "OS2.0.203.0.VGPRUXM",
+      "region": "Rusia (RU)",
+      "android": "15",
+      "filename": "preloader_gale_OS2.0.203.0.VGPRUXM.bin",
+      "href": "downloads/preloader_gale_OS2.0.203.0.VGPRUXM.bin",
+      "bytes": 335872,
+      "sha256": "daffbe5e94258e7861f247dd5d5ddf325635e05a5a1be86fc2afff3491340d6c",
+      "provenance": "downloads/history-gale-os2-0-203-0-vgpruxm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.203.0.VGPRUXM/gale_ru_global-ota_full-OS2.0.203.0.VGPRUXM-user-15.0-af2b96b978.zip"
+    },
+    {
+      "id": "history-gale-os2-0-207-0-vgpidxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 13C",
+        "POCO C65"
+      ],
+      "variant": "gale-ID",
+      "variantLabel": "gale · Indonesia (ID)",
+      "firmware": "OS2.0.207.0.VGPIDXM",
+      "build": "OS2.0.207.0.VGPIDXM",
+      "region": "Indonesia (ID)",
+      "android": "15",
+      "filename": "preloader_gale_OS2.0.207.0.VGPIDXM.bin",
+      "href": "downloads/preloader_gale_OS2.0.207.0.VGPIDXM.bin",
+      "bytes": 335872,
+      "sha256": "ee504bb77d7c73b613188224786afae3723214fa5764ac72a56b58340e042734",
+      "provenance": "downloads/history-gale-os2-0-207-0-vgpidxm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.207.0.VGPIDXM/gale_id_global-ota_full-OS2.0.207.0.VGPIDXM-user-15.0-691c38caa7.zip"
+    },
+    {
+      "id": "history-gale-os2-0-207-0-vgpinxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 13C",
+        "POCO C65"
+      ],
+      "variant": "gale-IN",
+      "variantLabel": "gale · India (IN)",
+      "firmware": "OS2.0.207.0.VGPINXM",
+      "build": "OS2.0.207.0.VGPINXM",
+      "region": "India (IN)",
+      "android": "15",
+      "filename": "preloader_gale_OS2.0.207.0.VGPINXM.bin",
+      "href": "downloads/preloader_gale_OS2.0.207.0.VGPINXM.bin",
+      "bytes": 335872,
+      "sha256": "b9562b3ff0e496a856c765fe98b7dc7b15ba8ad9b6b0351e26a1eaccc591e22f",
+      "provenance": "downloads/history-gale-os2-0-207-0-vgpinxm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.207.0.VGPINXM/gale_in_global-ota_full-OS2.0.207.0.VGPINXM-user-15.0-7801df4b1e.zip"
+    },
+    {
+      "id": "history-gale-os2-0-207-0-vgpmixm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 13C",
+        "POCO C65"
+      ],
+      "variant": "gale-MI",
+      "variantLabel": "gale · Global (MI)",
+      "firmware": "OS2.0.207.0.VGPMIXM",
+      "build": "OS2.0.207.0.VGPMIXM",
+      "region": "Global (MI)",
+      "android": "15",
+      "filename": "preloader_gale_OS2.0.207.0.VGPMIXM.bin",
+      "href": "downloads/preloader_gale_OS2.0.207.0.VGPMIXM.bin",
+      "bytes": 335872,
+      "sha256": "aa79288ec9db67e23695c4a0281bae5a49d914404a7a0741cd3b19445e2c84d2",
+      "provenance": "downloads/history-gale-os2-0-207-0-vgpmixm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.207.0.VGPMIXM/gale_global-ota_full-OS2.0.207.0.VGPMIXM-user-15.0-73178f421e.zip"
+    },
+    {
+      "id": "history-gale-os2-0-210-0-vgpeuxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 13C",
+        "POCO C65"
+      ],
+      "variant": "gale-EU",
+      "variantLabel": "gale · Europa (EU)",
+      "firmware": "OS2.0.210.0.VGPEUXM",
+      "build": "OS2.0.210.0.VGPEUXM",
+      "region": "Europa (EU)",
+      "android": "15",
+      "filename": "preloader_gale_OS2.0.210.0.VGPEUXM.bin",
+      "href": "downloads/preloader_gale_OS2.0.210.0.VGPEUXM.bin",
+      "bytes": 335872,
+      "sha256": "078541efb1359887bc5cfe9a928472d6b31eb96ff2430c2bd148f91efc0a3751",
+      "provenance": "downloads/history-gale-os2-0-210-0-vgpeuxm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.210.0.VGPEUXM/gale_eea_global-ota_full-OS2.0.210.0.VGPEUXM-user-15.0-34691a270c.zip"
+    },
+    {
+      "id": "history-light-os1-0-1-0-ulstrxm",
+      "brand": "Xiaomi",
+      "models": [
+        "POCO M4"
+      ],
+      "variant": "light-TR",
+      "variantLabel": "POCO M4 5G · light · Turquía (TR)",
+      "firmware": "OS1.0.1.0.ULSTRXM",
+      "build": "V816.0.1.0.ULSTRXM",
+      "region": "Turquía (TR)",
+      "android": "14",
+      "filename": "preloader_light_OS1.0.1.0.ULSTRXM.bin",
+      "href": "downloads/preloader_light_OS1.0.1.0.ULSTRXM.bin",
+      "bytes": 405504,
+      "sha256": "3349a479f4c69f81a51c073011c30626103ec8cf5c6b5918522dfb3566bd383e",
+      "provenance": "downloads/history-light-os1-0-1-0-ulstrxm.json",
+      "source": "https://bigota.d.miui.com/OS1.0.1.0.ULSTRXM/miui_LIGHTTRGlobal_OS1.0.1.0.ULSTRXM_9e9ec40fed_14.0.zip"
+    },
+    {
+      "id": "history-light-os1-0-2-0-ulsruxm",
+      "brand": "Xiaomi",
+      "models": [
+        "POCO M4"
+      ],
+      "variant": "light-RU",
+      "variantLabel": "POCO M4 5G · light · Rusia (RU)",
+      "firmware": "OS1.0.2.0.ULSRUXM",
+      "build": "V816.0.2.0.ULSRUXM",
+      "region": "Rusia (RU)",
+      "android": "14",
+      "filename": "preloader_light_OS1.0.2.0.ULSRUXM.bin",
+      "href": "downloads/preloader_light_OS1.0.2.0.ULSRUXM.bin",
+      "bytes": 405504,
+      "sha256": "2a2e40274db0cbcc88d8e130a849010819eb2b2dbd1ec79ff60bfbc856bd17cd",
+      "provenance": "downloads/history-light-os1-0-2-0-ulsruxm.json",
+      "source": "https://bigota.d.miui.com/OS1.0.2.0.ULSRUXM/miui_LIGHTRUGlobal_OS1.0.2.0.ULSRUXM_85cf253b7b_14.0.zip"
+    },
+    {
+      "id": "history-light-os1-0-4-0-ulsidxm",
+      "brand": "Xiaomi",
+      "models": [
+        "POCO M4"
+      ],
+      "variant": "light-ID",
+      "variantLabel": "POCO M4 5G · light · Indonesia (ID)",
+      "firmware": "OS1.0.4.0.ULSIDXM",
+      "build": "V816.0.4.0.ULSIDXM",
+      "region": "Indonesia (ID)",
+      "android": "14",
+      "filename": "preloader_light_OS1.0.4.0.ULSIDXM.bin",
+      "href": "downloads/preloader_light_OS1.0.4.0.ULSIDXM.bin",
+      "bytes": 405504,
+      "sha256": "1cb7d3dbd33dbc0aeba065eac08c8ea29341ddac16dc7ad8e5231f54cfe3d428",
+      "provenance": "downloads/history-light-os1-0-4-0-ulsidxm.json",
+      "source": "https://bigota.d.miui.com/OS1.0.4.0.ULSIDXM/miui_LIGHTIDGlobal_OS1.0.4.0.ULSIDXM_46dd15c1bf_14.0.zip"
+    },
+    {
+      "id": "samsung-SM-A055F-XSG-A055FXXSBDYJ2",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A05"
+      ],
+      "variant": "SM-A055F",
+      "variantLabel": "SM-A055F",
+      "firmware": "A055FXXSBDYJ2",
+      "build": "A055FXXSBDYJ2",
+      "region": "XSG",
+      "android": "15",
+      "filename": "preloader_SM-A055F_A055FXXSBDYJ2_XSG.bin",
+      "href": "downloads/preloader_SM-A055F_A055FXXSBDYJ2_XSG.bin",
+      "bytes": 4194304,
+      "sha256": "0db594ca9a68ccf46fb582032869bd7494a3338832a2fa678e954a1343a83a0a",
+      "provenance": "downloads/preloader_SM-A055F_A055FXXSBDYJ2_XSG.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A055F_4_20251008114241_zo6knqas1v_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A055F-XSG-A055FXXSCDYL2",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A05"
+      ],
+      "variant": "SM-A055F",
+      "variantLabel": "SM-A055F",
+      "firmware": "A055FXXSCDYL2",
+      "build": "A055FXXSCDYL2",
+      "region": "XSG",
+      "android": "15",
+      "filename": "preloader_SM-A055F_A055FXXSCDYL2_XSG.bin",
+      "href": "downloads/preloader_SM-A055F_A055FXXSCDYL2_XSG.bin",
+      "bytes": 4194304,
+      "sha256": "1e8e89ae7ca2f3f18f131d82abe11fc6a86bbc0576708007fdfa952579393983",
+      "provenance": "downloads/preloader_SM-A055F_A055FXXSCDYL2_XSG.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A055F_4_20251211105001_y1r0whhgd0_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A055M-CHO-A055MUBSEDYL2",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A05"
+      ],
+      "variant": "SM-A055M",
+      "variantLabel": "SM-A055M",
+      "firmware": "A055MUBSEDYL2",
+      "build": "A055MUBSEDYL2",
+      "region": "CHO",
+      "android": "15",
+      "filename": "preloader_SM-A055M_A055MUBSEDYL2_CHO.bin",
+      "href": "downloads/preloader_SM-A055M_A055MUBSEDYL2_CHO.bin",
+      "bytes": 4194304,
+      "sha256": "23554df16f1e2a3262b1c1d6bed50ff2acea2fdeecb39d7c5e675f5de0b703f6",
+      "provenance": "downloads/preloader_SM-A055M_A055MUBSEDYL2_CHO.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A055M_4_20251213033310_att0cveybk_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A076E-XSG-A076EXXS2AZA1",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A07 5G"
+      ],
+      "variant": "SM-A076E",
+      "variantLabel": "SM-A076E",
+      "firmware": "A076EXXS2AZA1",
+      "build": "A076EXXS2AZA1",
+      "region": "XSG",
+      "android": "16",
+      "filename": "preloader_SM-A076E_A076EXXS2AZA1_XSG.bin",
+      "href": "downloads/preloader_SM-A076E_A076EXXS2AZA1_XSG.bin",
+      "bytes": 410112,
+      "sha256": "72304f18a95c00f57ee59ce98b49cb3c7783a34736b39461f0032fc6629d96a5",
+      "provenance": "downloads/preloader_SM-A076E_A076EXXS2AZA1_XSG.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A076E_1_20260114180841_79oxm71me9_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A076M-CHO-A076MXXS3AZB4",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A07 5G"
+      ],
+      "variant": "SM-A076M",
+      "variantLabel": "SM-A076M",
+      "firmware": "A076MXXS3AZB4",
+      "build": "A076MXXS3AZB4",
+      "region": "CHO",
+      "android": "16",
+      "filename": "preloader_SM-A076M_A076MXXS3AZB4_CHO.bin",
+      "href": "downloads/preloader_SM-A076M_A076MXXS3AZB4_CHO.bin",
+      "bytes": 410112,
+      "sha256": "1c02e4b26b55bf6e928275722d658464472a8a73466adffc797847a977cff511",
+      "provenance": "downloads/preloader_SM-A076M_A076MXXS3AZB4_CHO.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A076M_1_20260226214510_52o3az9eyq_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A155M-CHO-A155MUBU7DYK2",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A15"
+      ],
+      "variant": "SM-A155M",
+      "variantLabel": "SM-A155M",
+      "firmware": "A155MUBU7DYK2",
+      "build": "A155MUBU7DYK2",
+      "region": "CHO",
+      "android": "16",
+      "filename": "preloader_SM-A155M_A155MUBU7DYK2_CHO.bin",
+      "href": "downloads/preloader_SM-A155M_A155MUBU7DYK2_CHO.bin",
+      "bytes": 311808,
+      "sha256": "f5fa999fadd099f5007fad723c450571ec2eb313f542c7309b374d925f7dd7bf",
+      "provenance": "downloads/preloader_SM-A155M_A155MUBU7DYK2_CHO.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A155M_2_20251115012040_t7qtjlsd5s_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A1560-TGY-A1560ZHS7DYL3",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A15 5G"
+      ],
+      "variant": "SM-A1560",
+      "variantLabel": "SM-A1560",
+      "firmware": "A1560ZHS7DYL3",
+      "build": "A1560ZHS7DYL3",
+      "region": "TGY",
+      "android": "16",
+      "filename": "preloader_SM-A1560_A1560ZHS7DYL3_TGY.bin",
+      "href": "downloads/preloader_SM-A1560_A1560ZHS7DYL3_TGY.bin",
+      "bytes": 336384,
+      "sha256": "199dcb68188cab496987bc5b578672a99e668d7dd1c0cb968ea172a49a1a7484",
+      "provenance": "downloads/preloader_SM-A1560_A1560ZHS7DYL3_TGY.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A1560_2_20251218072841_rrc24zzhl8_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A1560-TGY-A1560ZHS8DZA1",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A15 5G"
+      ],
+      "variant": "SM-A1560",
+      "variantLabel": "SM-A1560",
+      "firmware": "A1560ZHS8DZA1",
+      "build": "A1560ZHS8DZA1",
+      "region": "TGY",
+      "android": "16",
+      "filename": "preloader_SM-A1560_A1560ZHS8DZA1_TGY.bin",
+      "href": "downloads/preloader_SM-A1560_A1560ZHS8DZA1_TGY.bin",
+      "bytes": 336384,
+      "sha256": "de884c1df56b3ba4dcf94f156b2c34e4a8feb3f69efb3757af9dde4f7b3b11c9",
+      "provenance": "downloads/preloader_SM-A1560_A1560ZHS8DZA1_TGY.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A1560_2_20260129080911_4crybegx8d_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A156E-INS-A156EDXS7DYL3",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A15 5G"
+      ],
+      "variant": "SM-A156E",
+      "variantLabel": "SM-A156E",
+      "firmware": "A156EDXS7DYL3",
+      "build": "A156EDXS7DYL3",
+      "region": "INS",
+      "android": "16",
+      "filename": "preloader_SM-A156E_A156EDXS7DYL3_INS.bin",
+      "href": "downloads/preloader_SM-A156E_A156EDXS7DYL3_INS.bin",
+      "bytes": 336384,
+      "sha256": "29c8bd5b12b8637ed990ef9026f907898923fc77d5027219e5eb25e0e646493f",
+      "provenance": "downloads/preloader_SM-A156E_A156EDXS7DYL3_INS.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A156E_3_20251212180910_4hq1endsi8_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A156E-INS-A156EDXS8DZA1",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A15 5G"
+      ],
+      "variant": "SM-A156E",
+      "variantLabel": "SM-A156E",
+      "firmware": "A156EDXS8DZA1",
+      "build": "A156EDXS8DZA1",
+      "region": "INS",
+      "android": "16",
+      "filename": "preloader_SM-A156E_A156EDXS8DZA1_INS.bin",
+      "href": "downloads/preloader_SM-A156E_A156EDXS8DZA1_INS.bin",
+      "bytes": 336384,
+      "sha256": "5f36cb4c4bd4758a06123b4c6cc2d3d20530cd83fff49781e1809f73684b53a3",
+      "provenance": "downloads/preloader_SM-A156E_A156EDXS8DZA1_INS.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A156E_3_20260119225030_tuu7mmnb0p_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A165F-XSG-A165FXXS8CZB3",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A16"
+      ],
+      "variant": "SM-A165F",
+      "variantLabel": "SM-A165F",
+      "firmware": "A165FXXS8CZB3",
+      "build": "A165FXXS8CZB3",
+      "region": "XSG",
+      "android": "16",
+      "filename": "preloader_SM-A165F_A165FXXS8CZB3_XSG.bin",
+      "href": "downloads/preloader_SM-A165F_A165FXXS8CZB3_XSG.bin",
+      "bytes": 320000,
+      "sha256": "7e1f0f0e2a51142f39a9e42fc1d30127bc066f83bd17d3bbee877a4defcf4c82",
+      "provenance": "downloads/preloader_SM-A165F_A165FXXS8CZB3_XSG.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A165F_3_20260214040602_fzxoxs4k9d_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A165F-XSG-A165FXXS9CZCA",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A16"
+      ],
+      "variant": "SM-A165F",
+      "variantLabel": "SM-A165F",
+      "firmware": "A165FXXS9CZCA",
+      "build": "A165FXXS9CZCA",
+      "region": "XSG",
+      "android": "16",
+      "filename": "preloader_SM-A165F_A165FXXS9CZCA_XSG.bin",
+      "href": "downloads/preloader_SM-A165F_A165FXXS9CZCA_XSG.bin",
+      "bytes": 320000,
+      "sha256": "73e7fa8095fe71222619768f8e344f29480ce86e0c4ee6a71548f50a8b53d172",
+      "provenance": "downloads/preloader_SM-A165F_A165FXXS9CZCA_XSG.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A165F_3_20260331195941_gunl20rp31_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-T225-INS-T225XXS6CWL1",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy Tab A7 Lite"
+      ],
+      "variant": "SM-T225",
+      "variantLabel": "SM-T225",
+      "firmware": "T225XXS6CWL1",
+      "build": "T225XXS6CWL1",
+      "region": "INS",
+      "android": "13",
+      "filename": "preloader_SM-T225_T225XXS6CWL1_INS.bin",
+      "href": "downloads/preloader_SM-T225_T225XXS6CWL1_INS.bin",
+      "bytes": 4194304,
+      "sha256": "50ff290bf1e604b62f4bbb027d09622f9d8a1afd3484c05942cd9ff455cfbd32",
+      "provenance": "downloads/preloader_SM-T225_T225XXS6CWL1_INS.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-T225_3_20231211145210_dzpqyfk5uq_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-T225-INS-T225XXSAEYA4",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy Tab A7 Lite"
+      ],
+      "variant": "SM-T225",
+      "variantLabel": "SM-T225",
+      "firmware": "T225XXSAEYA4",
+      "build": "T225XXSAEYA4",
+      "region": "INS",
+      "android": "14",
+      "filename": "preloader_SM-T225_T225XXSAEYA4_INS.bin",
+      "href": "downloads/preloader_SM-T225_T225XXSAEYA4_INS.bin",
+      "bytes": 4194304,
+      "sha256": "e99c18ed4e7099c48e72943fb91fc76857a6573b3826f39a468a238a812a6dac",
+      "provenance": "downloads/preloader_SM-T225_T225XXSAEYA4_INS.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-T225_4_20250115203040_yvwhb79ygi_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-T225-INS-T225XXU6DWL9",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy Tab A7 Lite"
+      ],
+      "variant": "SM-T225",
+      "variantLabel": "SM-T225",
+      "firmware": "T225XXU6DWL9",
+      "build": "T225XXU6DWL9",
+      "region": "INS",
+      "android": "14",
+      "filename": "preloader_SM-T225_T225XXU6DWL9_INS.bin",
+      "href": "downloads/preloader_SM-T225_T225XXU6DWL9_INS.bin",
+      "bytes": 4194304,
+      "sha256": "0d06bfc08acca216a8c507e1c6dc8a69f176dd732b97c5dfd4d86adddb886caa",
+      "provenance": "downloads/preloader_SM-T225_T225XXU6DWL9_INS.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-T225_3_20231228222940_m9e3dzpuir_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-T225-INS-T225XXU8EXH2",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy Tab A7 Lite"
+      ],
+      "variant": "SM-T225",
+      "variantLabel": "SM-T225",
+      "firmware": "T225XXU8EXH2",
+      "build": "T225XXU8EXH2",
+      "region": "INS",
+      "android": "14",
+      "filename": "preloader_SM-T225_T225XXU8EXH2_INS.bin",
+      "href": "downloads/preloader_SM-T225_T225XXU8EXH2_INS.bin",
+      "bytes": 4194304,
+      "sha256": "159191e6ae65942d0db32b1f9a30d884ee9fda3693ea2888f32f515bbd30ad9e",
+      "provenance": "downloads/preloader_SM-T225_T225XXU8EXH2_INS.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-T225_4_20240812214740_g3qdx3a74g_fac.zip.enc4"
+    },
+    {
+      "id": "history-fire-os2-0-203-0-vmxruxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 12 Fire"
+      ],
+      "variant": "fire-RU",
+      "variantLabel": "fire · Rusia (RU)",
+      "firmware": "OS2.0.203.0.VMXRUXM",
+      "build": "OS2.0.203.0.VMXRUXM",
+      "region": "Rusia (RU)",
+      "android": "15",
+      "filename": "preloader_fire_OS2.0.203.0.VMXRUXM.bin",
+      "href": "downloads/preloader_fire_OS2.0.203.0.VMXRUXM.bin",
+      "bytes": 323584,
+      "sha256": "e5dcd6fa708b690b8e1d7a0570952f7fe7700a64390a52fb23ec8b6fea7436f4",
+      "provenance": "downloads/history-fire-os2-0-203-0-vmxruxm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.203.0.VMXRUXM/fire_ru_global-ota_full-OS2.0.203.0.VMXRUXM-user-15.0-1a48e6d345.zip"
+    },
+    {
+      "id": "history-fire-os2-0-208-0-vmxmixm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 12 Fire"
+      ],
+      "variant": "fire-MI",
+      "variantLabel": "fire · Global (MI)",
+      "firmware": "OS2.0.208.0.VMXMIXM",
+      "build": "OS2.0.208.0.VMXMIXM",
+      "region": "Global (MI)",
+      "android": "15",
+      "filename": "preloader_fire_OS2.0.208.0.VMXMIXM.bin",
+      "href": "downloads/preloader_fire_OS2.0.208.0.VMXMIXM.bin",
+      "bytes": 323584,
+      "sha256": "3a9a5946214bbcd157df227879b128e8683fb81a2673cbac04ac76a6fa79e2c1",
+      "provenance": "downloads/history-fire-os2-0-208-0-vmxmixm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.208.0.VMXMIXM/fire_global-ota_full-OS2.0.208.0.VMXMIXM-user-15.0-2e87547031.zip"
+    },
+    {
+      "id": "history-fire-os2-0-211-0-vmxeuxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 12 Fire"
+      ],
+      "variant": "fire-EU",
+      "variantLabel": "fire · Europa (EU)",
+      "firmware": "OS2.0.211.0.VMXEUXM",
+      "build": "OS2.0.211.0.VMXEUXM",
+      "region": "Europa (EU)",
+      "android": "15",
+      "filename": "preloader_fire_OS2.0.211.0.VMXEUXM.bin",
+      "href": "downloads/preloader_fire_OS2.0.211.0.VMXEUXM.bin",
+      "bytes": 323584,
+      "sha256": "162a5b4089fc4f82499f96b0e91f6cbe8684d58bc77039256df51200b218159b",
+      "provenance": "downloads/history-fire-os2-0-211-0-vmxeuxm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.211.0.VMXEUXM/fire_eea_global-ota_full-OS2.0.211.0.VMXEUXM-user-15.0-bacfcf1824.zip"
+    },
+    {
+      "id": "history-gale-os2-0-202-0-vgptrxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 13C",
+        "POCO C65"
+      ],
+      "variant": "gale-TR",
+      "variantLabel": "gale · Turquía (TR)",
+      "firmware": "OS2.0.202.0.VGPTRXM",
+      "build": "OS2.0.202.0.VGPTRXM",
+      "region": "Turquía (TR)",
+      "android": "15",
+      "filename": "preloader_gale_OS2.0.202.0.VGPTRXM.bin",
+      "href": "downloads/preloader_gale_OS2.0.202.0.VGPTRXM.bin",
+      "bytes": 335872,
+      "sha256": "abf8530ff6d39b24ab31e8c363fe8d096ae91f760845d50302780c826a2cd599",
+      "provenance": "downloads/history-gale-os2-0-202-0-vgptrxm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.202.0.VGPTRXM/gale_tr_global-ota_full-OS2.0.202.0.VGPTRXM-user-15.0-217a5ab346.zip"
+    },
+    {
+      "id": "samsung-SM-A055M-CHO-A055MUBSEDYL1",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A05"
+      ],
+      "variant": "SM-A055M",
+      "variantLabel": "SM-A055M",
+      "firmware": "A055MUBSEDYL1",
+      "build": "A055MUBSEDYL1",
+      "region": "CHO",
+      "android": "15",
+      "filename": "preloader_SM-A055M_A055MUBSEDYL1_CHO.bin",
+      "href": "downloads/preloader_SM-A055M_A055MUBSEDYL1_CHO.bin",
+      "bytes": 4194304,
+      "sha256": "d342800e62a971126404d9babb73bb4b65ed26f41a273d8bb206f7174cca0b8e",
+      "provenance": "downloads/preloader_SM-A055M_A055MUBSEDYL1_CHO.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A055M_4_20251209230350_p732ch4vum_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A076E-XSG-A076EXXU1AYL4",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A07 5G"
+      ],
+      "variant": "SM-A076E",
+      "variantLabel": "SM-A076E",
+      "firmware": "A076EXXU1AYL4",
+      "build": "A076EXXU1AYL4",
+      "region": "XSG",
+      "android": "16",
+      "filename": "preloader_SM-A076E_A076EXXU1AYL4_XSG.bin",
+      "href": "downloads/preloader_SM-A076E_A076EXXU1AYL4_XSG.bin",
+      "bytes": 410112,
+      "sha256": "69aaa8486b6c2fc4e3f1eb7844c70bb1a226ba86610045902482b3340481b45e",
+      "provenance": "downloads/preloader_SM-A076E_A076EXXU1AYL4_XSG.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A076E_1_20251219090911_nybzugn03d_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A076M-CHO-A076MXXS2AZA3",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A07 5G"
+      ],
+      "variant": "SM-A076M",
+      "variantLabel": "SM-A076M",
+      "firmware": "A076MXXS2AZA3",
+      "build": "A076MXXS2AZA3",
+      "region": "CHO",
+      "android": "16",
+      "filename": "preloader_SM-A076M_A076MXXS2AZA3_CHO.bin",
+      "href": "downloads/preloader_SM-A076M_A076MXXS2AZA3_CHO.bin",
+      "bytes": 410112,
+      "sha256": "c44a7caeaba4f595b38c084315b0af22a3c6e6b2fe1a7bddb29ee0bdeccc3cc0",
+      "provenance": "downloads/preloader_SM-A076M_A076MXXS2AZA3_CHO.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A076M_1_20260122214411_d9pmox3jul_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A155M-CHO-A155MUBS7CYF1",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A15"
+      ],
+      "variant": "SM-A155M",
+      "variantLabel": "SM-A155M",
+      "firmware": "A155MUBS7CYF1",
+      "build": "A155MUBS7CYF1",
+      "region": "CHO",
+      "android": "15",
+      "filename": "preloader_SM-A155M_A155MUBS7CYF1_CHO.bin",
+      "href": "downloads/preloader_SM-A155M_A155MUBS7CYF1_CHO.bin",
+      "bytes": 311808,
+      "sha256": "0755049a891e2901e64a590e4bb6957cab5729183efa4fba7b4e3df8ab62fec9",
+      "provenance": "downloads/preloader_SM-A155M_A155MUBS7CYF1_CHO.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A155M_2_20250701001040_fytrzjyw6o_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A1560-TGY-A1560ZHS6DYJ1",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A15 5G"
+      ],
+      "variant": "SM-A1560",
+      "variantLabel": "SM-A1560",
+      "firmware": "A1560ZHS6DYJ1",
+      "build": "A1560ZHS6DYJ1",
+      "region": "TGY",
+      "android": "16",
+      "filename": "preloader_SM-A1560_A1560ZHS6DYJ1_TGY.bin",
+      "href": "downloads/preloader_SM-A1560_A1560ZHS6DYJ1_TGY.bin",
+      "bytes": 336384,
+      "sha256": "32b32ff602df284a079a357f9e2b401c0ffc5a9ffd91052f95e86af13151714d",
+      "provenance": "downloads/preloader_SM-A1560_A1560ZHS6DYJ1_TGY.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A1560_2_20251024115521_h3i6aweu79_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-A156E-INS-A156EDXS6DYJ1",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A15 5G"
+      ],
+      "variant": "SM-A156E",
+      "variantLabel": "SM-A156E",
+      "firmware": "A156EDXS6DYJ1",
+      "build": "A156EDXS6DYJ1",
+      "region": "INS",
+      "android": "16",
+      "filename": "preloader_SM-A156E_A156EDXS6DYJ1_INS.bin",
+      "href": "downloads/preloader_SM-A156E_A156EDXS6DYJ1_INS.bin",
+      "bytes": 336384,
+      "sha256": "602a3deabdb4a74c599cf10e34f636be3144bd2bfc1946ce6f5695c9f236a5f2",
+      "provenance": "downloads/preloader_SM-A156E_A156EDXS6DYJ1_INS.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A156E_2_20251029133311_c6tlsrt61a_fac.zip.enc4"
+    },
+    {
+      "id": "history-fire-os2-0-203-0-vmxidxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 12 Fire"
+      ],
+      "variant": "fire-ID",
+      "variantLabel": "fire · Indonesia (ID)",
+      "firmware": "OS2.0.203.0.VMXIDXM",
+      "build": "OS2.0.203.0.VMXIDXM",
+      "region": "Indonesia (ID)",
+      "android": "15",
+      "filename": "preloader_fire_OS2.0.203.0.VMXIDXM.bin",
+      "href": "downloads/preloader_fire_OS2.0.203.0.VMXIDXM.bin",
+      "bytes": 323584,
+      "sha256": "2b8516ed820fe04e5d74c60c7b92e1326e55c595311a5f263930d7911c3f1a89",
+      "provenance": "downloads/history-fire-os2-0-203-0-vmxidxm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.203.0.VMXIDXM/fire_id_global-ota_full-OS2.0.203.0.VMXIDXM-user-15.0-8403614c6c.zip"
+    },
+    {
+      "id": "history-fire-os2-0-204-0-vmxinxm",
+      "brand": "Xiaomi",
+      "models": [
+        "Redmi 12 Fire"
+      ],
+      "variant": "fire-IN",
+      "variantLabel": "fire · India (IN)",
+      "firmware": "OS2.0.204.0.VMXINXM",
+      "build": "OS2.0.204.0.VMXINXM",
+      "region": "India (IN)",
+      "android": "15",
+      "filename": "preloader_fire_OS2.0.204.0.VMXINXM.bin",
+      "href": "downloads/preloader_fire_OS2.0.204.0.VMXINXM.bin",
+      "bytes": 323584,
+      "sha256": "eb0e4fe7efe431f89a1f739532ba97fe26e901c41ae137489c6bcb365e742a6d",
+      "provenance": "downloads/history-fire-os2-0-204-0-vmxinxm.json",
+      "source": "https://bigota.d.miui.com/OS2.0.204.0.VMXINXM/fire_in_global-ota_full-OS2.0.204.0.VMXINXM-user-15.0-f8ee93b0f5.zip"
+    },
+    {
+      "id": "samsung-SM-A165F-XSG-A165FXXS7CZA1",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy A16"
+      ],
+      "variant": "SM-A165F",
+      "variantLabel": "SM-A165F",
+      "firmware": "A165FXXS7CZA1",
+      "build": "A165FXXS7CZA1",
+      "region": "XSG",
+      "android": "16",
+      "filename": "preloader_SM-A165F_A165FXXS7CZA1_XSG.bin",
+      "href": "downloads/preloader_SM-A165F_A165FXXS7CZA1_XSG.bin",
+      "bytes": 320000,
+      "sha256": "49728534105aea0202318a4fcfd83e98a2e7bb84c9b8f52cf710d4a02958966d",
+      "provenance": "downloads/preloader_SM-A165F_A165FXXS7CZA1_XSG.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A165F_3_20260107212001_e1hvf9d0im_fac.zip.enc4"
+    },
+    {
+      "id": "samsung-SM-T225-INS-T225XXS5CWK1",
+      "brand": "Samsung",
+      "models": [
+        "Galaxy Tab A7 Lite"
+      ],
+      "variant": "SM-T225",
+      "variantLabel": "SM-T225",
+      "firmware": "T225XXS5CWK1",
+      "build": "T225XXS5CWK1",
+      "region": "INS",
+      "android": "13",
+      "filename": "preloader_SM-T225_T225XXS5CWK1_INS.bin",
+      "href": "downloads/preloader_SM-T225_T225XXS5CWK1_INS.bin",
+      "bytes": 4194304,
+      "sha256": "7324baedc1ccad7021f0c25ed54f90132d071ee17b6fe04899d0934255e4be10",
+      "provenance": "downloads/preloader_SM-T225_T225XXS5CWK1_INS.json",
+      "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-T225_3_20231124171131_lzpxrdcf9u_fac.zip.enc4"
+    }
+  ]
+}

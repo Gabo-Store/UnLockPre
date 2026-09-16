@@ -1,0 +1,60 @@
+{
+  "id": "history-gale-os2-0-211-0-vgpeuxm",
+  "codename": "gale",
+  "models": [
+    "Redmi 13C",
+    "POCO C65"
+  ],
+  "partition": "preloader",
+  "variantCode": "gale-EU",
+  "variantLabel": "gale · Europa (EU)",
+  "firmware": "OS2.0.211.0.VGPEUXM",
+  "expectedBuild": "OS2.0.211.0.VGPEUXM",
+  "region": "Europa (EU)",
+  "source": "https://bigota.d.miui.com/OS2.0.211.0.VGPEUXM/gale_eea_global-ota_full-OS2.0.211.0.VGPEUXM-user-15.0-89ba08140c.zip",
+  "deviceSource": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/gale-s-oss",
+  "discoverySource": "https://mirom.ezbox.idv.tw/en/phone/gale/roms-eea-stable/",
+  "file": "preloader_gale_OS2.0.211.0.VGPEUXM.bin",
+  "bytes": 335872,
+  "sha256": "76ac4117137d1d0a765339ff072eb2061cfb9bd35ad598de89b970f47ff20b94",
+  "checkedAt": "2026-09-16T19:22:59.241Z",
+  "metadata": {
+    "ota-property-files": "payload_metadata.bin:4801:180307,payload.bin:4801:4694790717,payload_properties.txt:4694795576:156,apex_info.pb:2335:1364,care_map.pb:3746:988,metadata:69:688,metadata.pb:825:1462                        ",
+    "ota-required-cache": "0",
+    "ota-streaming-property-files": "payload.bin:4801:4694790717,payload_properties.txt:4694795576:156,apex_info.pb:2335:1364,care_map.pb:3746:988,metadata:69:688,metadata.pb:825:1462                          ",
+    "ota-type": "AB",
+    "post-build": "alps/vnd_gale/gale:15/AP3A.240905.015.A2/OS2.0.211.0.VGPEUXM:user/release-keys",
+    "post-build-incremental": "OS2.0.211.0.VGPEUXM",
+    "post-sdk-level": "35",
+    "post-security-patch-level": "2026-07-01",
+    "post-timestamp": "1784598900",
+    "pre-device": "gale"
+  },
+  "sourceBytes": 4694799190,
+  "downloadedBytes": 419920,
+  "method": "Unmodified preloader partition extracted from manufacturer-hosted full OTA. Every compressed operation and final partition SHA-256 matches its payload manifest.",
+  "limits": "Full OTA signature not independently validated. Not tested with TSM or on hardware. Match device, region, firmware and security revision before use.",
+  "plan": {
+    "payloadStart": 4801,
+    "dataStart": 185108,
+    "partition": {
+      "name": "preloader",
+      "size": 335872,
+      "sha256": "76ac4117137d1d0a765339ff072eb2061cfb9bd35ad598de89b970f47ff20b94",
+      "operations": [
+        {
+          "type": 8,
+          "start": 73128196,
+          "length": 173428,
+          "sha256": "8a8eb0368eb6e8647604f413dac9711dad570b6e2df0f8280c3803b9b3227523",
+          "extents": [
+            {
+              "start": 0,
+              "length": 335872
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

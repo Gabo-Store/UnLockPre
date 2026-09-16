@@ -1,0 +1,37 @@
+{
+  "file": "preloader_gale_V14.0.5.0.TGPINXM_IN.bin",
+  "bytes": 335872,
+  "sha256": "654642ac22f7849b23cefd45a65db3870ab008d3f3e74abd5f0de47600af5a6c",
+  "source": "https://bigota.d.miui.com/V14.0.5.0.TGPINXM/miui_GALEINGlobal_V14.0.5.0.TGPINXM_13d4997127_13.0.zip",
+  "firmware": "V14.0.5.0.TGPINXM",
+  "codename": "gale",
+  "region": "India",
+  "android": "13",
+  "checkedAt": "2026-09-15",
+  "method": "Extracted unmodified from full OTA payload; compressed block and final partition SHA-256 match the manufacturer-hosted manifest.",
+  "limits": "Full OTA signature was not independently validated. This historical build was not tested in TSM or on a physical device. Do not infer compatibility with other builds, regions or security revisions.",
+  "plan": {
+    "payloadStart": 3563,
+    "manifestSize": 145490,
+    "dataStart": 149344,
+    "partition": {
+      "name": "preloader",
+      "size": 335872,
+      "sha256": "654642ac22f7849b23cefd45a65db3870ab008d3f3e74abd5f0de47600af5a6c",
+      "operations": [
+        {
+          "type": 8,
+          "start": 59967329,
+          "length": 173100,
+          "sha256": "a9ae158cea2abeb4dd09a34587ea2fb50a40ca69276bfe52bc8fc50c7319e900",
+          "extents": [
+            {
+              "start": 0,
+              "length": 335872
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

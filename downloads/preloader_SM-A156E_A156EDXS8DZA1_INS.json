@@ -1,0 +1,25 @@
+{
+  "model": "SM-A156E",
+  "region": "INS",
+  "version": "A156EDXS8DZA1/A156EODM8DZA1/A156EDXS8DZA1/A156EDXS8DZA1",
+  "filename": "SM-A156E_3_20260119225030_tuu7mmnb0p_fac.zip.enc4",
+  "path": "/neofus/910/",
+  "bytes": 336384,
+  "checkedAt": "2026-09-16T19:26:09.980Z",
+  "file": "preloader_SM-A156E_A156EDXS8DZA1_INS.bin",
+  "firmware": "A156EDXS8DZA1",
+  "android": "16",
+  "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A156E_3_20260119225030_tuu7mmnb0p_fac.zip.enc4",
+  "packageBytes": 7771517664,
+  "sha256": "5f36cb4c4bd4758a06123b4c6cc2d3d20530cd83fff49781e1809f73684b53a3",
+  "component": {
+    "name": "BL_A156EDXS8DZA1_A156EDXS8DZA1_MQB105597909_REV00_user_low_ship_MULTI_CERT.tar.md5",
+    "sha256": "3a88975cb3abd906cb12c08d11b9734c19e7ed6b5b2ffa8a3ad6972394b07e52",
+    "tarMd5": "7331a61dcf4718568c877b409bdd5ac7",
+    "crc32": "7173ecb4",
+    "entry": "preloader.img.lz4",
+    "compressedImageSha256": "3cfeeb65eadaa75b8021bccf38bfa26014ac15b1953efe0048b1f7e1ea24b6d8"
+  },
+  "method": "Stock BL component from Samsung HTTPS FUS, ENC4 decrypted without firmware modifications. ZIP CRC32, TAR MD5/headers, LZ4 size/header/content checksums verified; preloader decompressed without changes.",
+  "limits": "Full firmware signature not independently verified. SHA-256 is calculated locally, not compared to a manufacturer-published preloader digest. Loading in TSM and on a phone not tested. Match exact model, region, firmware and bootloader revision."
+}

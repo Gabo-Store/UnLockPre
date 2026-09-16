@@ -1,0 +1,81 @@
+{
+  "id": "realme11-4g-ex01-1910",
+  "brand": "Realme",
+  "partition": "preloader_raw",
+  "codename": "RE5C7CL1",
+  "variantCode": "RMX3636-EX01",
+  "models": [
+    "Realme 11 4G / 5G"
+  ],
+  "variantLabel": "RMX3636 · Realme 11 4G · EX01 (región por confirmar)",
+  "region": "EX01 · región por confirmar",
+  "firmware": "RMX3636_15.0.0.1910(EX01)",
+  "expectedBuild": "T.R4T2.24cb07a-597fc",
+  "source": "https://gauss-componentotamanual.allawnofs.com/remove-7d624b0209e413936e4c2e66fcc2f52a/component-ota/26/07/23/b315efe173064d8ab25725cff314c7a6.zip",
+  "deviceSource": "https://privacy.realme.com/global/security",
+  "regionNote": "The discovery index labels this package eg. OTA metadata identifies EX01 and oplus_hex_nv_id=75, but no country name; do not infer compatibility with all regions.",
+  "inspectOnly": false,
+  "file": "preloader_RE5C7CL1_RMX3636_15.0.0.1910_EX01_.bin",
+  "bytes": 397312,
+  "sha256": "8a6f066d8f9d14cf275364c99e60d08d824e4c2538d150ac669b7b9a32561c4c",
+  "checkedAt": "2026-09-16T19:12:50.032Z",
+  "metadata": {
+    "android_version": "15",
+    "build_type": "user",
+    "display_os_version": "15.0",
+    "forbid_ota_local_update": "true",
+    "google_patch": "20260701",
+    "oplus_disable_postinstall": "no",
+    "oplus_hex_nv_id": "75",
+    "oplus_project_numbers": "23676",
+    "os_version": "V15.0.0",
+    "ota-id": "RMX3636_11.F.34_2340_202607221938",
+    "ota-property-files": "payload_metadata.bin:2971:242665,payload.bin:2971:6823975491,payload_properties.txt:6823978520:456,care_map.pb:2285:619,metadata:69:1158,metadata.pb:1295:943                 ",
+    "ota-required-cache": "0",
+    "ota-streaming-property-files": "payload.bin:2971:6823975491,payload_properties.txt:6823978520:456,care_map.pb:2285:619,metadata:69:1158,metadata.pb:1295:943                   ",
+    "ota-type": "AB",
+    "ota_root_or_debug": "false",
+    "ota_version": "RMX3636_11.F.34_2340_202607221938",
+    "patch_type": "1",
+    "post-build": "realme/RMX3636/RE5C7CL1:15/AP3A.240617.008/T.R4T2.24cb07a-597fc:user/release-keys",
+    "post-build-incremental": "T.R4T2.24cb07a-597fc",
+    "post-sdk-level": "35",
+    "post-security-patch-level": "2026-07-01",
+    "post-timestamp": "1784116031",
+    "pre-device": "RE5C7CL1",
+    "product_name": "RMX3636",
+    "reserve-image-size": "0",
+    "security_patch": "2026-07-01",
+    "security_patch_vendor": "2026-07-01",
+    "version_name": "RMX3636_15.0.0.1910(EX01)",
+    "version_name_show": "RMX3636_15.0.0.1910(EX01)",
+    "wipe": "0"
+  },
+  "sourceBytes": 6823982171,
+  "downloadedBytes": 505624,
+  "method": "Unmodified preloader partition extracted from manufacturer-hosted full OTA. Every compressed operation and final partition SHA-256 matches its payload manifest.",
+  "limits": "Full OTA signature not independently validated. Not tested with TSM or on hardware. Match device, region, firmware and security revision before use.",
+  "plan": {
+    "payloadStart": 2971,
+    "dataStart": 245636,
+    "partition": {
+      "name": "preloader_raw",
+      "size": 397312,
+      "sha256": "8a6f066d8f9d14cf275364c99e60d08d824e4c2538d150ac669b7b9a32561c4c",
+      "operations": [
+        {
+          "type": 8,
+          "start": 6755595767,
+          "length": 196304,
+          "sha256": "2b143cb3f8c73bfce543732a7afa9f3a2287e292c3155c6e83c6ed601a2df74e",
+          "extents": [
+            {
+              "start": 0,
+              "length": 397312
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "realme12x-in-c40",
+  "brand": "Realme",
+  "stockZip": true,
+  "stockModel": "RMX3998",
+  "zipEntry": "IMAGES/preloader_raw.img",
+  "codename": "RE5C94L1",
+  "variantCode": "RMX3998-IN",
+  "models": [
+    "Realme 12X"
+  ],
+  "variantLabel": "RMX3998 · Realme 12X 5G · India (IN)",
+  "region": "India (IN)",
+  "firmware": "RMX3998_11_C.40",
+  "expectedBuild": "U.R4T2.1d9aa57-10fdc-5884b",
+  "source": "https://gauss-componentotamanual.allawnofs.com/dfs/25/05/29/fc7be0aa4f2647e995946981efcdb9cb.zip",
+  "deviceSource": "https://www.realme.com/in/realme-12x-5g/specs",
+  "versionNote": "Stock display version RMX3998_15.0.0.930(EX01); ro.build.display.ota=RMX3998_11_C.40. Selected original preloader_raw.img, not the separate bootrom_off image.",
+  "inspectOnly": false,
+  "file": "preloader_RE5C94L1_RMX3998_11_C.40.bin",
+  "bytes": 420164,
+  "sha256": "da6b486e4d649f826128f8678da53256055c1b270733b18bf99b3be328380b88",
+  "checkedAt": "2026-09-16T19:15:35.152Z",
+  "metadata": {
+    "pre-device": "RE5C94L1",
+    "post-build-incremental": "U.R4T2.1d9aa57-10fdc-5884b",
+    "post-build": "realme/RMX3998IN/RE5C94L1:15/AP3A.240617.008/U.R4T2.1d9aa57-10fdc-5884b:user/release-keys",
+    "post-security-patch-level": "2025-04-01",
+    "android_version": "15",
+    "stock_model": "RMX3998",
+    "stock_version": "RMX3998export_11_15.0.0.930(EX01)_2025043010390153",
+    "version_name": "RMX3998_15.0.0.930(EX01)",
+    "ota_version": "RMX3998_11_C.40",
+    "metadataSource": "build.prop (ZIP CRC32 verified)"
+  },
+  "sourceBytes": 7457386628,
+  "downloadedBytes": 305236,
+  "component": {
+    "entry": "IMAGES/preloader_raw.img",
+    "crc32": "dae995db"
+  },
+  "method": "Unmodified stock image extracted from manufacturer-hosted firmware ZIP. Device/build checked against package metadata; image size and CRC32 verified.",
+  "limits": "Full package signature not independently verified. Final SHA-256 is calculated locally, not compared with a manufacturer-published digest. Not tested in TSM or on hardware. Match model, storage layout, firmware and region."
+}

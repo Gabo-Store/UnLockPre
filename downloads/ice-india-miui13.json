@@ -1,0 +1,54 @@
+{
+  "id": "ice-india-miui13",
+  "codename": "ice",
+  "models": [
+    "POCO C50"
+  ],
+  "region": "India (IN)",
+  "firmware": "V13.0.17.0.SGMINXM",
+  "source": "https://bigota.d.miui.com/V13.0.17.0.SGMINXM/miui_ICEINGlobal_V13.0.17.0.SGMINXM_e0564bd4a0_12.0.zip",
+  "deviceSource": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/ice-s-oss",
+  "file": "preloader_ice_V13.0.17.0.SGMINXM.bin",
+  "bytes": 249856,
+  "sha256": "936314498781b048730e5e2599bfd63a3d5f20a4dadb767e746f982075fcc51a",
+  "checkedAt": "2026-09-16T13:06:20.539Z",
+  "metadata": {
+    "ota-property-files": "payload_metadata.bin:2560:56369,payload.bin:2560:1458885617,payload_properties.txt:1458888235:155,care_map.pb:2128:385,metadata:69:777,metadata.pb:914:1119                  ",
+    "ota-required-cache": "0",
+    "ota-streaming-property-files": "payload.bin:2560:1458885617,payload_properties.txt:1458888235:155,care_map.pb:2128:385,metadata:69:777,metadata.pb:914:1119                    ",
+    "ota-type": "AB",
+    "post-build": "POCO/snow_p_in/snow:12/SP1A.210812.016/V13.0.17.0.SGMINXM:user/release-keys|Redmi/ice_in/ice:12/SP1A.210812.016/V13.0.17.0.SGMINXM:user/release-keys|Redmi/snow_in/snow:12/SP1A.210812.016/V13.0.17.0.SGMINXM:user/release-keys",
+    "post-build-incremental": "V13.0.17.0.SGMINXM",
+    "post-sdk-level": "31",
+    "post-security-patch-level": "2024-12-01",
+    "post-timestamp": "1732630503",
+    "pre-device": "ice|snow"
+  },
+  "sourceBytes": 1458891728,
+  "downloadedBytes": 253767,
+  "method": "Unmodified preloader partition extracted from manufacturer-hosted full OTA. Every compressed operation and final partition SHA-256 matches its payload manifest.",
+  "limits": "Full OTA signature not independently validated. Not tested with TSM or on hardware. Match device, region, firmware and security revision before use.",
+  "plan": {
+    "payloadStart": 2560,
+    "dataStart": 58929,
+    "partition": {
+      "name": "preloader",
+      "size": 249856,
+      "sha256": "936314498781b048730e5e2599bfd63a3d5f20a4dadb767e746f982075fcc51a",
+      "operations": [
+        {
+          "type": 8,
+          "start": 49109195,
+          "length": 131200,
+          "sha256": "bd8354ac1ad1e2db4a013640725643f1e67e219109c81b079e07960eea5a7991",
+          "extents": [
+            {
+              "start": 0,
+              "length": 249856
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

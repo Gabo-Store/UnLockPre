@@ -1,0 +1,12 @@
+{
+  "name": "tsm-device-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static device catalog and reproducible stock preloader acquisition tools",
+  "scripts": {
+    "test": "node scripts/check-lz4.cjs && node scripts/check-library.cjs && node scripts/check-ui.cjs"
+  },
+  "devDependencies": {
+    "lz4js": "0.2.0"
+  }
+}

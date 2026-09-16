@@ -1,0 +1,437 @@
+{
+  "scope": "Full OTA history for previously reviewed Xiaomi platforms. Regions derive from firmware codes; identical SHA-256 files are not counted again. Historical versions are not claimed to be latest.",
+  "records": [
+    {
+      "id": "history-gale-os2-0-208-0-vgpmixm",
+      "source": "https://bigota.d.miui.com/OS2.0.208.0.VGPMIXM/gale_global-ota_full-OS2.0.208.0.VGPMIXM-user-15.0-3276654352.zip",
+      "checkedAt": "2026-09-16T19:22:43.636Z",
+      "status": "duplicate-not-counted",
+      "file": "preloader_gale_OS2.0.208.0.VGPMIXM.bin",
+      "sha256": "93573d625a8e648c9488dd7242cf350389e7c9254e87ffcc9f2bde6a98c1d4f3"
+    },
+    {
+      "id": "history-gale-os2-0-201-0-vgptwxm",
+      "source": "https://bigota.d.miui.com/OS2.0.201.0.VGPTWXM/gale_tw_global-ota_full-OS2.0.201.0.VGPTWXM-user-15.0-bebc0e0c1a.zip",
+      "checkedAt": "2026-09-16T19:22:45.929Z",
+      "status": "download-available",
+      "file": "preloader_gale_OS2.0.201.0.VGPTWXM.bin",
+      "sha256": "0658e66bcb7bc2ade65827065b90a3408504d402510285b7f1356b03e4a5bbf0"
+    },
+    {
+      "id": "history-gale-os2-0-211-0-vgpeuxm",
+      "source": "https://bigota.d.miui.com/OS2.0.211.0.VGPEUXM/gale_eea_global-ota_full-OS2.0.211.0.VGPEUXM-user-15.0-89ba08140c.zip",
+      "checkedAt": "2026-09-16T19:22:56.879Z",
+      "status": "download-available",
+      "file": "preloader_gale_OS2.0.211.0.VGPEUXM.bin",
+      "sha256": "76ac4117137d1d0a765339ff072eb2061cfb9bd35ad598de89b970f47ff20b94"
+    },
+    {
+      "id": "history-gale-os2-0-208-0-vgpinxm",
+      "source": "https://bigota.d.miui.com/OS2.0.208.0.VGPINXM/gale_in_global-ota_full-OS2.0.208.0.VGPINXM-user-15.0-5254f0d265.zip",
+      "checkedAt": "2026-09-16T19:22:59.243Z",
+      "status": "download-available",
+      "file": "preloader_gale_OS2.0.208.0.VGPINXM.bin",
+      "sha256": "a507574b414a2a3c64e67b6f161bcf66f1ffecacd169a6ee7cabd6441b188bc5"
+    },
+    {
+      "id": "history-gale-os2-0-204-0-vgpruxm",
+      "source": "https://bigota.d.miui.com/OS2.0.204.0.VGPRUXM/gale_ru_global-ota_full-OS2.0.204.0.VGPRUXM-user-15.0-ad567f65d1.zip",
+      "checkedAt": "2026-09-16T19:23:03.134Z",
+      "status": "download-available",
+      "file": "preloader_gale_OS2.0.204.0.VGPRUXM.bin",
+      "sha256": "f308c5352f7db3744a0109a84bed3d5b1e82faa1acb5a9377b0f3e0b9b8ac6a9"
+    },
+    {
+      "id": "history-gale-os2-0-208-0-vgpidxm",
+      "source": "https://bigota.d.miui.com/OS2.0.208.0.VGPIDXM/gale_id_global-ota_full-OS2.0.208.0.VGPIDXM-user-15.0-288da17a46.zip",
+      "checkedAt": "2026-09-16T19:23:04.928Z",
+      "status": "download-available",
+      "file": "preloader_gale_OS2.0.208.0.VGPIDXM.bin",
+      "sha256": "8699ac216a8217d2beb9aa2b469baa1aa2ba43c7c8b120f8183c14d236c06ce2"
+    },
+    {
+      "id": "history-gale-os2-0-203-0-vgptrxm",
+      "source": "https://bigota.d.miui.com/OS2.0.203.0.VGPTRXM/gale_tr_global-ota_full-OS2.0.203.0.VGPTRXM-user-15.0-9a573474d8.zip",
+      "checkedAt": "2026-09-16T19:23:14.230Z",
+      "status": "download-available",
+      "file": "preloader_gale_OS2.0.203.0.VGPTRXM.bin",
+      "sha256": "6b69bf719c3d283994ac520fef0cbf4327ec9ca0f40d2b8b6f8c001e7a8f27dc"
+    },
+    {
+      "id": "history-fire-os2-0-213-0-vmxeuxm",
+      "source": "https://bigota.d.miui.com/OS2.0.213.0.VMXEUXM/fire_eea_global-ota_full-OS2.0.213.0.VMXEUXM-user-15.0-09797cbdb7.zip",
+      "checkedAt": "2026-09-16T19:23:24.589Z",
+      "status": "download-available",
+      "file": "preloader_fire_OS2.0.213.0.VMXEUXM.bin",
+      "sha256": "d317cd324a1cd3c041ba5eb025cb7f7cc381f0902d82edcea5fe7c0f4da5f175"
+    },
+    {
+      "id": "history-fire-os2-0-209-0-vmxmixm",
+      "source": "https://bigota.d.miui.com/OS2.0.209.0.VMXMIXM/fire_global-ota_full-OS2.0.209.0.VMXMIXM-user-15.0-15667ba4a1.zip",
+      "checkedAt": "2026-09-16T19:23:28.267Z",
+      "status": "download-available",
+      "file": "preloader_fire_OS2.0.209.0.VMXMIXM.bin",
+      "sha256": "be08bfdfaffaa1ff7ab95b28f32f9cf50cd74e669f22ab2ae0a605835a7acd4b"
+    },
+    {
+      "id": "history-fire-os2-0-204-0-vmxruxm",
+      "source": "https://bigota.d.miui.com/OS2.0.204.0.VMXRUXM/fire_ru_global-ota_full-OS2.0.204.0.VMXRUXM-user-15.0-c7a2423408.zip",
+      "checkedAt": "2026-09-16T19:23:30.444Z",
+      "status": "download-available",
+      "file": "preloader_fire_OS2.0.204.0.VMXRUXM.bin",
+      "sha256": "b2b5522cf8d6c47583a9d505e135073906181332a588f1717d76bb91f01b6be1"
+    },
+    {
+      "id": "history-fire-os2-0-204-0-vmxidxm",
+      "source": "https://bigota.d.miui.com/OS2.0.204.0.VMXIDXM/fire_id_global-ota_full-OS2.0.204.0.VMXIDXM-user-15.0-ce6c4db988.zip",
+      "checkedAt": "2026-09-16T19:23:43.151Z",
+      "status": "download-available",
+      "file": "preloader_fire_OS2.0.204.0.VMXIDXM.bin",
+      "sha256": "f26c3fd6773e212ec0f57dcafe5989bce3fa07b5bc3f6650b8a8eeb9cc23c951"
+    },
+    {
+      "id": "history-fire-os2-0-207-0-vmxinxm",
+      "source": "https://bigota.d.miui.com/OS2.0.207.0.VMXINXM/fire_in_global-ota_full-OS2.0.207.0.VMXINXM-user-15.0-4285e38392.zip",
+      "checkedAt": "2026-09-16T19:24:01.012Z",
+      "status": "download-available",
+      "file": "preloader_fire_OS2.0.207.0.VMXINXM.bin",
+      "sha256": "5cf4abf407fff15512873d1d681ac64b0caa00d150893e6d81a1a0e3de4f9631"
+    },
+    {
+      "id": "history-fire-os2-0-204-0-vmxtrxm",
+      "source": "https://bigota.d.miui.com/OS2.0.204.0.VMXTRXM/fire_tr_global-ota_full-OS2.0.204.0.VMXTRXM-user-15.0-f854538f3e.zip",
+      "checkedAt": "2026-09-16T19:24:13.269Z",
+      "status": "download-available",
+      "file": "preloader_fire_OS2.0.204.0.VMXTRXM.bin",
+      "sha256": "671a2e682b041a80d763c845398a2769df6ad6daa080365853448494ad89534a"
+    },
+    {
+      "id": "history-gold-os3-0-6-0-vnqeuxm",
+      "source": "https://bigota.d.miui.com/OS3.0.6.0.VNQEUXM/gold_eea_global-ota_full-OS3.0.6.0.VNQEUXM-user-15.0-9fdd0ebb32.zip",
+      "checkedAt": "2026-09-16T19:24:28.337Z",
+      "status": "download-available",
+      "file": "preloader_gold_OS3.0.6.0.VNQEUXM.bin",
+      "sha256": "c02c61b8e347afe497df220c8aef3f1953064d71a53570cc6c4f40e44b992f05"
+    },
+    {
+      "id": "history-gold-os3-0-5-0-vnqmixm",
+      "source": "https://bigota.d.miui.com/OS3.0.5.0.VNQMIXM/gold_global-ota_full-OS3.0.5.0.VNQMIXM-user-15.0-df9ff3aa93.zip",
+      "checkedAt": "2026-09-16T19:24:31.927Z",
+      "status": "duplicate-not-counted",
+      "file": "preloader_gold_OS3.0.5.0.VNQMIXM.bin",
+      "sha256": "526dece14a5012d35d195a0785105a44218313a1bc6640bb16c5e3e65c466fb5"
+    },
+    {
+      "id": "history-gold-os3-0-3-0-vnqidxm",
+      "source": "https://bigota.d.miui.com/OS3.0.3.0.VNQIDXM/gold_id_global-ota_full-OS3.0.3.0.VNQIDXM-user-15.0-3dc6e2c33e.zip",
+      "checkedAt": "2026-09-16T19:24:34.103Z",
+      "status": "download-available",
+      "file": "preloader_gold_OS3.0.3.0.VNQIDXM.bin",
+      "sha256": "e4938ccb6e5accb8c05aa17c0c053d96695a04baecc03f139f276b3b859ef10f"
+    },
+    {
+      "id": "history-gold-os3-0-4-0-vnqinxm",
+      "source": "https://bigota.d.miui.com/OS3.0.4.0.VNQINXM/gold_in_global-ota_full-OS3.0.4.0.VNQINXM-user-15.0-327ff14ff4.zip",
+      "checkedAt": "2026-09-16T19:24:59.768Z",
+      "status": "download-available",
+      "file": "preloader_gold_OS3.0.4.0.VNQINXM.bin",
+      "sha256": "9c325cba7024160776455ed19bc72146f87e8f8cff3e67d448b18b2d64faadb4"
+    },
+    {
+      "id": "history-gold-os3-0-4-0-vnqtrxm",
+      "source": "https://bigota.d.miui.com/OS3.0.4.0.VNQTRXM/gold_tr_global-ota_full-OS3.0.4.0.VNQTRXM-user-15.0-69ea45a0d4.zip",
+      "checkedAt": "2026-09-16T19:25:23.085Z",
+      "status": "download-available",
+      "file": "preloader_gold_OS3.0.4.0.VNQTRXM.bin",
+      "sha256": "5213409fc6fc915aebbf41e8d1fc74f44206fae6c9f05971e899c44986fdff75"
+    },
+    {
+      "id": "history-gold-os3-0-4-0-vnqtwxm",
+      "source": "https://bigota.d.miui.com/OS3.0.4.0.VNQTWXM/gold_tw_global-ota_full-OS3.0.4.0.VNQTWXM-user-15.0-22d1672f6f.zip",
+      "checkedAt": "2026-09-16T19:25:32.429Z",
+      "status": "download-available",
+      "file": "preloader_gold_OS3.0.4.0.VNQTWXM.bin",
+      "sha256": "783fccb4f355d8fe93c0d0091c1f8a037c30660569309523d680a07cd66c8d35"
+    },
+    {
+      "id": "history-light-os1-0-4-0-ulsinxm",
+      "source": "https://bigota.d.miui.com/OS1.0.4.0.ULSINXM/miui_LIGHTINGlobal_OS1.0.4.0.ULSINXM_6c629b38b5_14.0.zip",
+      "checkedAt": "2026-09-16T19:25:44.634Z",
+      "status": "download-available",
+      "file": "preloader_light_OS1.0.4.0.ULSINXM.bin",
+      "sha256": "42f8723c350f7ab26d02568592e49308d7d03d1eccc2da97fbc9515092a99157"
+    },
+    {
+      "id": "history-light-os1-0-7-0-ulsmixm",
+      "source": "https://bigota.d.miui.com/OS1.0.7.0.ULSMIXM/miui_LIGHTGlobal_OS1.0.7.0.ULSMIXM_5bdefe674f_14.0.zip",
+      "checkedAt": "2026-09-16T19:25:46.622Z",
+      "status": "duplicate-not-counted",
+      "file": "preloader_light_OS1.0.7.0.ULSMIXM.bin",
+      "sha256": "225c327695d96a4b8b205428a9a12d1ac045dfb0d5272c6b1955da5579df6b47"
+    },
+    {
+      "id": "history-light-os1-0-8-0-ulseuxm",
+      "source": "https://bigota.d.miui.com/OS1.0.8.0.ULSEUXM/miui_LIGHTEEAGlobal_OS1.0.8.0.ULSEUXM_e7b8cb8fbf_14.0.zip",
+      "checkedAt": "2026-09-16T19:25:49.169Z",
+      "status": "download-available",
+      "file": "preloader_light_OS1.0.8.0.ULSEUXM.bin",
+      "sha256": "7d71f4e51864fbadbb9d73fb6397a63a688a0be6afeac04d7d88722e4da711ea"
+    },
+    {
+      "id": "history-light-os1-0-2-0-ulstwxm",
+      "source": "https://bigota.d.miui.com/OS1.0.2.0.ULSTWXM/miui_LIGHTTWGlobal_OS1.0.2.0.ULSTWXM_f127104976_14.0.zip",
+      "checkedAt": "2026-09-16T19:25:52.192Z",
+      "status": "download-available",
+      "file": "preloader_light_OS1.0.2.0.ULSTWXM.bin",
+      "sha256": "7769d81234294754813ae70b558cf5a2b2265cb8860bb3cfa552c17fd00021f6"
+    },
+    {
+      "id": "history-light-os1-0-2-0-ulsruxm",
+      "source": "https://bigota.d.miui.com/OS1.0.2.0.ULSRUXM/miui_LIGHTRUGlobal_OS1.0.2.0.ULSRUXM_85cf253b7b_14.0.zip",
+      "checkedAt": "2026-09-16T19:25:57.538Z",
+      "status": "download-available",
+      "file": "preloader_light_OS1.0.2.0.ULSRUXM.bin",
+      "sha256": "2a2e40274db0cbcc88d8e130a849010819eb2b2dbd1ec79ff60bfbc856bd17cd"
+    },
+    {
+      "id": "history-light-os1-0-1-0-ulstrxm",
+      "source": "https://bigota.d.miui.com/OS1.0.1.0.ULSTRXM/miui_LIGHTTRGlobal_OS1.0.1.0.ULSTRXM_9e9ec40fed_14.0.zip",
+      "checkedAt": "2026-09-16T19:26:09.416Z",
+      "status": "download-available",
+      "file": "preloader_light_OS1.0.1.0.ULSTRXM.bin",
+      "sha256": "3349a479f4c69f81a51c073011c30626103ec8cf5c6b5918522dfb3566bd383e"
+    },
+    {
+      "id": "history-light-os1-0-4-0-ulsidxm",
+      "source": "https://bigota.d.miui.com/OS1.0.4.0.ULSIDXM/miui_LIGHTIDGlobal_OS1.0.4.0.ULSIDXM_46dd15c1bf_14.0.zip",
+      "checkedAt": "2026-09-16T19:26:20.023Z",
+      "status": "download-available",
+      "file": "preloader_light_OS1.0.4.0.ULSIDXM.bin",
+      "sha256": "1cb7d3dbd33dbc0aeba065eac08c8ea29341ddac16dc7ad8e5231f54cfe3d428"
+    },
+    {
+      "id": "history-ice-v13-0-17-0-sgminxm",
+      "source": "https://bigota.d.miui.com/V13.0.17.0.SGMINXM/miui_ICEINGlobal_V13.0.17.0.SGMINXM_e0564bd4a0_12.0.zip",
+      "checkedAt": "2026-09-16T19:26:24.145Z",
+      "status": "duplicate-not-counted",
+      "file": "preloader_ice_V13.0.17.0.SGMINXM.bin",
+      "sha256": "936314498781b048730e5e2599bfd63a3d5f20a4dadb767e746f982075fcc51a"
+    },
+    {
+      "id": "history-earth-os1-0-13-0-ucvinxm",
+      "source": "https://bigota.d.miui.com/OS1.0.13.0.UCVINXM/miui_EARTHINGlobal_OS1.0.13.0.UCVINXM_3eb9f975c0_14.0.zip",
+      "checkedAt": "2026-09-16T19:26:24.759Z",
+      "status": "duplicate-not-counted",
+      "file": "preloader_earth_OS1.0.13.0.UCVINXM.bin",
+      "sha256": "8fbc5b4914da82396fbd9fafb3475563cdc617bcbf8efe1883e9dfaf4b538420"
+    },
+    {
+      "id": "history-gale-os2-0-207-0-vgpmixm",
+      "source": "https://bigota.d.miui.com/OS2.0.207.0.VGPMIXM/gale_global-ota_full-OS2.0.207.0.VGPMIXM-user-15.0-73178f421e.zip",
+      "checkedAt": "2026-09-16T19:26:26.082Z",
+      "status": "download-available",
+      "file": "preloader_gale_OS2.0.207.0.VGPMIXM.bin",
+      "sha256": "aa79288ec9db67e23695c4a0281bae5a49d914404a7a0741cd3b19445e2c84d2"
+    },
+    {
+      "id": "history-gale-os2-0-2-0-vgptwxm",
+      "source": "https://bigota.d.miui.com/OS2.0.2.0.VGPTWXM/gale_tw_global-ota_full-OS2.0.2.0.VGPTWXM-user-15.0-e42db8770b.zip",
+      "checkedAt": "2026-09-16T19:26:30.435Z",
+      "status": "download-available",
+      "file": "preloader_gale_OS2.0.2.0.VGPTWXM.bin",
+      "sha256": "e44ecc091f747616b704c0e723f6e22c79f50aba15cd106cbd4994c9809e611c"
+    },
+    {
+      "id": "history-gale-os2-0-210-0-vgpeuxm",
+      "source": "https://bigota.d.miui.com/OS2.0.210.0.VGPEUXM/gale_eea_global-ota_full-OS2.0.210.0.VGPEUXM-user-15.0-34691a270c.zip",
+      "checkedAt": "2026-09-16T19:26:48.558Z",
+      "status": "download-available",
+      "file": "preloader_gale_OS2.0.210.0.VGPEUXM.bin",
+      "sha256": "078541efb1359887bc5cfe9a928472d6b31eb96ff2430c2bd148f91efc0a3751"
+    },
+    {
+      "id": "history-gale-os2-0-207-0-vgpinxm",
+      "source": "https://bigota.d.miui.com/OS2.0.207.0.VGPINXM/gale_in_global-ota_full-OS2.0.207.0.VGPINXM-user-15.0-7801df4b1e.zip",
+      "checkedAt": "2026-09-16T19:27:04.954Z",
+      "status": "download-available",
+      "file": "preloader_gale_OS2.0.207.0.VGPINXM.bin",
+      "sha256": "b9562b3ff0e496a856c765fe98b7dc7b15ba8ad9b6b0351e26a1eaccc591e22f"
+    },
+    {
+      "id": "history-gale-os2-0-203-0-vgpruxm",
+      "source": "https://bigota.d.miui.com/OS2.0.203.0.VGPRUXM/gale_ru_global-ota_full-OS2.0.203.0.VGPRUXM-user-15.0-af2b96b978.zip",
+      "checkedAt": "2026-09-16T19:27:20.729Z",
+      "status": "download-available",
+      "file": "preloader_gale_OS2.0.203.0.VGPRUXM.bin",
+      "sha256": "daffbe5e94258e7861f247dd5d5ddf325635e05a5a1be86fc2afff3491340d6c"
+    },
+    {
+      "id": "history-gale-os2-0-207-0-vgpidxm",
+      "source": "https://bigota.d.miui.com/OS2.0.207.0.VGPIDXM/gale_id_global-ota_full-OS2.0.207.0.VGPIDXM-user-15.0-691c38caa7.zip",
+      "checkedAt": "2026-09-16T19:27:38.425Z",
+      "status": "download-available",
+      "file": "preloader_gale_OS2.0.207.0.VGPIDXM.bin",
+      "sha256": "ee504bb77d7c73b613188224786afae3723214fa5764ac72a56b58340e042734"
+    },
+    {
+      "id": "history-gale-os2-0-202-0-vgptrxm",
+      "source": "https://bigota.d.miui.com/OS2.0.202.0.VGPTRXM/gale_tr_global-ota_full-OS2.0.202.0.VGPTRXM-user-15.0-217a5ab346.zip",
+      "checkedAt": "2026-09-16T19:27:58.057Z",
+      "status": "download-available",
+      "file": "preloader_gale_OS2.0.202.0.VGPTRXM.bin",
+      "sha256": "abf8530ff6d39b24ab31e8c363fe8d096ae91f760845d50302780c826a2cd599"
+    },
+    {
+      "id": "history-fire-os2-0-211-0-vmxeuxm",
+      "source": "https://bigota.d.miui.com/OS2.0.211.0.VMXEUXM/fire_eea_global-ota_full-OS2.0.211.0.VMXEUXM-user-15.0-bacfcf1824.zip",
+      "checkedAt": "2026-09-16T19:28:09.886Z",
+      "status": "download-available",
+      "file": "preloader_fire_OS2.0.211.0.VMXEUXM.bin",
+      "sha256": "162a5b4089fc4f82499f96b0e91f6cbe8684d58bc77039256df51200b218159b"
+    },
+    {
+      "id": "history-fire-os2-0-208-0-vmxmixm",
+      "source": "https://bigota.d.miui.com/OS2.0.208.0.VMXMIXM/fire_global-ota_full-OS2.0.208.0.VMXMIXM-user-15.0-2e87547031.zip",
+      "checkedAt": "2026-09-16T19:28:20.920Z",
+      "status": "download-available",
+      "file": "preloader_fire_OS2.0.208.0.VMXMIXM.bin",
+      "sha256": "3a9a5946214bbcd157df227879b128e8683fb81a2673cbac04ac76a6fa79e2c1"
+    },
+    {
+      "id": "history-fire-os2-0-203-0-vmxruxm",
+      "source": "https://bigota.d.miui.com/OS2.0.203.0.VMXRUXM/fire_ru_global-ota_full-OS2.0.203.0.VMXRUXM-user-15.0-1a48e6d345.zip",
+      "checkedAt": "2026-09-16T19:28:23.433Z",
+      "status": "download-available",
+      "file": "preloader_fire_OS2.0.203.0.VMXRUXM.bin",
+      "sha256": "e5dcd6fa708b690b8e1d7a0570952f7fe7700a64390a52fb23ec8b6fea7436f4"
+    },
+    {
+      "id": "history-fire-os2-0-203-0-vmxidxm",
+      "source": "https://bigota.d.miui.com/OS2.0.203.0.VMXIDXM/fire_id_global-ota_full-OS2.0.203.0.VMXIDXM-user-15.0-8403614c6c.zip",
+      "checkedAt": "2026-09-16T19:28:40.533Z",
+      "status": "download-available",
+      "file": "preloader_fire_OS2.0.203.0.VMXIDXM.bin",
+      "sha256": "2b8516ed820fe04e5d74c60c7b92e1326e55c595311a5f263930d7911c3f1a89"
+    },
+    {
+      "id": "history-fire-os2-0-204-0-vmxinxm",
+      "source": "https://bigota.d.miui.com/OS2.0.204.0.VMXINXM/fire_in_global-ota_full-OS2.0.204.0.VMXINXM-user-15.0-f8ee93b0f5.zip",
+      "checkedAt": "2026-09-16T19:28:52.430Z",
+      "status": "download-available",
+      "file": "preloader_fire_OS2.0.204.0.VMXINXM.bin",
+      "sha256": "eb0e4fe7efe431f89a1f739532ba97fe26e901c41ae137489c6bcb365e742a6d"
+    },
+    {
+      "id": "history-fire-os2-0-203-0-vmxtrxm",
+      "source": "https://bigota.d.miui.com/OS2.0.203.0.VMXTRXM/fire_tr_global-ota_full-OS2.0.203.0.VMXTRXM-user-15.0-06d84cdbac.zip",
+      "checkedAt": "2026-09-16T19:34:06.544Z",
+      "status": "download-available",
+      "file": "preloader_fire_OS2.0.203.0.VMXTRXM.bin",
+      "sha256": "0916ce2d9b5c19de13ae6393a81382ad88f201a0e33bca3383658b93bb1476d4"
+    },
+    {
+      "id": "history-gold-os3-0-5-0-vnqeuxm",
+      "source": "https://bigota.d.miui.com/OS3.0.5.0.VNQEUXM/gold_eea_global-ota_full-OS3.0.5.0.VNQEUXM-user-15.0-27102ea523.zip",
+      "checkedAt": "2026-09-16T19:34:21.857Z",
+      "status": "download-available",
+      "file": "preloader_gold_OS3.0.5.0.VNQEUXM.bin",
+      "sha256": "f7b10e0b709c149e1732011ef1f6e643b7cbc8fca09bff95d9dcc9fb89d83343"
+    },
+    {
+      "id": "history-gold-os3-0-4-0-vnqmixm",
+      "source": "https://bigota.d.miui.com/OS3.0.4.0.VNQMIXM/gold_global-ota_full-OS3.0.4.0.VNQMIXM-user-15.0-0e807b83f5.zip",
+      "checkedAt": "2026-09-16T19:34:40.410Z",
+      "status": "download-available",
+      "file": "preloader_gold_OS3.0.4.0.VNQMIXM.bin",
+      "sha256": "e49fe916ef1544be0c1ac28e9e0c2ae8a3cc9931c2849cb0c4cffbd8ebccc03d"
+    },
+    {
+      "id": "history-gold-os3-0-2-0-vnqidxm",
+      "source": "https://bigota.d.miui.com/OS3.0.2.0.VNQIDXM/gold_id_global-ota_full-OS3.0.2.0.VNQIDXM-user-15.0-bbfb78749c.zip",
+      "checkedAt": "2026-09-16T19:34:42.530Z",
+      "status": "download-available",
+      "file": "preloader_gold_OS3.0.2.0.VNQIDXM.bin",
+      "sha256": "e824d38e5e6eb682eca83cf4542ebab2afbb4600cb91e123f7734dc2393c0b4c"
+    },
+    {
+      "id": "history-gold-os3-0-3-0-vnqinxm",
+      "source": "https://bigota.d.miui.com/OS3.0.3.0.VNQINXM/gold_in_global-ota_full-OS3.0.3.0.VNQINXM-user-15.0-b15996fcd7.zip",
+      "checkedAt": "2026-09-16T19:35:07.799Z",
+      "status": "download-available",
+      "file": "preloader_gold_OS3.0.3.0.VNQINXM.bin",
+      "sha256": "fde811963d5017489924a8b01cc347babb7fd2a77475206ff558b001ff1e724a"
+    },
+    {
+      "id": "history-gold-os3-0-3-0-vnqtrxm",
+      "source": "https://bigota.d.miui.com/OS3.0.3.0.VNQTRXM/gold_tr_global-ota_full-OS3.0.3.0.VNQTRXM-user-15.0-7012c0021d.zip",
+      "checkedAt": "2026-09-16T19:35:14.361Z",
+      "status": "download-available",
+      "file": "preloader_gold_OS3.0.3.0.VNQTRXM.bin",
+      "sha256": "9a6bda64e3c8922582dd6aa7255db2bb00016a452ce697a4f7ac864aed48f163"
+    },
+    {
+      "id": "history-gold-os3-0-3-0-vnqtwxm",
+      "source": "https://bigota.d.miui.com/OS3.0.3.0.VNQTWXM/gold_tw_global-ota_full-OS3.0.3.0.VNQTWXM-user-15.0-f8594c107f.zip",
+      "checkedAt": "2026-09-16T19:35:40.046Z",
+      "status": "download-available",
+      "file": "preloader_gold_OS3.0.3.0.VNQTWXM.bin",
+      "sha256": "ae03f72c21d9ad98e77a2e741ee7b9709cc7f33c0eb28561ad300745c09f232f"
+    },
+    {
+      "id": "history-light-os1-0-3-0-ulsinxm",
+      "source": "https://bigota.d.miui.com/OS1.0.3.0.ULSINXM/miui_LIGHTINGlobal_OS1.0.3.0.ULSINXM_9e4a3c7a82_14.0.zip",
+      "checkedAt": "2026-09-16T19:35:49.172Z",
+      "status": "download-available",
+      "file": "preloader_light_OS1.0.3.0.ULSINXM.bin",
+      "sha256": "f0103dc17fe68fb4e32d66492e46ce2d0a5ac9587aa29f9dd69b909c008a4414"
+    },
+    {
+      "id": "history-light-os1-0-6-0-ulsmixm",
+      "source": "https://bigota.d.miui.com/OS1.0.6.0.ULSMIXM/miui_LIGHTGlobal_OS1.0.6.0.ULSMIXM_dc0352b4ae_14.0.zip",
+      "checkedAt": "2026-09-16T19:36:02.699Z",
+      "status": "download-available",
+      "file": "preloader_light_OS1.0.6.0.ULSMIXM.bin",
+      "sha256": "2c3f3eb80f32f681abcd9b065e42efb6be641fb59b81d420ed0a50d42d39c98f"
+    },
+    {
+      "id": "history-light-os1-0-7-0-ulseuxm",
+      "source": "https://bigota.d.miui.com/OS1.0.7.0.ULSEUXM/miui_LIGHTEEAGlobal_OS1.0.7.0.ULSEUXM_d0cf7a0ba2_14.0.zip",
+      "checkedAt": "2026-09-16T19:36:05.606Z",
+      "status": "download-available",
+      "file": "preloader_light_OS1.0.7.0.ULSEUXM.bin",
+      "sha256": "7e34e7684dc45b55b4ebac24cfa1e1258e64272e23f4420ba156fef147b3d2c8"
+    },
+    {
+      "id": "history-light-os1-0-1-0-ulstwxm",
+      "source": "https://bigota.d.miui.com/OS1.0.1.0.ULSTWXM/miui_LIGHTTWGlobal_OS1.0.1.0.ULSTWXM_095cff446e_14.0.zip",
+      "checkedAt": "2026-09-16T19:36:14.047Z",
+      "status": "download-available",
+      "file": "preloader_light_OS1.0.1.0.ULSTWXM.bin",
+      "sha256": "bd4b390374899285861565dd2a737dda1c0ebc85546cd6b7c0833bbdf5417df7"
+    },
+    {
+      "id": "history-light-os1-0-1-0-ulsruxm",
+      "source": "https://bigota.d.miui.com/OS1.0.1.0.ULSRUXM/miui_LIGHTRUGlobal_OS1.0.1.0.ULSRUXM_aea11c3fda_14.0.zip",
+      "checkedAt": "2026-09-16T19:36:26.112Z",
+      "status": "download-available",
+      "file": "preloader_light_OS1.0.1.0.ULSRUXM.bin",
+      "sha256": "8f3505aadea67367a3400b27aea4ae44731eb0c053ca6f298a29b156626cc98d"
+    },
+    {
+      "id": "history-light-v14-0-1-0-tlstrxm",
+      "source": "https://bigota.d.miui.com/V14.0.1.0.TLSTRXM/miui_LIGHTTRGlobal_V14.0.1.0.TLSTRXM_3ebe75bbe0_13.0.zip",
+      "checkedAt": "2026-09-16T19:36:40.910Z",
+      "status": "download-available",
+      "file": "preloader_light_V14.0.1.0.TLSTRXM.bin",
+      "sha256": "d91373405fc2c7fef30e747c16f1ab5079c83ac877bdaf40a69ffbfb754c9b44"
+    },
+    {
+      "id": "history-light-os1-0-3-0-ulsidxm",
+      "source": "https://bigota.d.miui.com/OS1.0.3.0.ULSIDXM/miui_LIGHTIDGlobal_OS1.0.3.0.ULSIDXM_536cc445e8_14.0.zip",
+      "checkedAt": "2026-09-16T19:37:08.486Z",
+      "status": "download-available",
+      "file": "preloader_light_OS1.0.3.0.ULSIDXM.bin",
+      "sha256": "492a78e9fd5743ce1afca370d313a07996dbbe7f80bafed1cef97b6c1a7a1d11"
+    }
+  ]
+}

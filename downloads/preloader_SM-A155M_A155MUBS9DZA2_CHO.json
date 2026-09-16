@@ -1,0 +1,25 @@
+{
+  "model": "SM-A155M",
+  "region": "CHO",
+  "version": "A155MUBS9DZA2/A155MOWB9DZA2/A155MUBS9DZA2/A155MUBS9DZA2",
+  "filename": "SM-A155M_3_20260116011840_5bw5nu3aav_fac.zip.enc4",
+  "path": "/neofus/910/",
+  "bytes": 311808,
+  "checkedAt": "2026-09-16T19:24:32.174Z",
+  "file": "preloader_SM-A155M_A155MUBS9DZA2_CHO.bin",
+  "firmware": "A155MUBS9DZA2",
+  "android": "16",
+  "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A155M_3_20260116011840_5bw5nu3aav_fac.zip.enc4",
+  "packageBytes": 7172153328,
+  "sha256": "45b951f271c3d45b8478d3f38927100e005c88cf332c50a626ff1d13ddb72298",
+  "component": {
+    "name": "BL_A155MUBS9DZA2_A155MUBS9DZA2_MQB105452948_REV00_user_low_ship_MULTI_CERT.tar.md5",
+    "sha256": "5f333694decb82eb1e639d1633bb3b93be313367b7907d6e924539e599265c1e",
+    "tarMd5": "7a198cb47fb16cb05e2aeffffd1d613d",
+    "crc32": "48ba0437",
+    "entry": "preloader.img.lz4",
+    "compressedImageSha256": "2b3a971edde75c095e3db58bf629636e77abd65da8e4a6f0068aab87daf9c761"
+  },
+  "method": "Stock BL component from Samsung HTTPS FUS, ENC4 decrypted without firmware modifications. ZIP CRC32, TAR MD5/headers, LZ4 size/header/content checksums verified; preloader decompressed without changes.",
+  "limits": "Full firmware signature not independently verified. SHA-256 is calculated locally, not compared to a manufacturer-published preloader digest. Loading in TSM and on a phone not tested. Match exact model, region, firmware and bootloader revision."
+}

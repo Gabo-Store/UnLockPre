@@ -1,0 +1,59 @@
+{
+  "id": "history-fire-os2-0-204-0-vmxtrxm",
+  "codename": "fire",
+  "models": [
+    "Redmi 12 Fire"
+  ],
+  "partition": "preloader",
+  "variantCode": "fire-TR",
+  "variantLabel": "fire · Turquía (TR)",
+  "firmware": "OS2.0.204.0.VMXTRXM",
+  "expectedBuild": "OS2.0.204.0.VMXTRXM",
+  "region": "Turquía (TR)",
+  "source": "https://bigota.d.miui.com/OS2.0.204.0.VMXTRXM/fire_tr_global-ota_full-OS2.0.204.0.VMXTRXM-user-15.0-f854538f3e.zip",
+  "deviceSource": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/fire-t-oss",
+  "discoverySource": "https://mirom.ezbox.idv.tw/en/phone/fire/roms-tr-stable/",
+  "file": "preloader_fire_OS2.0.204.0.VMXTRXM.bin",
+  "bytes": 323584,
+  "sha256": "671a2e682b041a80d763c845398a2769df6ad6daa080365853448494ad89534a",
+  "checkedAt": "2026-09-16T19:24:28.334Z",
+  "metadata": {
+    "ota-property-files": "payload_metadata.bin:4811:178172,payload.bin:4811:4602072254,payload_properties.txt:4602077123:156,apex_info.pb:2342:1363,care_map.pb:3752:992,metadata:69:689,metadata.pb:826:1468                        ",
+    "ota-required-cache": "0",
+    "ota-streaming-property-files": "payload.bin:4811:4602072254,payload_properties.txt:4602077123:156,apex_info.pb:2342:1363,care_map.pb:3752:992,metadata:69:689,metadata.pb:826:1468                          ",
+    "ota-type": "AB",
+    "post-build": "Redmi/vnd_fire/fire:15/AP3A.240905.015.A2/OS2.0.204.0.VMXTRXM:user/release-keys",
+    "post-build-incremental": "OS2.0.204.0.VMXTRXM",
+    "post-sdk-level": "35",
+    "post-security-patch-level": "2026-07-01",
+    "post-timestamp": "1784555092",
+    "pre-device": "fire"
+  },
+  "sourceBytes": 4602080737,
+  "downloadedBytes": 409506,
+  "method": "Unmodified preloader partition extracted from manufacturer-hosted full OTA. Every compressed operation and final partition SHA-256 matches its payload manifest.",
+  "limits": "Full OTA signature not independently validated. Not tested with TSM or on hardware. Match device, region, firmware and security revision before use.",
+  "plan": {
+    "payloadStart": 4811,
+    "dataStart": 182983,
+    "partition": {
+      "name": "preloader",
+      "size": 323584,
+      "sha256": "671a2e682b041a80d763c845398a2769df6ad6daa080365853448494ad89534a",
+      "operations": [
+        {
+          "type": 8,
+          "start": 81211087,
+          "length": 165148,
+          "sha256": "2f6035bbf0d90b2231be60a55d83ac02e9ad1e29779c85b153b4465683da32c5",
+          "extents": [
+            {
+              "start": 0,
+              "length": 323584
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

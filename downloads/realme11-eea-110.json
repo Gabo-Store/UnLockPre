@@ -1,0 +1,79 @@
+{
+  "id": "realme11-eea-110",
+  "brand": "Realme",
+  "codename": "RE5C6CL1",
+  "expectedBuild": "T.R4T2.1d298ea-181ed-43750",
+  "partition": "preloader_raw",
+  "variantCode": "RMX3780-EEA",
+  "models": [
+    "Realme 11 4G / 5G"
+  ],
+  "variantLabel": "RMX3780 · Realme 11 5G · Europa (EEA)",
+  "region": "Europa (EEA)",
+  "firmware": "RMX3780_15.0.0.110(EX01)",
+  "source": "https://gauss-componentotamanual.allawnofs.com/remove-c50b42d5d433ea8eb66d444edd3d06f4/component-ota/25/03/27/e1ac4cde0e0841dfa73e6b2f94b830bd.zip",
+  "deviceSource": "https://www.realme.com/in/realme-11-5g/specs",
+  "inspectOnly": false,
+  "file": "preloader_RE5C6CL1_RMX3780_15.0.0.110_EX01_.bin",
+  "bytes": 421888,
+  "sha256": "3b5629e2c97c78b878b6f5769bfb2a6ed50f6478d9dec1a7dc54949b4d9db809",
+  "checkedAt": "2026-09-16T19:05:38.006Z",
+  "metadata": {
+    "android_version": "15",
+    "build_type": "user",
+    "display_os_version": "15.0",
+    "forbid_ota_local_update": "false",
+    "google_patch": "20250301",
+    "oplus_disable_postinstall": "no",
+    "oplus_hex_nv_id": "44",
+    "oplus_project_numbers": "23661",
+    "os_version": "V15.0.0",
+    "ota-id": "RMX3780_11.F.11_2110_202503261306",
+    "ota-property-files": "payload_metadata.bin:3030:192347,payload.bin:3030:5309713808,payload_properties.txt:5309716896:433,care_map.pb:2312:651,metadata:69:1151,metadata.pb:1288:977                 ",
+    "ota-required-cache": "0",
+    "ota-streaming-property-files": "payload.bin:3030:5309713808,payload_properties.txt:5309716896:433,care_map.pb:2312:651,metadata:69:1151,metadata.pb:1288:977                   ",
+    "ota-type": "AB",
+    "ota_version": "RMX3780_11.F.11_2110_202503261306",
+    "patch_type": "1",
+    "post-build": "realme/RMX3780EEA/RE5C6CL1:15/AP3A.240617.008/T.R4T2.1d298ea-181ed-43750:user/release-keys",
+    "post-build-incremental": "T.R4T2.1d298ea-181ed-43750",
+    "post-sdk-level": "35",
+    "post-security-patch-level": "2025-03-01",
+    "post-timestamp": "1742956668",
+    "pre-device": "RE5C6CL1",
+    "product_name": "RMX3780EEA",
+    "reserve-image-size": "0",
+    "security_patch": "2025-03-01",
+    "security_patch_vendor": "2025-03-01",
+    "version_name": "RMX3780_15.0.0.110(EX01)",
+    "version_name_show": "RMX3780_15.0.0.110(EX01)",
+    "wipe": "0"
+  },
+  "sourceBytes": 5309720524,
+  "downloadedBytes": 460403,
+  "method": "Unmodified preloader partition extracted from manufacturer-hosted full OTA. Every compressed operation and final partition SHA-256 matches its payload manifest.",
+  "limits": "Full OTA signature not independently validated. Not tested with TSM or on hardware. Match device, region, firmware and security revision before use.",
+  "plan": {
+    "payloadStart": 3030,
+    "dataStart": 195377,
+    "partition": {
+      "name": "preloader_raw",
+      "size": 421888,
+      "sha256": "3b5629e2c97c78b878b6f5769bfb2a6ed50f6478d9dec1a7dc54949b4d9db809",
+      "operations": [
+        {
+          "type": 8,
+          "start": 4594012516,
+          "length": 201408,
+          "sha256": "50edb34ac23b31d32685bf0ebabcfc321dbc1f691bc55a8800e09a3dfebbe240",
+          "extents": [
+            {
+              "start": 0,
+              "length": 421888
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

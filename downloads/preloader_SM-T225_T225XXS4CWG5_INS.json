@@ -1,0 +1,25 @@
+{
+  "model": "SM-T225",
+  "region": "INS",
+  "version": "T225XXS4CWG5/T225ODM4CWG5/T225XXS4CWG5/T225XXS4CWG5",
+  "filename": "SM-T225_3_20230724171600_76i8wa54sm_fac.zip.enc4",
+  "path": "/neofus/910/",
+  "bytes": 4194304,
+  "checkedAt": "2026-09-16T19:35:51.270Z",
+  "file": "preloader_SM-T225_T225XXS4CWG5_INS.bin",
+  "firmware": "T225XXS4CWG5",
+  "android": "13",
+  "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-T225_3_20230724171600_76i8wa54sm_fac.zip.enc4",
+  "packageBytes": 4246261264,
+  "sha256": "0ddb41223625d0c049da0a3c828baf3d24fcd93c6a827e45fbf8c9794ca5367f",
+  "component": {
+    "name": "BL_T225XXS4CWG5_T225XXS4CWG5_MQB68325168_REV00_user_low_ship_MULTI_CERT.tar.md5",
+    "sha256": "68f2e2f76eb04cdc95f7d9da461e8163b4a6450828a1e73b04870889ab1ecf86",
+    "tarMd5": "4d8e09f6cade1b65487309f0880005ef",
+    "crc32": "33e64d0f",
+    "entry": "preloader.img.lz4",
+    "compressedImageSha256": "fe4b5804e88ab3b02643d2a19f131b83da1876946460db3346e94a73dfb0b856"
+  },
+  "method": "Stock BL component from Samsung HTTPS FUS, ENC4 decrypted without firmware modifications. ZIP CRC32, TAR MD5/headers, LZ4 size/header/content checksums verified; preloader decompressed without changes.",
+  "limits": "Full firmware signature not independently verified. SHA-256 is calculated locally, not compared to a manufacturer-published preloader digest. Loading in TSM and on a phone not tested. Match exact model, region, firmware and bootloader revision."
+}

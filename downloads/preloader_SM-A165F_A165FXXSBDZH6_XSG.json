@@ -1,0 +1,25 @@
+{
+  "model": "SM-A165F",
+  "region": "XSG",
+  "version": "A165FXXSBDZH6/A165FOJMBDZH6/A165FXXSBDZH3/A165FXXSBDZH6",
+  "filename": "SM-A165F_4_20260825192831_pe5qc8mjz2_fac.zip.enc4",
+  "path": "/neofus/910/",
+  "bytes": 311808,
+  "checkedAt": "2026-09-16T13:06:27.234Z",
+  "file": "preloader_SM-A165F_A165FXXSBDZH6_XSG.bin",
+  "firmware": "A165FXXSBDZH6",
+  "android": "16",
+  "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A165F_4_20260825192831_pe5qc8mjz2_fac.zip.enc4",
+  "packageBytes": 7275495632,
+  "sha256": "2fe4fd8b64e17502674d64d40f5504054f006fff4833a5aed7ed8ad02175f29e",
+  "component": {
+    "name": "BL_A165FXXSBDZH6_A165FXXSBDZH6_MQB113849116_REV00_user_low_ship_MULTI_CERT.tar.md5",
+    "sha256": "6bad51a36aee872b35ef2281534fa4a095bcc3f5e8d7ac1cecc0073c596ff0d9",
+    "tarMd5": "4590c6211dbbdd2d0db9614340f8acd2",
+    "crc32": "79560f5d",
+    "entry": "preloader.img.lz4",
+    "compressedImageSha256": "3f80d21920e81397dfc4db6c6ce38e002fb7242664bba9a5ecac00afa0e1d61e"
+  },
+  "method": "Stock BL component from Samsung HTTPS FUS, ENC4 decrypted without firmware modifications. ZIP CRC32, TAR MD5/headers, LZ4 size/header/content checksums verified; preloader decompressed without changes.",
+  "limits": "Full firmware signature not independently verified. SHA-256 is calculated locally, not compared to a manufacturer-published preloader digest. Loading in TSM and on a phone not tested. Match exact model, region, firmware and bootloader revision."
+}

@@ -1,0 +1,78 @@
+{
+  "id": "realme10-eea-2302",
+  "brand": "Realme",
+  "partition": "preloader_raw",
+  "codename": "RE8DDCL1",
+  "variantCode": "RMX3630-EEA",
+  "models": [
+    "Realme 10"
+  ],
+  "variantLabel": "RMX3630 · Realme 10 4G · Europa (EEA)",
+  "region": "Europa (EEA)",
+  "firmware": "RMX3630_14.0.0.2302(EX01)",
+  "expectedBuild": "S.204fad2-2",
+  "source": "https://gauss-componentotamanual.allawnofs.com/remove-e5da642447710d66dab2cc6eae016ad2/component-ota/25/10/23/238986a7846248459d03bb7bc15fbbf0.zip",
+  "deviceSource": "https://www.realme.com/in/realme-10/specs",
+  "file": "preloader_RE8DDCL1_RMX3630_14.0.0.2302_EX01_.bin",
+  "bytes": 393216,
+  "sha256": "d04bbb5e34902d167b937366d439cfcf1e39dd33984f402d2d9ff6851412e08c",
+  "checkedAt": "2026-09-16T13:11:50.560Z",
+  "metadata": {
+    "android_version": "14",
+    "build_type": "user",
+    "display_os_version": "14.0",
+    "forbid_ota_local_update": "false",
+    "google_patch": "20250901",
+    "oplus_disable_postinstall": "no",
+    "oplus_hex_nv_id": "44",
+    "oplus_project_numbers": "2269E",
+    "os_version": "V14.0.0",
+    "ota-id": "RMX3630_11.F.24_2240_202510111749",
+    "ota-property-files": "payload_metadata.bin:2244:213463,payload.bin:2244:5521523979,payload_properties.txt:5521526281:433,metadata:69:1069,metadata.pb:1206:971           ",
+    "ota-required-cache": "0",
+    "ota-streaming-property-files": "payload.bin:2244:5521523979,payload_properties.txt:5521526281:433,metadata:69:1069,metadata.pb:1206:971             ",
+    "ota-type": "AB",
+    "ota_version": "RMX3630_11.F.24_2240_202510111749",
+    "patch_type": "1",
+    "post-build": "realme/RMX3630EEA/RE8DDCL1:14/UKQ1.230924.001/S.204fad2-2:user/release-keys",
+    "post-build-incremental": "S.204fad2-2",
+    "post-sdk-level": "34",
+    "post-security-patch-level": "2025-09-01",
+    "post-timestamp": "1760169987",
+    "pre-device": "RE8DDCL1",
+    "product_name": "RMX3630EEA",
+    "reserve-image-size": "0",
+    "security_patch": "2025-09-01",
+    "security_patch_vendor": "2025-09-01",
+    "version_name": "RMX3630_14.0.0.2302(EX01)",
+    "version_name_show": "RMX3630_14.0.0.2302(EX01)",
+    "wipe": "0"
+  },
+  "sourceBytes": 5521529846,
+  "downloadedBytes": 475057,
+  "method": "Unmodified preloader partition extracted from manufacturer-hosted full OTA. Every compressed operation and final partition SHA-256 matches its payload manifest.",
+  "limits": "Full OTA signature not independently validated. Not tested with TSM or on hardware. Match device, region, firmware and security revision before use.",
+  "plan": {
+    "payloadStart": 2244,
+    "dataStart": 215707,
+    "partition": {
+      "name": "preloader_raw",
+      "size": 393216,
+      "sha256": "d04bbb5e34902d167b937366d439cfcf1e39dd33984f402d2d9ff6851412e08c",
+      "operations": [
+        {
+          "type": 8,
+          "start": 5454906449,
+          "length": 195028,
+          "sha256": "bd44dffb139e0cc5f7e63f8449ce28202427a0e1be7ff0b649511659c0869692",
+          "extents": [
+            {
+              "start": 0,
+              "length": 393216
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

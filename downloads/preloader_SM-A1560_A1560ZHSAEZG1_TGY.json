@@ -1,0 +1,25 @@
+{
+  "model": "SM-A1560",
+  "region": "TGY",
+  "version": "A1560ZHSAEZG1/A1560OZSAEZG1/A1560ZHSAEZG1/A1560ZHSAEZG1",
+  "filename": "SM-A1560_3_20260722151041_tr1nel87b1_fac.zip.enc4",
+  "path": "/neofus/910/",
+  "bytes": 336384,
+  "checkedAt": "2026-09-16T13:06:08.431Z",
+  "file": "preloader_SM-A1560_A1560ZHSAEZG1_TGY.bin",
+  "firmware": "A1560ZHSAEZG1",
+  "android": "16",
+  "source": "https://cloud-neofussvr.samsungmobile.com/NF_SmartDownloadBinaryForMass.do?file=/neofus/910/SM-A1560_3_20260722151041_tr1nel87b1_fac.zip.enc4",
+  "packageBytes": 7416040608,
+  "sha256": "b34b68b9b50933c663269e962d3571b599c8dc17659ec7d13fdb5705da451547",
+  "component": {
+    "name": "BL_A1560ZHSAEZG1_A1560ZHSAEZG1_MQB112349147_REV00_user_low_ship_MULTI_CERT.tar.md5",
+    "sha256": "c6e68bc801f5844d82f07fc83ed1d69b2c745816402cd79d26e0e33eb6aa5ddd",
+    "tarMd5": "ab9bbc71095211bb8d3a4bc9c61cc25f",
+    "crc32": "39744f76",
+    "entry": "preloader.img.lz4",
+    "compressedImageSha256": "a45ab7486fed1f0fcdef569d906a642e91a1a86877b6e9132a93e429da29c957"
+  },
+  "method": "Stock BL component from Samsung HTTPS FUS, ENC4 decrypted without firmware modifications. ZIP CRC32, TAR MD5/headers, LZ4 size/header/content checksums verified; preloader decompressed without changes.",
+  "limits": "Full firmware signature not independently verified. SHA-256 is calculated locally, not compared to a manufacturer-published preloader digest. Loading in TSM and on a phone not tested. Match exact model, region, firmware and bootloader revision."
+}

@@ -1,4 +1,4 @@
-const CACHE='unlockpre-v2';
+const CACHE='unlockpre-v3';
 const SHELL=['./','./index.html','./manifest.webmanifest','./favicon.svg','./assets/app.css','./assets/app.js','./downloads/catalog.json'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));

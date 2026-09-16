@@ -1,0 +1,11 @@
+{
+  "name": "UnLockPre · GaboStore",
+  "short_name": "UnLockPre",
+  "description": "Biblioteca técnica de preloaders y loaders MTK.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#070816",
+  "theme_color": "#5b8cff",
+  "icons": [{"src":"favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

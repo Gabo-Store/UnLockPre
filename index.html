@@ -9,16 +9,24 @@
 <meta property="og:description" content="Biblioteca de preloaders/loaders MTK organizada por marca, modelo, firmware y región.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://gabo-store.github.io/UnLockPre/">
+<meta property="og:image" content="https://gabo-store.github.io/UnLockPre/assets/unlockpre-logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://gabo-store.github.io/UnLockPre/assets/unlockpre-logo.png">
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/unlockpre-logo.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/unlockpre-logo.png">
 <title>UnLockPre · GaboStore</title>
 <link rel="stylesheet" href="assets/app.css">
+<style>
+.site-logo{display:block;object-fit:contain}.brand-logo{width:44px;height:44px;filter:drop-shadow(0 0 18px rgba(91,140,255,.4))}.brand-copy{display:flex;flex-direction:column;line-height:1}.brand-copy b{font-size:15px}.brand-copy small{margin-top:4px;font-size:10px;color:var(--muted);font-weight:750;letter-spacing:.09em;text-transform:uppercase}.hero-brand{display:flex;align-items:center;gap:24px;margin-bottom:20px}.hero-logo{width:clamp(110px,17vw,210px);height:auto;filter:drop-shadow(0 22px 48px rgba(0,0,0,.34))}.entry-logo{width:110px;height:auto;margin:0 auto 14px;filter:drop-shadow(0 18px 34px rgba(0,0,0,.3))}@media(max-width:720px){.brand-copy small{display:none}.brand-logo{width:38px;height:38px}.hero-brand{align-items:flex-start;flex-direction:column;gap:10px}.hero-logo{width:140px}.entry-logo{width:92px}}
+</style>
 </head>
 <body class="locked">
 <div class="modal-back" id="entryModal" role="dialog" aria-modal="true" aria-labelledby="entryTitle">
   <div class="modal">
     <div class="head"><strong id="entryTitle">Antes de entrar a UnLockPre</strong></div>
     <div class="body">
+      <img class="site-logo entry-logo" src="assets/unlockpre-logo.png" alt="Logo de UnLockPre" onerror="this.style.display='none'">
       <div class="credit-card"><strong>Créditos</strong><br><span class="muted">Proyecto mantenido por <b>GaboStore</b> · GitHub: Gabo-Store</span></div>
       <h2>Advertencia de uso</h2>
       <p>Este repositorio se ofrece como biblioteca técnica e informativa de archivos. <b>GaboStore no se hace responsable por daños, pérdida de datos, bloqueos, incompatibilidades, uso indebido ni consecuencias derivadas del uso de los archivos o herramientas enlazadas.</b></p>
@@ -29,7 +37,7 @@
   </div>
 </div>
 <header class="topbar"><div class="wrap inner">
-  <a class="brand" href="#top"><span class="logo">UP</span><span>UnLockPre</span></a>
+  <a class="brand" href="#top" aria-label="UnLockPre"><img class="site-logo brand-logo" src="assets/unlockpre-logo.png" alt="Logo de UnLockPre" onerror="this.style.display='none'"><span class="brand-copy"><b>UnLockPre</b><small>GaboStore</small></span></a>
   <nav class="nav"><a href="#catalogo">Catálogo</a><a href="#recientes">Recientes</a><a href="#favoritos">Favoritos</a><a href="#estadisticas">Estadísticas</a><a href="#herramientas">Herramientas</a></nav>
   <span class="spacer"></span>
   <div class="top-actions">
@@ -41,6 +49,7 @@
 </div></header>
 <main id="top">
 <section class="hero"><div class="wrap">
+  <div class="hero-brand"><img class="site-logo hero-logo" src="assets/unlockpre-logo.png" alt="Logo principal de UnLockPre" onerror="this.style.display='none'"></div>
   <span class="eyebrow"><span class="dot"></span> Catálogo dinámico · <b id="catalogState">cargando</b></span>
   <h1>Preloaders & loaders <span class="grad">MTK</span> organizados.</h1>
   <p class="lead">Busca por modelo, firmware, región, variante o nombre de archivo. Consulta metadatos, compara registros, guarda favoritos, verifica SHA-256 localmente y descarga desde el catálogo publicado.</p>
